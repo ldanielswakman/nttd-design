@@ -6,7 +6,7 @@
 
   <body>
 
-    Hello world
+    <span class="test">Hello world</span>
     
   </body>
 

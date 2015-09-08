@@ -1,1 +1,1 @@
-body{background-color:#eee}
+@import url('../fonts/holland-serif.css');body{background-color:#eee;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-kerning:normal}.test{font-family:"Holland Serif";font-style:italic;color:#f60;font-size:5em}

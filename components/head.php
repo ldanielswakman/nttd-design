@@ -12,7 +12,7 @@
   <link href='' rel='stylesheet' type='text/css'>
   <link href='' rel='stylesheet' type='text/css'>
 
-  <!-- <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" /> -->
+  <link href='https://fonts.googleapis.com/css?family=Expletus+Sans:400,500,600,700' rel='stylesheet' type='text/css'>
   <link href="css/style.css" rel="stylesheet" type="text/css" />
 
 </head>

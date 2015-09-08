@@ -3,6 +3,7 @@
 
 // Basics
 @import url('basics/fonts.less');
+@import url('basics/colours.less');
 
 // Elements
 
@@ -10,5 +11,16 @@
 
 // Generic styling
 body {
-  background-color: #eee;
+  background-color: @greylight;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-kerning: normal;
+}
+
+.test {
+  font-family: "Holland Serif";
+  font-style: italic;
+  color: @holland_orange;
+  font-size: 5em;
 }
