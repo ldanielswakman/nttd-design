@@ -2,25 +2,57 @@
 @import url('lesselements.less');
 
 // Basics
-@import url('basics/fonts.less');
 @import url('basics/colours.less');
+@import url('basics/fonts.less');
+@import url('basics/resets.less');
+@import url('basics/utilities.less');
 
 // Elements
 
 // Components
 
 // Generic styling
+@sectionpadding: 20px;
 body {
   background-color: @greylight;
+  padding: @sectionpadding;
+
+  font-family: "Holland Serif";
+  font-size: 16px;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-kerning: normal;
 }
 
+.row {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .test {
-  font-family: "Holland Serif";
   font-style: italic;
   color: @holland_orange;
-  font-size: 5em;
+  font-size: 4em;
+  text-align: center;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 60px;
+  width: calc(~"100%" - @sectionpadding * 2);
+  margin: @sectionpadding;
+  background-color: @holland_orange;
+  color: @white;
+  font-family: "Expletus Sans";
+
+  a {
+    color: @white;
+  }
+}
+.header-placeholder {
+  display: block;
+  height: 60px;
 }

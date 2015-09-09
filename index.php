@@ -6,7 +6,18 @@
 
   <body>
 
-    <span class="test">Hello world</span>
+    <?php include('components/header.php'); ?>
+    <div class="header-placeholder"></div>
+
+    <p class="test">Expand your business to new horizons.</p>
+    <p class="test">Expand your business to new horizons.</p>
+    <p class="test">Expand your business to new horizons.</p>
+    <p class="test">Expand your business to new horizons.</p>
+    <p class="test">Expand your business to new horizons.</p>
+    <p class="test">Expand your business to new horizons.</p>
+    <p class="test">Expand your business to new horizons.</p>
+    <p class="test">Expand your business to new horizons.</p>
+    <p class="test">Expand your business to new horizons.</p>
     
   </body>
 
