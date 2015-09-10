@@ -8,6 +8,7 @@
 @import url('basics/utilities.less');
 
 // Elements
+@import url('components/button.less');
 @import url('components/slides.less');
 
 // Components
@@ -27,19 +28,43 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-kerning: normal;
 }
+h1, h2, h3, h4, h5, h6 {
+  color: @holland_orange;
+  font-style: italic;
+}
 a, a:hover {
   text-decoration: none;
 }
 
+section:not(:last-child) {
+  margin-bottom: @sectionpadding;
+}
 section.hasSlides {
   position: relative;
   min-height: 90vh;
-  margin-bottom: @sectionpadding;
+
+  .section-content {
+    z-index: 2;
+  }
 }
 
 .row {
   max-width: 1200px;
   margin: 0 auto;
+
+  &.row-full {
+    max-width: 100%;
+
+    [class*="col-"] {
+      padding: 0;
+    }
+    [class*="col-sm-6"]:first-child {
+      padding-right: 10px;
+    }
+    [class*="col-sm-6"]:last-child {
+      padding-left: 10px;
+    }
+  }
 }
 
 .test {

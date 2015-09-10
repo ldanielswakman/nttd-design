@@ -3,23 +3,17 @@ $(document).ready(function() {
   // initiate smoothscroll on same-page links
   $('a[href^="#"]').smoothScroll();
 
-  // initiate slides
-  // if($('.slides').length > 0) {
-  //   $('.slides').slidesjs({
-  //     width: 800,
-  //     height: 300,
-  //     pagination: {
-  //       active: false
-  //     },
-  //     navigation: {
-  //       active: false,
-  //     },
-  //     play: {
-  //       auto: true,
-  //       interval: 1000
-  //     }
-  //   });
-  // }
+  // fade in slides
+  setTimeout(function() {
+    $('.slides').addClass('loaded');
+  }, 300);
+  // initiate slideshow
+  $('.slides').unslider({
+    speed: 500,
+    delay: 8000,
+    fluid: true
+  });
+
 });
 
 function toggleMenu() {
