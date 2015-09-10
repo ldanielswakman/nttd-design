@@ -10,6 +10,7 @@
 // Elements
 
 // Components
+@import url('elements/header.less');
 
 // Generic styling
 @sectionpadding: 20px;
@@ -24,6 +25,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-kerning: normal;
 }
+a, a:hover {
+  text-decoration: none;
+}
 
 .row {
   max-width: 1200px;
@@ -31,28 +35,22 @@ body {
 }
 
 .test {
+  margin-top: 150px;
   font-style: italic;
-  color: @holland_orange;
+  color: @white;
   font-size: 4em;
   text-align: center;
 }
 
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 60px;
-  width: calc(~"100%" - @sectionpadding * 2);
-  margin: @sectionpadding;
-  background-color: @holland_orange;
-  color: @white;
-  font-family: "Expletus Sans";
-
-  a {
-    color: @white;
-  }
+.slide {
+  position: relative;
+  min-height: 90vh;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
 }
-.header-placeholder {
-  display: block;
-  height: 60px;
+
+nav.nav-verbose {
+  background-color: fade(@holland_orange, 70%);
+  color: @white;
 }

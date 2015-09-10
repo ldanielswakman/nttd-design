@@ -1,0 +1,23 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  height: 70px;
+  width: calc(~"100%" - @sectionpadding * 2);
+  margin: @sectionpadding;
+  padding: 5px 0;
+  color: @white;
+  font-family: "Expletus Sans";
+
+  a {
+    color: @white;
+  }
+  &.header-hasBG {
+    background-color: @holland_orange;
+  }
+}
+.header-placeholder {
+  display: block;
+  height: 60px;
+}
