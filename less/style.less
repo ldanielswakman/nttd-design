@@ -8,14 +8,16 @@
 @import url('basics/utilities.less');
 
 // Elements
+@import url('components/slides.less');
 
 // Components
 @import url('elements/header.less');
+@import url('elements/menu.less');
 
 // Generic styling
 @sectionpadding: 20px;
 body {
-  background-color: @greylight;
+  background-color: @greylightest;
   padding: @sectionpadding;
 
   font-family: "Holland Serif";
@@ -27,6 +29,12 @@ body {
 }
 a, a:hover {
   text-decoration: none;
+}
+
+section.hasSlides {
+  position: relative;
+  min-height: 90vh;
+  margin-bottom: @sectionpadding;
 }
 
 .row {
@@ -41,13 +49,11 @@ a, a:hover {
   font-size: 4em;
   text-align: center;
 }
-
-.slide {
-  position: relative;
-  min-height: 90vh;
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover;
+.test2 {
+  font-family: "Expletus Sans";
+  font-size: 2em;
+  color: @holland_darkblue;
+  font-weight: 500;
 }
 
 nav.nav-verbose {

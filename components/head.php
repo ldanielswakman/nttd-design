@@ -16,4 +16,9 @@
   <link href='css/bootstrap.min.css' rel='stylesheet' type='text/css'>
   <link href="css/style.css" rel="stylesheet" type="text/css" />
 
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.smooth-scroll.min.js"></script>
+  <script src="js/jquery.slides.min.js"></script>
+  <script src="js/scripts.js"></script>
+
 </head>

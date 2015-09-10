@@ -6,9 +6,20 @@
 
   <body>
 
+    <?php include('components/menu.php'); ?>
+
     <?php include('components/header.php'); ?>
 
-    <section class="slide" style="background-image: url('images/bosphorus_bridge.jpg');">
+    <section class="hasSlides">
+
+      <div class="slides">
+        <div class="slide" style="background-image: url('images/bosphorus_bridge.jpg');">
+        </div>
+        <!-- <div class="slide" style="background-image: url('images/bosphorus_bridge.jpg');">
+        </div>
+        <div class="slide" style="background-image: url('images/bosphorus_bridge.jpg');">
+        </div> -->
+      </div>
 
       <div class="header-placeholder u-relative">
         <a href="javascript:toggleMenu();" class="u-pintopright u-pv30 u-pr80">MENU</a>
@@ -26,27 +37,49 @@
 
       <nav class="nav-verbose u-pinbottom u-fullwidth">
         <div class="row">
-          <div class="col-md-3 u-pv40">
+          <div class="col-md-3 u-pv60">
             <img src="images/holland_logo.svg" alt="" />
           </div>
           <div class="col-md-2 u-pv40">
-            Doing Business<br />
-            in Turkey
+            <i class="icon icon-arrows-shrink icon-2x"></i><br />
+            <em><strong>
+              Doing Business<br />
+              in Turkey
+            </em></strong>
           </div>
           <div class="col-md-2 u-pv40">
-            Browse the<br />
-            business network
+            <i class="icon icon-arrows-shrink icon-2x"></i><br />
+            <em><strong>
+              Browse the<br />
+              business network
+            </em></strong>
           </div>
           <div class="col-md-2 u-pv40">
-            How can we<br />
-            be of help
+            <i class="icon icon-arrows-shrink icon-2x"></i><br />
+            <em><strong>
+              How can we<br />
+              be of help
+            </em></strong>
           </div>
           <div class="col-md-2 u-pv40">
-            Getting in touch
+            <i class="icon icon-arrows-shrink icon-2x"></i><br />
+            <em><strong>
+              Questions and<br />
+              getting in touch
+            </em></strong>
           </div>
         </div>
       </nav>
     
+    </section>
+
+    <section id="intro" class="bg-greylight u-pv60">
+      <div class="row">
+        <div class="col-md-9">
+          <p class="test2">Holland Turkey Trade is the online platform for Dutch companies doing business in Turkey. </p>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
     </section>
 
   </body>
