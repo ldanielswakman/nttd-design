@@ -9,6 +9,11 @@ header {
   padding: 5px 0;
   color: @white;
   font-family: "Expletus Sans";
+  pointer-events: none;
+
+  & > * {
+    pointer-events: all;
+  }
 
   a {
     color: @white;

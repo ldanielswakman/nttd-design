@@ -32,22 +32,37 @@ h1, h2, h3, h4, h5, h6 {
   color: @holland_orange;
   font-style: italic;
 }
+p {
+  line-height: 1.8em;
+  color: desaturate(lighten(@holland_darkblue, 10%), 30%);
+}
 a, a:hover {
   text-decoration: none;
 }
-
-section:not(:last-child) {
-  margin-bottom: @sectionpadding;
+::selection {
+  background-color: @holland_orange;
+  color: @white;
 }
-section.hasSlides {
-  position: relative;
-  min-height: 90vh;
 
-  .section-content {
-    z-index: 2;
+
+
+
+/* --- (Section) Layout --- */
+section {
+  position: relative;
+  
+  &:not(:last-child) {
+    margin-bottom: @sectionpadding;
+  }
+  &.hasSlides {
+    position: relative;
+    min-height: 90vh;
+
+    .section-content {
+      z-index: 2;
+    }
   }
 }
-
 .row {
   max-width: 1200px;
   margin: 0 auto;
@@ -80,8 +95,23 @@ section.hasSlides {
   color: @holland_darkblue;
   font-weight: 500;
 }
+.test3 {
+  font-family: "Expletus Sans";
+  font-size: 1em;
+  line-height: 1.8em;
+  color: @holland_darkblue;
+  font-weight: 500;
+
+  big {
+    line-height: 1.8em;
+  }
+}
 
 nav.nav-verbose {
   background-color: fade(@holland_orange, 70%);
   color: @white;
+
+  a {
+    color: @white;
+  }
 }
