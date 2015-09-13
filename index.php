@@ -14,9 +14,9 @@
 
       <div class="slides">
         <ul>
-          <li style="background-image: url('images/bosphorus_bridge.jpg');"></li>
-          <li style="background-image: url('images/eminonu.jpg');"></li>
-          <li style="background-image: url('images/palais.jpg');"></li>
+          <li class="slide" style="background-image: url('images/bosphorus_bridge.jpg');"></li>
+          <li class="slide" style="background-image: url('images/eminonu.jpg');"></li>
+          <li class="slide" style="background-image: url('images/palais.jpg');"></li>
         </ul>
       </div>
 
@@ -104,9 +104,7 @@
     <section id="businessinfo" class="hasSlides g-greylight u-pv120">
 
       <div class="slides">
-        <ul>
-          <li style="background-image: url('images/maslak.jpg');"></li>
-        </ul>
+        <div class="slide" style="background-image: url('images/maslak.jpg');"></div>
       </div>
 
       <div class="row">
@@ -132,6 +130,19 @@
     </section>
 
     <section id="tradedirectory" class="bg-greylight u-pv120">
+
+      <div class="slides">
+        <div class="slide" style="background-image: url('images/bosphorus_bridge_soft.jpg');"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="u-mb40 u-aligncenter">
+            <i class="icon icon-basic-folder-multiple icon-4x"></i>
+          </div>
+        </div>
+      </div>
+
       <div class="row">
         <div class="col-md-1">
         </div>
@@ -143,9 +154,23 @@
           </p>
         </div>
       </div>
+
     </section>
 
     <section id="aboutus" class="bg-greylight u-pv120">
+
+      <div class="slides">
+        <div class="slide" style="background-image: url('images/grand_bazar.jpg');"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="u-mb40 u-aligncenter">
+            <i class="icon icon-basic-lightbulb icon-4x"></i>
+          </div>
+        </div>
+      </div>
+
       <div class="row">
         <div class="col-md-3">
         </div>
@@ -157,14 +182,17 @@
           </p>
         </div>
       </div>
+
     </section>
 
     <section>
       <div class="row row-full">
         <div class="col-sm-6">
-          <div id="news" class="u-border u-pa60">
+          <div id="news" class="u-border content">
+
             <h3 class="u-mb30 c-bluesoft">News</h3>
-            <ul class="newslist u-mb30">
+
+            <ul class="list u-mb30">
               <li>
                 <a href="news-show.php">
                   <i class="icon icon-arrows-right icon-2x u-floatright u-mt10"></i>
@@ -187,15 +215,48 @@
                 </a>
               </li>
             </ul>
-            <a href="news" onclick="javascript:expandSection();" class="btn btn-sm btn-greyoutline u-mt20">
-              MORE NEWS
+
+            <a href="news-list.php" class="btn btn-sm btn-greyoutline u-mt20">
+              ALL NEWS
               <i class="icon icon-arrows-right icon-15x u-floatright"></i>
             </a>
+
           </div>
         </div>
         <div class="col-sm-6">
-          <div id="events" class="u-border u-pa60">
-            <h3>Events</h3>
+          <div id="events" class="u-border content">
+
+            <h3 class="u-mb30 c-bluesoft">Events</h3>
+
+            <ul class="list u-mb30">
+              <li>
+                <a href="events-show.php">
+                  <i class="icon icon-arrows-right icon-2x u-floatright u-mt10"></i>
+                  <h4>Subconist & Automotive</h4>
+                  <small>25-28 November 2015, Wednesday<br />Machinery, automotive metaal working, subcontracting</small>
+                </a>
+              </li>
+              <li>
+                <a href="events-show.php">
+                  <i class="icon icon-arrows-right icon-2x u-floatright u-mt10"></i>
+                  <h4>Logi Trans</h4>
+                  <small>20-22 November 2015, Friday<br />Transport and logistics</small>
+                </a>
+              </li>
+              <li>
+                <a href="events-show.php">
+                  <i class="icon icon-arrows-right icon-2x u-floatright u-mt10"></i>
+                  <h4>TurkChem</h4>
+                  <small>16-18 October 2015, Friday<br />Chemical industry</small>
+                </a>
+              </li>
+            </ul>
+
+            <a href="events-list.php" class="btn btn-sm btn-greyoutline u-mt20">
+              ALL EVENTS
+              <i class="icon icon-arrows-right icon-15x u-floatright"></i>
+            </a>
+
           </div>
         </div>
       </div>

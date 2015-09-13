@@ -13,8 +13,8 @@
 
 // Components
 @import url('elements/header.less');
+@import url('elements/list.less');
 @import url('elements/menu.less');
-@import url('elements/newslist.less');
 
 // Generic styling
 @sectionpadding: 20px;
@@ -88,6 +88,21 @@ section {
     }
     [class*="col-sm-6"]:last-child {
       padding-left: 10px;
+    }
+  }
+}
+.content {
+  padding: 60px;
+}
+@media screen and (max-width: 768px) {
+  .content {
+    padding: 20px;
+  }
+  .row.row-full {
+    [class*="col-sm-6"]:first-child,
+    [class*="col-sm-6"]:last-child {
+      padding-left: 0;
+      padding-right: 0;
     }
   }
 }

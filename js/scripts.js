@@ -8,7 +8,7 @@ $(document).ready(function() {
     $('.slides').addClass('loaded');
   }, 300);
   // initiate slideshow
-  $('.slides').unslider({
+  $('.slides').has('li').unslider({
     speed: 500,
     delay: 8000,
     fluid: true
