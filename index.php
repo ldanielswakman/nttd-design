@@ -37,16 +37,16 @@
           </div>
         </div>
 
-        <nav class="nav-verbose u-pinbottom u-fullwidth">
+        <div class="quicklinks u-pinbottom u-fullwidth">
           <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-3 col-sm-12">
               <a href="/" class="u-block u-pt60 u-pb20">
                 <img src="images/holland_logo.svg" alt="" />
               </a>
             </div>
-            <div class="col-md-2 u-pt40">
-              <a href="business_info" class="u-block u-pb40 u-pl10 u-borderleft">
-                <i class="icon icon-arrows-expand icon-2x"></i><br />
+            <div class="col-md-2 col-sm-3 u-pt40">
+              <a href="businessinfo.php" class="u-block u-pb40 u-pl10 u-borderleft">
+                <i class="icon icon-basic-signs icon-3x"></i><br />
                 <em><strong>
                   Doing Business<br />
                   in Turkey
@@ -54,29 +54,29 @@
                 </em>
               </a>
             </div>
-            <div class="col-md-2 u-pv40">
-              <i class="icon icon-arrows-expand icon-2x"></i><br />
+            <div class="col-md-2 col-sm-3 u-pt40">
+              <i class="icon icon-basic-folder-multiple icon-3x"></i><br />
               <em><strong>
                 Browse the<br />
                 business network
               </em></strong>
             </div>
-            <div class="col-md-2 u-pv40">
-              <i class="icon icon-arrows-expand icon-2x"></i><br />
+            <div class="col-md-2 col-sm-3 u-pt40">
+              <i class="icon icon-basic-question icon-3x"></i><br />
               <em><strong>
                 How can we<br />
                 be of help
               </em></strong>
             </div>
-            <div class="col-md-2 u-pv40">
-              <i class="icon icon-arrows-expand icon-2x"></i><br />
+            <div class="col-md-2 col-sm-3 u-pt40">
+              <i class="icon icon-basic-message-txt icon-3x"></i><br />
               <em><strong>
                 Questions and<br />
                 getting in touch
               </em></strong>
             </div>
           </div>
-        </nav>
+        </div>
 
       </div>
     
@@ -88,7 +88,7 @@
           <p class="test2">Holland Turkey Trade is the online platform for Dutch companies doing business in Turkey. </p>
         </div>
         <div class="col-md-3">
-          <a href="javascript:void(0)" onclick="javascript:expandSection();" class="btn btn-outline u-mt20">READ MORE</a>
+          <a href="javascript:void(0)" onclick="javascript:expandSection();" class="btn btn-lg btn-outline u-mt20">READ MORE</a>
         </div>
       </div>
       <div class="row u-mt40">
@@ -163,7 +163,34 @@
       <div class="row row-full">
         <div class="col-sm-6">
           <div id="news" class="u-border u-pa60">
-            <h3>News</h3>
+            <h3 class="u-mb30 c-bluesoft">News</h3>
+            <ul class="newslist u-mb30">
+              <li>
+                <a href="news-show.php">
+                  <i class="icon icon-arrows-right icon-2x u-floatright u-mt10"></i>
+                  <h4>Holland-Turkey Business Tour 2015</h4>
+                  <small>9 October 2015</small>
+                </a>
+              </li>
+              <li>
+                <a href="news-show.php">
+                  <i class="icon icon-arrows-right icon-2x u-floatright u-mt10"></i>
+                  <h4>Trade Mission to Bursa</h4>
+                  <small>9 October 2015</small>
+                </a>
+              </li>
+              <li>
+                <a href="news-show.php">
+                  <i class="icon icon-arrows-right icon-2x u-floatright u-mt10"></i>
+                  <h4>The new “e-Residence” system is introduced by the Republic of Turkey Ministry of Interior Directorate General of Migration Management</h4>
+                  <small>9 October 2015</small>
+                </a>
+              </li>
+            </ul>
+            <a href="news" onclick="javascript:expandSection();" class="btn btn-sm btn-greyoutline u-mt20">
+              MORE NEWS
+              <i class="icon icon-arrows-right icon-15x u-floatright"></i>
+            </a>
           </div>
         </div>
         <div class="col-sm-6">
@@ -175,7 +202,10 @@
     </section>
 
     <footer class="u-pv40">
-      <?php include('components/sitemap.php'); ?>
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <?php include('components/sitemap.php'); ?>
+      </div>
     </footer>
 
   </body>

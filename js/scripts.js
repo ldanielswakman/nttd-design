@@ -17,5 +17,5 @@ $(document).ready(function() {
 });
 
 function toggleMenu() {
-  $('#menu').toggleClass('isExpanded');
+  $('nav').toggleClass('isExpanded');
 }

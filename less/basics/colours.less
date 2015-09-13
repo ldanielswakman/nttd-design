@@ -2,10 +2,12 @@
 @holland_darkblue:  #092877;
 
 @greylightest:      #f5f5f5;
-@greylight:         #e5e5e5;
+@greylight:         desaturate(lighten(@blue_soft, 30%), 10%);
 @grey:              #a3afcc;
 @white:             #ffffff;
 
+@blue_medium:       desaturate(lighten(@holland_darkblue, 10%), 30%); // #27448c
+@blue_soft:         #7c8db5;
 
 // Background colour classes
 .bg-greylight {
@@ -15,4 +17,8 @@
 // Text colour classes
 .c-white {
   color: @white !important;
+}
+
+.c-bluesoft {
+  color: @blue_soft !important;
 }

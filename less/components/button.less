@@ -1,13 +1,23 @@
 .btn {
   display: inline-block;
   font-family: "Expletus Sans";
-  padding: 10px 20px 6px;
+  padding: 6px 15px 3px;
   .rounded(0);
   border: 2px solid transparent;
   font-weight: 600;
-  font-size: 1.1em;
+  font-size: 1em;
   line-height: 30px;
   letter-spacing: 0.02em;
+
+  
+  &.btn-lg {
+    padding: 10px 20px 6px;
+    font-size: 1.1em;
+  }
+  &.btn-sm {
+    padding: 3px 5px 0px;
+    font-size: 0.9em;
+  }
 
   &.btn-primary {
 
@@ -20,6 +30,19 @@
     &:hover {
       background-color: @holland_orange;
       color: @white;
+    }
+  }
+  &.btn-greyoutline {
+    background-color: transparent;
+    border-color: lighten(@blue_soft, 15%);
+    color: @blue_soft;
+
+    &:hover {
+      border-color: @holland_orange;
+      color: @holland_orange;
+    }
+    .icon {
+      .transform(translateY(2px));
     }
   }
   &.btn-reveal {
