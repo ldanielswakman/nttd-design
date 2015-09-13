@@ -6,7 +6,7 @@ header {
   height: 70px;
   width: calc(~"100%" - @sectionpadding * 2);
   margin: @sectionpadding;
-  padding: 5px 0;
+  // padding: 5px 0;
   color: @white;
   font-family: "Expletus Sans";
   pointer-events: none;
@@ -18,8 +18,14 @@ header {
   a {
     color: @white;
   }
-  &.header-hasBG {
-    background-color: @holland_orange;
+  .header_quicklinks {
+    list-style: none;
+
+    li {
+      display: inline-block;
+      float: left;
+      padding: 15px 10px;
+    }
   }
 }
 .header-placeholder {

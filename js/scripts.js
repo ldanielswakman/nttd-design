@@ -14,6 +14,10 @@ $(document).ready(function() {
     fluid: true
   });
 
+  $(".col-sticky").stick_in_parent({
+    offset_top: 110
+  });
+
 });
 
 function toggleMenu() {
