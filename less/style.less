@@ -14,6 +14,7 @@
 // Components
 @import url('elements/header.less');
 @import url('elements/menu.less');
+@import url('elements/newslist.less');
 
 // Generic styling
 @sectionpadding: 20px;
@@ -23,18 +24,27 @@ body {
 
   font-family: "Holland Serif";
   font-size: 16px;
+  color: @holland_darkblue;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-kerning: normal;
 }
 h1, h2, h3, h4, h5, h6 {
-  color: @holland_orange;
-  font-style: italic;
+  // color: @holland_orange;
+  // font-style: italic;
+}
+h4 {
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+h5 {
+  font-size: 1em;
+  line-height: 1.5em;
 }
 p {
   line-height: 1.8em;
-  color: desaturate(lighten(@holland_darkblue, 10%), 30%);
+  color: ;
 }
 a, a:hover {
   text-decoration: none;
@@ -107,7 +117,26 @@ section {
   }
 }
 
-nav.nav-verbose {
+nav {
+  position: fixed;
+  // bottom: 100%;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  max-height: 100%;
+  max-height: 100vh;
+  overflow: scroll;
+  padding: 100px 0;
+  background-color: @greylightest;
+  .transform(translateY(-410px));
+  .transition(0.3s);
+
+  &.isExpanded {
+    .transform(translateY(0));
+  }
+}
+.quicklinks {
   background-color: fade(@holland_orange, 70%);
   color: @white;
 

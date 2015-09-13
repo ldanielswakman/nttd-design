@@ -1,7 +1,9 @@
-<div class="row">
-  <div class="col-md-2"></div>
-  <div class="col-md-2">
-    BUSINESS INFO<br />
+<div class="row" id="menu">
+  <div class="col-md-3">
+    <a href="businessinfo.php">
+      <i class="icon icon-basic-signs icon-3x u-block u-mb10"></i>
+      <h5>BUSINESS INFO</h5>
+    </a>
     <ul>
       <li>
         <a href="#">Bilateral Trade</a>
@@ -20,66 +22,61 @@
       </li>
     </ul>
   </div>
-  <div class="col-md-2">
-    BUSINESS INFO<br />
+  <div class="col-md-3">
+    <a href="tradedirectory.php">
+      <i class="icon icon-basic-folder-multiple icon-3x u-block u-mb10"></i>
+      <h5>TRADE DIRECTORY</h5>
+    </a>
     <ul>
       <li>
-        <a href="#">Bilateral Trade</a>
+        <a href="#">Browse sectors</a>
       </li>
       <li>
-        <a href="#">Business Opportunities</a>
+        <a href="#">Browse companies</a>
       </li>
       <li>
-        <a href="#">Sectoral Information</a>
+        <a href="#">Register</a>
       </li>
       <li>
-        <a href="#">Regional Information</a>
-      </li>
-      <li>
-        <a href="#">Do’s and Don’ts</a>
+        <a href="#">Login</a>
       </li>
     </ul>
   </div>
-  <div class="col-md-2">
-    BUSINESS INFO<br />
+  <div class="col-md-3">
+    <a href="aboutus.php">
+      <i class="icon icon-basic-question icon-3x u-block u-mb10"></i>
+      <h5>ABOUT US</h5>
+    </a>
     <ul>
       <li>
-        <a href="#">Bilateral Trade</a>
+        <a href="#">Who We Are</a>
       </li>
       <li>
-        <a href="#">Business Opportunities</a>
+        <a href="#">Our Team</a>
       </li>
       <li>
-        <a href="#">Sectoral Information</a>
-      </li>
-      <li>
-        <a href="#">Regional Information</a>
-      </li>
-      <li>
-        <a href="#">Do’s and Don’ts</a>
+        <a href="#">Our Services</a>
       </li>
     </ul>
   </div>
-  <div class="col-md-2">
-    BUSINESS INFO<br />
+  <div class="col-md-3">
+    <a href="faqcontact.php">
+      <i class="icon icon-basic-message-txt icon-3x u-block u-mb10"></i>
+      <h5>FAQ & CONTACT</h5>
+    </a>
     <ul>
       <li>
-        <a href="#">Bilateral Trade</a>
+        <a href="#">Frequently Asked Questions</a>
       </li>
       <li>
-        <a href="#">Business Opportunities</a>
+        <a href="#">Jurisdictional Map</a>
       </li>
       <li>
-        <a href="#">Sectoral Information</a>
+        <a href="#">Address information</a>
       </li>
       <li>
-        <a href="#">Regional Information</a>
-      </li>
-      <li>
-        <a href="#">Do’s and Don’ts</a>
+        <a href="#">Disclaimer</a>
       </li>
     </ul>
-  </div>
-  <div class="col-md-2">
   </div>
 </div>
