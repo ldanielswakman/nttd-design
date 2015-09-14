@@ -5,7 +5,7 @@
   </a>
 
   <div class="row row-full">
-    <div class="col-md-4">
+    <div class="col-md-3 col-sm-4">
     
       <?php if ( isset($header_quicklinks) && $header_quicklinks == true ) : ?>
         <ul class="header_quicklinks clearfix">
@@ -38,7 +38,7 @@
       <?php endif ?>
 
     </div>
-    <div class="col-md-5 col-xs-hide">
+    <div class="col-md-6 col-sm-5 col-xs-hide">
 
       <?php 
       if( isset($header_quicklinks) && $header_quicklinks == true ) :

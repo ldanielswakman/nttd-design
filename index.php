@@ -197,7 +197,7 @@
 
             <h3 class="u-mb30 c-bluesoft">News</h3>
 
-            <ul class="list u-mb30">
+            <ul class="list list-unpadded u-mb30">
               <li>
                 <a href="news-show.php">
                   <i class="icon icon-arrows-right icon-2x u-floatright u-mt10"></i>
@@ -233,7 +233,7 @@
 
             <h3 class="u-mb30 c-bluesoft">Events</h3>
 
-            <ul class="list u-mb30">
+            <ul class="list list-unpadded u-mb30">
               <li>
                 <a href="events-show.php">
                   <i class="icon icon-arrows-right icon-2x u-floatright u-mt10"></i>

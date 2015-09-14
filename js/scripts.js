@@ -8,7 +8,9 @@ $(document).ready(function() {
   var touchEvent = $touch ? 'touchstart' : 'click';
 
   // initiate smoothscroll on same-page links
-  $('a[href^="#"]').smoothScroll();
+  $('a[href^="#"]').smoothScroll({
+    offset: -130,
+  });
 
   // fade in slides
   setTimeout(function() {

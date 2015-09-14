@@ -38,12 +38,12 @@
 
       <div class="u-aligncenter">
         <ul class="tabs clearfix">
-          <li class="active">
+          <li>
             <a href="businessinfo.php">
               Bilateral Trade
             </a>
           </li>
-          <li>
+          <li class="active">
             <a href="businessinfo-busop.php">
               Business opportunities
             </a>
@@ -80,31 +80,8 @@
         </div>
         <div class="col-sm-9">
           <div class="content-small">
-            <h3 class="u-mb20">Bilateral Trade</h3>
-            <p class="u-mb40">If you’re looking for more information on bilateral trade and Turkish economy, please contact our team at the Economic & Commercial Departments.</p>
-
-            <figure>
-              <img src="images/content/bilateral_trade.png" alt="" />
-            </figure>
-
-            <h4 class="u-mt60">Further reading</h4>
-
-            <div class="row row-full row-nopadding u-mv10">
-
-              <div class="col-md-4 col-sm-6 u-mv10">
-                <a href="an_example_attachment.pdf" target="_blank" class="btn btn-attachment">
-                  <div class="title">Foreign Direct Investments in Turkey</div>
-                  <div class="data">PDF, 3.1 MB</div>
-                </a>
-              </div>
-              <div class="col-md-4 col-sm-6 u-mv10">
-                <a href="an_example_attachment.doc" target="_blank" class="btn btn-attachment">
-                  <div class="title">Economic Outlook June 2015 - Ministry of Economy</div>
-                  <div class="data">DOC, 817 KB</div>
-                </a>
-              </div>
-
-            </div>
+            <h3 class="u-mb20">Business Opportunities</h3>
+            <p class="u-mb40">...</p>
 
           </div>
         </div>

@@ -113,7 +113,7 @@
       position: absolute;
       bottom: -20px;
       right: 10px;
-      font-family: "linea-basicelaboration-10" !important;
+      font-family: "linea-basic-elaboration-10" !important;
       font-size: 6em;
       line-height: 1em;
       font-weight: normal;
@@ -125,6 +125,24 @@
     &[href$=".doc"]:before,
     &[href$=".docx"]:before {
       content: "7";
+    }
+    .title {
+      &:before,
+      &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: 10px solid transparent;
+      }
+      &:before {
+        border-bottom-color: @holland_orange;
+        border-right-color: @holland_orange;
+      }
+      &:after {
+        border-top-color: @greylightest;
+        border-left-color: @greylightest;
+      }
     }
     .data {
       font-size: 0.9em;
