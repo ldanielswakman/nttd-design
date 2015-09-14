@@ -43,29 +43,31 @@
         </div>
       </div>
 
-      <div class="u-aligncenter">
-        <ul class="tabs clearfix">
-          <li class="active">
-            <a href="#top">
-              Browse sectors
-            </a>
-          </li>
-          <li>
-            <a href="#top">
-              Browse companies
-            </a>
-          </li>
-          <li>
-            <a href="#top">
-              Register
-            </a>
-          </li>
-          <li>
-            <a href="#top">
-              Join
-            </a>
-          </li>
-        </ul>
+      <div class="u-relative u-aligncenter">
+        <form action="" class="u-inlineblock u-clearfix u-mv10">
+          <div class="field-group u-floatleft u-mr20">
+            <input class="field" type="text" placeholder="Search" />
+          </div>
+          <div class="field-group field-select u-floatleft u-mr20">
+            <select class="field">
+              <option>City...</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
+            <i class="icon icon-arrows-down icon-2x"></i>
+          </div>
+          <div class="field-group field-select u-floatleft u-mr20">
+            <select class="field">
+              <option>Sector...</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
+            <i class="icon icon-arrows-down icon-2x"></i>
+          </div>
+          <button type="submit" class="btn btn-white">Search</button>
+        </form>
       </div>
 
     </section>
