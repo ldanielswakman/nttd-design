@@ -19,13 +19,28 @@ header {
     color: @white;
   }
   .header_quicklinks {
+    display: inline-block;
     list-style: none;
 
     li {
       display: inline-block;
       float: left;
       padding: 15px 10px;
+
+      a {
+        color: fade(@white, 40%);
+
+        &:hover {
+          color: inherit;
+        }
+      }
+      &.active a {
+        color: @white;
+      }
     }
+  }
+  h4 {
+    font-family: "Holland Serif";
   }
 }
 .header-placeholder {

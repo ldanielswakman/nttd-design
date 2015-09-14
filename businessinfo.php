@@ -6,16 +6,17 @@
 
   <body>
 
-    <?php include('components/menu.php'); ?>
-
     <?php
+    // setting current page parameter
+    $curpage = 'businessinfo';
+    include('components/nav.php');
     // setting optional parameters for header
     $header_bg = 'orange';
     $header_quicklinks = true;
-    include('components/header.php'); 
+    include('components/header.php')
     ?>
 
-    <section>
+    <section id="intro">
 
       <div class="header-placeholder u-relative"></div>
 

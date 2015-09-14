@@ -15,6 +15,7 @@
 @import url('elements/header.less');
 @import url('elements/list.less');
 @import url('elements/menu.less');
+@import url('elements/nav.less');
 @import url('elements/tabs.less');
 
 // Generic styling
@@ -48,7 +49,7 @@ p {
   line-height: 1.8em;
   color: ;
 }
-a, a:hover {
+a, a:hover, a:active, a:focus {
   text-decoration: none;
 }
 ::selection {
@@ -81,7 +82,9 @@ section {
 
   &.row-full {
     max-width: 100%;
-
+  }
+  &.row-full,
+  &.row-nopadding {
     [class*="col-"] {
       padding: 0;
     }
@@ -137,34 +140,5 @@ section {
 
   big {
     line-height: 1.8em;
-  }
-}
-
-nav {
-  position: fixed;
-  bottom: 100%;
-  // top: 0;
-  left: 0;
-  z-index: 3;
-  width: 100%;
-  max-height: 100%;
-  max-height: 100vh;
-  overflow: scroll;
-  padding: 100px 0;
-  margin-bottom: -20px;
-  background-color: @greylightest;
-  .transform(translateY(0));
-  .transition(0.3s);
-
-  &.isExpanded {
-    .transform(translateY(420px));
-  }
-}
-.quicklinks {
-  background-color: fade(@holland_orange, 70%);
-  color: @white;
-
-  a {
-    color: @white;
   }
 }

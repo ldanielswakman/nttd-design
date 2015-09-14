@@ -6,9 +6,10 @@
 
   <body>
 
-    <?php include('components/menu.php'); ?>
-
-    <?php include('components/header.php'); ?>
+    <?php 
+    include('components/nav.php');
+    include('components/header.php');
+    ?>
 
     <section class="hasSlides">
 
