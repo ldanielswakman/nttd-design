@@ -21,7 +21,7 @@
           </li>
           <li <?php echo (strpos($_SERVER['REQUEST_URI'], 'tradedirectory') !== false) ? ' class="active"' : '' ?>>
             <a href="tradedirectory.php">
-              <i class="icon icon-basic-folder-multiple icon-2x u-block u-mt5"></i>
+              <i class="icon icon-basicelaboration-folder-search icon-2x u-block u-mt5"></i>
             </a>
           </li>
           <li <?php echo (strpos($_SERVER['REQUEST_URI'], 'aboutus') !== false) ? ' class="active"' : '' ?>>

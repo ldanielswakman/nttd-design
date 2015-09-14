@@ -24,7 +24,7 @@
   </div>
   <div class="col-md-3 col-sm-6 u-mb20">
     <a href="tradedirectory.php">
-      <i class="icon icon-basic-folder-multiple icon-3x u-block u-mb10"></i>
+      <i class="icon icon-basicelaboration-folder-search icon-3x u-block u-mb10"></i>
       <h5>TRADE DIRECTORY</h5>
     </a>
     <ul>

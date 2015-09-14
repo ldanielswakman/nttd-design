@@ -6,6 +6,8 @@
 
   <body>
 
+    <div id="top"></div>
+
     <?php
     // setting current page parameter
     $curpage = 'businessinfo';
@@ -31,39 +33,34 @@
         <div class="col-md-8 c-white">
           <h4 class="u-opacity50">BUSINESS INFO</h4>
           <em style="font-size: 3em;">Doing Business in Turkey</em>
-          <!-- <p class="test2 c-white">
-            <small>
-              Netherlands Turkey Trade Directory is an online network where Dutch companies in Turkey and Turkish companies that have commercial links with the Netherlands are displayed.
-            </small>
-          </p> -->
         </div>
       </div>
 
       <div class="u-aligncenter">
         <ul class="tabs clearfix">
           <li class="active">
-            <a href="#">
+            <a href="#top">
               Bilateral Trade
             </a>
           </li>
           <li>
-            <a href="#">
-              Bilateral Trade
+            <a href="#top">
+              Business opportunities
             </a>
           </li>
           <li>
-            <a href="#">
-              Bilateral Trade
+            <a href="#top">
+              Sectoral Information
             </a>
           </li>
           <li>
-            <a href="#">
-              Bilateral Trade
+            <a href="#top">
+              Regional Information
             </a>
           </li>
           <li>
-            <a href="#">
-              Bilateral Trade
+            <a href="#top">
+              Do’s and Don’ts
             </a>
           </li>
         </ul>
@@ -90,16 +87,20 @@
               <img src="images/content/bilateral_trade.png" alt="" />
             </figure>
 
-            <div class="row row-full u-mv30">
+            <h4 class="u-mt60">Further reading</h4>
 
-              <div class="col-md-4 col-xs-6">
-                <a href="an_example_attachment.pdf" class="btn btn-attachment">
-                  download PDF
+            <div class="row row-full u-mv10">
+
+              <div class="col-md-4 col-sm-6 u-mv10">
+                <a href="an_example_attachment.pdf" target="_blank" class="btn btn-attachment">
+                  <div class="title">Foreign Direct Investments in Turkey</div>
+                  <div class="data">PDF, 3.1 MB</div>
                 </a>
               </div>
-              <div class="col-md-4 col-xs-6">
-                <a href="an_example_attachment.doc" class="btn btn-attachment">
-                  download PDF
+              <div class="col-md-4 col-sm-6 u-mv10">
+                <a href="an_example_attachment.doc" target="_blank" class="btn btn-attachment">
+                  <div class="title">Economic Outlook June 2015 - Ministry of Economy</div>
+                  <div class="data">DOC, 817 KB</div>
                 </a>
               </div>
 

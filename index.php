@@ -6,6 +6,8 @@
 
   <body>
 
+    <div id="top"></div>
+
     <?php 
     include('components/nav.php');
     include('components/header.php');
