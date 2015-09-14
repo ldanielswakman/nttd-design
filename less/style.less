@@ -8,6 +8,7 @@
 @import url('basics/utilities.less');
 
 // Elements
+@import url('components/badge.less');
 @import url('components/button.less');
 @import url('components/slides.less');
 
@@ -83,7 +84,7 @@ section {
   &.row-full {
     max-width: 100%;
   }
-  &.row-full {
+  &.row-nopadding {
     & > [class*="col-"] {
       padding-left: 10px;
       padding-right: 10px;
@@ -104,7 +105,7 @@ section {
 }
 .content, .content-small {
   p {
-    max-width: 45em;
+    max-width: 40em;
   }
 }
 @media screen and (max-width: 768px) {
@@ -145,5 +146,22 @@ section {
 
   big {
     line-height: 1.8em;
+  }
+}
+
+.tradedir-category {
+  .u-block;
+  .content-small;
+  color: @holland_orange;
+  background-color: lighten(@greylight, 5%);
+
+  &:hover {
+    background-color: @white;
+  }
+
+  .badge {
+    .u-floatleft;
+    .u-mr20;
+    .u-pt20;
   }
 }
