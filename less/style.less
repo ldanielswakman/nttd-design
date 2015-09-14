@@ -152,6 +152,7 @@ section {
 
 .tradedir-category {
   .u-block;
+  .u-mb20;
   .content-small;
   color: @holland_orange;
   background-color: lighten(@greylight, 5%);
@@ -165,4 +166,14 @@ section {
     .u-mr20;
     .u-pt20;
   }
+  &.tradedir-catempty {
+    .u-pv10;
+    background-color: transparent;
+    color: @blue_soft;
+
+    &:hover {
+      background-color: @white;
+    }
+  }
 }
+

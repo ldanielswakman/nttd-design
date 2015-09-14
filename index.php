@@ -58,11 +58,13 @@
               </a>
             </div>
             <div class="col-md-2 col-sm-3 u-pt40">
-              <i class="icon icon-basic-folder-multiple icon-3x"></i><br />
-              <em><strong>
-                Browse the<br />
-                business network
-              </em></strong>
+              <a href="tradedirectory.php" class="u-block u-pb40 u-pl10 u-borderleft">
+                <i class="icon icon-basicelaboration-folder-search icon-3x"></i><br />
+                <em><strong>
+                  Browse the<br />
+                  business network
+                </em></strong>
+              </a>
             </div>
             <div class="col-md-2 col-sm-3 u-pt40">
               <i class="icon icon-basic-question icon-3x"></i><br />

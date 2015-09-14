@@ -40,13 +40,26 @@
     </div>
     <div class="col-md-6">
 
-      <?php if ( isset($header_quicklinks) && $header_quicklinks == true ) : ?>
-        <h4 class="u-ml30 u-mv20 u-clearfix"><em>
-          <a href="businessinfo.php" class="u-floatleft">Business info</a>
-          <i class="icon icon-arrows-right icon-15x u-floatleft u-mh10"></i>
-          <a href="businessinfo.php" class="u-floatleft">Bilateral trade</a>
-        </em></h4>
-      <?php endif; ?>
+      <?php 
+      if( isset($header_quicklinks) && $header_quicklinks == true ) :
+        if( isset($curpage) ) :
+          if( $curpage == 'businessinfo' ) : ?>
+            <h4 class="u-ml30 u-mv20 u-clearfix"><em>
+              <a href="businessinfo.php" class="u-floatleft">Business info</a>
+              <i class="icon icon-arrows-right icon-15x u-floatleft u-mh10"></i>
+              <a href="businessinfo.php" class="u-floatleft">Bilateral trade</a>
+            </em></h4>
+          <?php elseif( $curpage == 'tradedirectory') : ?>
+            <h4 class="u-ml30 u-mv20 u-clearfix"><em>
+              <a href="tradedirectory.php" class="u-floatleft">Trade Directory</a>
+              <i class="icon icon-arrows-right icon-15x u-floatleft u-mh10"></i>
+              <a href="businessinfo.php" class="u-floatleft">[Category]</a>
+            </em></h4>
+          <?php
+          endif;
+        endif;
+      endif; 
+      ?>
 
     </div>
     <div class="col-md-3">
