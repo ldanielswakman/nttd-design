@@ -48,11 +48,40 @@
   &.btn-reveal {
     background-color: transparent;
     border-color: transparent;
-    color: @white;
 
-    &:hover {
-      background-color: fade(@holland_darkblue, 20%);
+    &.btn-white {
       color: @white;
+
+      &:hover {
+        background-color: fade(@holland_darkblue, 20%);
+        color: @white;
+      }
+    }
+    &.btn-outline {
+      border-color: fade(@greylightest, 50%);
+      color: @holland_orange;
+
+      &:hover {
+        background-color: transparent;
+        border-color: @holland_orange;
+      }
+    }
+  }
+  &.btn-attachment {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    background-color: @white;
+
+    &[href$="pdf"]:before {
+      content: "PDF";
+    }
+    &[href$="doc"]:before {
+      content: "DOC";
+    }
+    &[href$="docx"]:before {
+      content: "DOCX";
     }
   }
 }

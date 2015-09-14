@@ -23,8 +23,10 @@ $(document).ready(function() {
   });
 
   // initiate sticky boxes
-  $(".col-sticky").stick_in_parent({
-    offset_top: 110
+  $(".box-sticky").stick_in_parent({
+    offset_top: 110,
+    parent: '.row',
+    bottoming: true,
   });
 
   // perform scrollActions on pageload

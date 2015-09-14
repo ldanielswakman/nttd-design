@@ -46,8 +46,8 @@ h5 {
   line-height: 1.5em;
 }
 p {
+  font-size: 1.1em;
   line-height: 1.8em;
-  color: ;
 }
 a, a:hover, a:active, a:focus {
   text-decoration: none;
@@ -83,16 +83,16 @@ section {
   &.row-full {
     max-width: 100%;
   }
-  &.row-full,
-  &.row-nopadding {
-    [class*="col-"] {
-      padding: 0;
-    }
-    [class*="col-sm-6"]:first-child {
+  &.row-full {
+    & > [class*="col-"] {
+      padding-left: 10px;
       padding-right: 10px;
     }
-    [class*="col-sm-6"]:last-child {
-      padding-left: 10px;
+    & > [class*="col-"]:first-child {
+      padding-left: 0;
+    }
+    & > [class*="col-"]:last-child {
+      padding-right: 0;
     }
   }
 }
@@ -101,6 +101,11 @@ section {
 }
 .content-small {
   padding: 30px;
+}
+.content, .content-small {
+  p {
+    max-width: 45em;
+  }
 }
 @media screen and (max-width: 768px) {
   .content {

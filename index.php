@@ -25,7 +25,7 @@
 
         <div class="header-placeholder u-relative"></div>
         <div class="u-pintopright u-pa20">
-          <a href="javascript:toggleMenu();" class="btn btn-reveal u-pr60">MENU</a>
+          <a href="javascript:toggleMenu();" class="btn btn-white btn-reveal u-pr60">MENU</a>
         </div>
 
         <div class="row">

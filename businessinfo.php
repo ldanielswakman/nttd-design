@@ -73,33 +73,38 @@
 
     <section>
       <div class="row row-full">
-        <div class="col-sm-3 col-sticky">
-          <div class="bg-white content-small">
-            <p><big class="c-orange">
+        <div class="col-sm-3">
+          <div class="bg-white content-small box-sticky">
+            <p class="c-orange">
               Would you like to explore and experience business regions in Turkey?
-            </big></p>
+            </p>
+            <a href="javascript:void(0)" class="btn btn-outline btn-reveal u-mt20">Join our HTBT 2015!</a>
           </div>
         </div>
         <div class="col-sm-9">
-          <div class="content">
-            lkjsldkfjsl
-              <p class="u-mv40">Would you like to explore and experience business regions in Turkey?</p>
-              <p class="u-mv40">Would you like to explore and experience business regions in Turkey?</p>
-              <p class="u-mv40">Would you like to explore and experience business regions in Turkey?</p>
-              <p class="u-mv40">Would you like to explore and experience business regions in Turkey?</p>
-              <p class="u-mv40">Would you like to explore and experience business regions in Turkey?</p>
-              <p class="u-mv40">Would you like to explore and experience business regions in Turkey?</p>
-              <p class="u-mv40">Would you like to explore and experience business regions in Turkey?</p>
-              <p class="u-mv40">Would you like to explore and experience business regions in Turkey?</p>
-              <p class="u-mv40">Would you like to explore and experience business regions in Turkey?</p>
-              <p class="u-mv40">Would you like to explore and experience business regions in Turkey?</p>
-              <p class="u-mv40">Would you like to explore and experience business regions in Turkey?</p>
-              <p class="u-mv40">Would you like to explore and experience business regions in Turkey?</p>
-              <p class="u-mv40">Would you like to explore and experience business regions in Turkey?</p>
-              <p class="u-mv40">Would you like to explore and experience business regions in Turkey?</p>
-              <p class="u-mv40">Would you like to explore and experience business regions in Turkey?</p>
-              <p class="u-mv40">Would you like to explore and experience business regions in Turkey?</p>
-              <p class="u-mv40">Would you like to explore and experience business regions in Turkey?</p>
+          <div class="content-small">
+            <h3 class="u-mb20">Bilateral Trade</h3>
+            <p class="u-mb40">If you’re looking for more information on bilateral trade and Turkish economy, please contact our team at the Economic & Commercial Departments.</p>
+
+            <figure>
+              <img src="images/content/bilateral_trade.png" alt="" />
+            </figure>
+
+            <div class="row row-full u-mv30">
+
+              <div class="col-md-4 col-xs-6">
+                <a href="an_example_attachment.pdf" class="btn btn-attachment">
+                  download PDF
+                </a>
+              </div>
+              <div class="col-md-4 col-xs-6">
+                <a href="an_example_attachment.doc" class="btn btn-attachment">
+                  download PDF
+                </a>
+              </div>
+
+            </div>
+
           </div>
         </div>
       </div>
