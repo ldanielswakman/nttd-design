@@ -1,11 +1,11 @@
 <header <?php echo (isset($header_bg)) ? ' class="bg-' . $header_bg . '"' : ''; ?>>
 
-  <a href="javascript:toggleMenu();" class="u-inlineblock u-ph20 u-pv10 u-floatright">
+  <a href="javascript:toggleMenu();" class="navicon">
     <i class="icon icon-arrows-hamburger-2 icon-3x u-floatleft"></i>
   </a>
 
   <div class="row row-full">
-    <div class="col-md-3">
+    <div class="col-md-4">
     
       <?php if ( isset($header_quicklinks) && $header_quicklinks == true ) : ?>
         <ul class="header_quicklinks clearfix">
@@ -38,7 +38,7 @@
       <?php endif ?>
 
     </div>
-    <div class="col-md-6">
+    <div class="col-md-5 col-xs-hide">
 
       <?php 
       if( isset($header_quicklinks) && $header_quicklinks == true ) :

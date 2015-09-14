@@ -27,8 +27,8 @@
       </div>
 
       <div class="row u-pv60">
-        <div class="col-md-1 col-md-offset-2">
-          <i class="icon icon-basicelaboration-folder-search icon-4x u-block c-white u-mt20"></i>
+        <div class="col-md-1 col-md-offset-2 u-aligncenter">
+          <i class="icon icon-basicelaboration-folder-search icon-4x u-block c-white u-mv20"></i>
         </div>
         <div class="col-md-8 c-white">
           <h4 class="u-opacity50">TRADE DIRECTORY</h4>
@@ -48,7 +48,7 @@
     <section>
       <div class="row row-full row-nopadding">
 
-        <div class="col-md-4 col-sm-6">
+        <div class="col-md-4 col-xs-hide">
           <a href="tradedirectory-cat.php" class="tradedir-category clearfix">
             <div class="badge">
               <i class="icon icon-basic-lock icon-3x"></i>
@@ -113,10 +113,78 @@
             <div class="c-greymedium">13 companies</div>
           </a>
         </div>
-        <div class="col-md-8 col-sm-6">
-          <a href="tradedirectory-show.php">
-          </a>
+
+        <div class="col-md-8">
+          <div class="bg-white">
+
+            <div class="u-block u-pl40 u-pv10 c-greymedium u-borderbottom">
+              <em>123 results</em>
+            </div>
+
+            <ul class="list u-mb20">
+              <li>
+                <a href="tradedirectory-show.php" class="">
+                  <div class="row">
+                    <div class="col-sm-3 col-xs-3 u-pv20">
+                      <figure class="list-figure" style="background-image:url('images/content/client-logo-1.jpg');">
+                      </figure>
+                    </div>
+                    <div class="col-sm-3 col-xs-7 u-pv20">
+                      7 Hills Foundation
+                    </div>
+                    <div class="col-sm-5 col-xs-hide">
+                      <small class="c-bluesoft">-</small>
+                    </div>
+                    <div class="col-sm-1 col-xs-2">
+                      <i class="icon icon-arrows-right icon-2x u-floatright u-mt10"></i>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="tradedirectory-show.php" class="">
+                  <div class="row">
+                    <div class="col-sm-3 col-xs-3 u-pv20">
+                      <figure class="list-figure" style="background-image:url('images/content/client-logo-2.jpg');">
+                      </figure>
+                    </div>
+                    <div class="col-sm-3 col-xs-7 u-pv20">
+                      NilBa Iş ve Dış Ticaret
+                    </div>
+                    <div class="col-sm-5 col-xs-hide">
+                      <small class="c-bluesoft">NilBa is an ICT and Internet consultancy organization, originally from the Netherlands, but since more than 8 years operational in Turkey...</small>
+                    </div>
+                    <div class="col-sm-1 col-xs-2">
+                      <i class="icon icon-arrows-right icon-2x u-floatright u-mt10"></i>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="tradedirectory-show.php" class="">
+                  <div class="row">
+                    <div class="col-sm-3 col-xs-3 u-pv20">
+                      <figure class="list-figure" style="background-image:url('images/content/client-logo-3.jpg');">
+                      </figure>
+                    </div>
+                    <div class="col-sm-3 col-xs-7 u-pv20">
+                      Portakal Toerisme Nederland B.V
+                    </div>
+                    <div class="col-sm-5 col-xs-hide">
+                      <small class="c-bluesoft">Selling package deals in Holland for holidays, flights, accommodations, roundtrips, etc.</small>
+                    </div>
+                    <div class="col-sm-1 col-xs-2">
+                      <i class="icon icon-arrows-right icon-2x u-floatright u-mt10"></i>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+
+          </div>
+
         </div>
+
       </div>
 
     </section>

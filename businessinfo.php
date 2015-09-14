@@ -27,8 +27,8 @@
       </div>
 
       <div class="row u-pv120">
-        <div class="col-md-1 col-md-offset-2">
-          <i class="icon icon-basic-signs icon-5x u-block c-white"></i>
+        <div class="col-md-1 col-md-offset-2 u-aligncenter">
+          <i class="icon icon-basic-signs icon-5x u-block c-white u-mb40"></i>
         </div>
         <div class="col-md-8 c-white">
           <h4 class="u-opacity50">BUSINESS INFO</h4>

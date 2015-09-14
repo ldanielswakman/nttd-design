@@ -123,8 +123,21 @@ section {
       padding-right: 0;
     }
   }
+  .row .col-xs-hide {
+    display: none !important;
+  }
+  .row.row-nopadding {
+    & > [class*="col-"] {
+      padding-left: inherit;
+      padding-right: inherit;
+    }
+  }
 }
 
+
+
+
+/* --- Test paragraph sizes --- */
 .test {
   margin-top: 150px;
   font-style: italic;
@@ -150,6 +163,10 @@ section {
   }
 }
 
+
+
+
+/* --- Trade Directory --- */
 .tradedir-category {
   .u-block;
   .u-mb20;

@@ -27,8 +27,8 @@
       </div>
 
       <div class="row u-pv80">
-        <div class="col-md-1 col-md-offset-2">
-          <i class="icon icon-basicelaboration-folder-search icon-4x u-block c-white u-mt20"></i>
+        <div class="col-md-1 col-md-offset-2 u-aligncenter">
+          <i class="icon icon-basicelaboration-folder-search icon-4x u-block c-white u-mv20"></i>
         </div>
         <div class="col-md-8 c-white">
           <h4 class="u-opacity50">TRADE DIRECTORY</h4>

@@ -18,27 +18,6 @@ header {
   a {
     color: @white;
   }
-  .header_quicklinks {
-    display: inline-block;
-    list-style: none;
-
-    li {
-      display: inline-block;
-      float: left;
-      padding: 15px 10px;
-
-      a {
-        color: fade(@white, 40%);
-
-        &:hover {
-          color: inherit;
-        }
-      }
-      &.active a {
-        color: @white;
-      }
-    }
-  }
   h4 {
     font-family: "Holland Serif";
   }
@@ -47,3 +26,54 @@ header {
   display: block;
   height: 60px;
 }
+
+
+
+
+/* --- Header Quicklinks --- */
+.header_quicklinks {
+  display: inline-block;
+  list-style: none;
+
+  li {
+    display: inline-block;
+    float: left;
+    &.active a {
+      color: @white;
+    }
+  }
+  a {
+    display: block;
+    padding: 15px 10px;
+    color: fade(@white, 40%);
+
+    &:hover {
+      color: inherit;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .header_quicklinks {
+    margin-left: -10px;
+
+    a {
+      padding: 15px 5px;
+    }
+  }
+}
+
+
+
+
+/* --- Navicon --- */
+.navicon {
+  display: inline-block;
+  float: right;
+  padding: 10px 20px;
+}
+@media screen and (max-width: 768px) {
+  .navicon {
+    padding: 5px;
+  }
+}
+
