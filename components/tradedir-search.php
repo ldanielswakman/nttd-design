@@ -12,7 +12,7 @@
     <i class="icon icon-arrows-down icon-2x"></i>
   </div>
   <div class="fieldset field-select u-floatleft u-mr20 u-mb10">
-    <select class="field field-white">
+    <select class="field field-white" style="max-width: 280px;">
       <option disabled selected>Sector...</option>
       <option <?php echo (isset($catselected)) ? ' selected' : ''; ?>>Public administration and defence; compulsory social security</option>
       <option>2</option>

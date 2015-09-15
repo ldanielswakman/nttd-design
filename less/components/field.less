@@ -102,9 +102,17 @@
 
   select {
     min-width: 100px;
-    max-width: 280px;
+    max-width: 100%;
     padding-right: 40px;
     cursor: pointer;
+
+    &[multiple] {
+      font-size: 1em;
+    }
+    [selected] {
+      background-color: @holland_orange;
+      color: @white;
+    }
   }
   .icon {
     position: absolute;

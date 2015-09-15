@@ -36,7 +36,7 @@
           <div>
             <div class="u-floatright u-ml20">
               <a href="#" class="btn btn-whiteoutline u-block u-mb10">More info</a>
-              <a href="#" class="btn btn-whiteoutline u-block u-mb10">Join</a>
+              <a href="tradedirectory-register.php" class="btn btn-whiteoutline u-block u-mb10">Join</a>
             </div>
             <p class="u-mt20">Netherlands Turkey Trade Directory will give you access to almost 250 companies which are actively trading between Turkey and the Netherlands.</p>
           </div>
