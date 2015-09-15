@@ -29,13 +29,13 @@
     </a>
     <ul>
       <li>
-        <a href="#">Browse sectors</a>
+        <a href="tradedirectory.php">Browse sectors</a>
       </li>
       <li>
-        <a href="#">Browse companies</a>
+        <a href="tradedirectory-cat.php">Browse companies</a>
       </li>
       <li>
-        <a href="#">Register</a>
+        <a href="tradedirectory-register.php">Register</a>
       </li>
       <li>
         <a href="#">Login</a>

@@ -34,7 +34,36 @@ $(document).ready(function() {
   // perform scrollActions on pageload
   scrollActions();
 
+  // shiw/hide labels on page load
+  $('.field').each(function() {
+    evalField($(this));
+  });
+
+
+
+  // Listeners
+  $('.field').on('keypress input change', function() {
+    $(this).closest('.fieldset').removeClass('hasError');
+    $(this).closest('.fieldset').find('.field-validation').fadeOut();
+  });
+  $('.field').bind('input', function() {
+    evalField($(this));
+  });
+
+
 });
+
+function evalField(obj) {
+  fieldset = obj.closest('.fieldset')
+  if (obj.val() == '') {
+    fieldset.removeClass('hasContent');
+  } else {
+    fieldset.addClass('hasContent');
+  }
+  if ( fieldset.hasClass('hasError') != 0) {
+    fieldset.find('.field-validation').show();
+  }
+}
 
 function toggleMenu() {
   $('nav').toggleClass('isExpanded');

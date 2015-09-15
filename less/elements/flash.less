@@ -1,0 +1,32 @@
+.flash {
+  background-color: @greylight;
+  .content-small;
+  font-family: "Expletus Sans";
+
+  &:before {
+    content: "\e074";
+    float: left;
+    margin: -10px 20px 0 0;
+    font-family: "linea-arrows-10" !important;
+    font-size: 2em;
+  }
+  &.flash-error {
+    color: @red;
+
+    &:before {
+      content: "\e073";
+    }
+  }
+  &.flash-info {
+    &:before {
+      content: "\e034";
+    }
+  }
+  &.flash-success {
+    color: @green;
+
+    &:before {
+      content: "\e06c";
+    }
+  }
+}

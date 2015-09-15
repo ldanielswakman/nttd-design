@@ -1,3 +1,28 @@
+.fieldset {
+  label {
+    display: block;
+    margin-top: 15px;
+    font-family: "Expletus Sans";
+    font-weight: normal;
+    font-size: 0.8em;
+    line-height: 17px;
+    color: @blue_soft;
+    opacity: 0;
+    .transition(0.2s);
+  }
+  &.hasContent label {
+    opacity: 1;
+  }
+  &.hasError input {
+    border-bottom-color: @red;
+    color: @red;
+  }
+  .field-validation {
+    margin-left: 5px;
+    font-size: 0.9em;
+    color: @red;
+  }
+}
 .field {
   display: inline-block;
   max-width: 100%;
@@ -6,7 +31,7 @@
   .rounded(0);
   background: transparent;
   border: 0;
-  border-bottom: 2px solid @white;
+  border-bottom: 2px solid @blue_soft;
   line-height: 30px;
   font-size: 1.25em;
   font-family: "Holland Serif";
@@ -14,31 +39,62 @@
   -moz-appearance: none;
   appearance: none;
   .box-sizing(border-box);
-  color: @white;
+  color: @blue_medium;
 
-  &:not([disabled]):hover {
-    background-color: fade(@white, 15%);
+
+  &:not([disabled]):not(:focus):not(:active):hover {
+    background-color: fade(@blue_medium, 5%);
   }
   &:focus,
   &:active {
     outline: none;
-    background-color: fade(@white, 25%);
+    background-color: fade(@blue_medium, 10%);
+    border-bottom: 2px solid @blue_medium;
   }
   &::-webkit-input-placeholder {
     padding-top: 3px;
-    color: fade(@white, 70%);
+    color: fade(@blue_medium, 70%);
   }
   &:-moz-placeholder {
     padding-top: 3px;
-    color: fade(@white, 70%);
+    color: fade(@blue_medium, 70%);
   }
   &::-moz-placeholder {
     padding-top: 3px;
-    color: fade(@white, 70%);
+    color: fade(@blue_medium, 70%);
   }
   &:-ms-input-placeholder {  
     padding-top: 3px;
-    color: fade(@white, 70%);
+    color: fade(@blue_medium, 70%);
+  }
+  &.field-white {
+    border-bottom-color: @white;
+    color: @white;
+
+    &:not([disabled]):not(:focus):not(:active):hover {
+      background-color: fade(@white, 15%);
+    }
+    &:focus,
+    &:active {
+      outline: none;
+      background-color: fade(@white, 25%);
+    }
+    &::-webkit-input-placeholder {
+      padding-top: 3px;
+      color: fade(@white, 70%);
+    }
+    &:-moz-placeholder {
+      padding-top: 3px;
+      color: fade(@white, 70%);
+    }
+    &::-moz-placeholder {
+      padding-top: 3px;
+      color: fade(@white, 70%);
+    }
+    &:-ms-input-placeholder {  
+      padding-top: 3px;
+      color: fade(@white, 70%);
+    }
   }
 }
 .field-select {
@@ -56,5 +112,47 @@
     right: 0;
     color: @white;
     pointer-events: none;
+  }
+}
+.fieldset-checkbox {
+  input[type="checkbox"] {
+    position: absolute;
+    left: -9999px;
+
+    &:checked + label {
+      color: @holland_orange;
+
+      &:before {
+        content: "\e007";
+        font-family: "linea-arrows-10";
+        opacity: 1;
+        color: inherit;
+      }
+    }
+  }
+  label {
+    opacity: 1;
+    cursor: pointer;
+    font-size: 1em;
+
+    &:before {
+      content: "\e011";
+      display: inline-block;
+      float: left;
+      width: 42px;
+      padding-left: 2px;
+      margin-right: 5px;
+      font-family: "linea-weather-10";
+      font-size: 30px;
+      font-weight: bold;
+      line-height: 30px;
+      opacity: 0.3;
+      color: @blue_medium;
+    }
+  }
+  &.hasError {
+    label, label:before {
+      color: @red;
+    }
   }
 }

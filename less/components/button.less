@@ -8,7 +8,7 @@
   font-size: 1em;
   line-height: 30px;
   letter-spacing: 0.02em;
-  background-clip: padding-box;
+  background-clip: border-box;
 
   
   &.btn-lg {
@@ -24,7 +24,13 @@
   }
 
   &.btn-primary {
+    background-color: @holland_orange;
+    color: @white;
 
+    &:hover {
+      background-color: darken(@holland_orange, 10%);
+      border-color: transparent;
+    }
   }
   &.btn-outline {
     background-color: transparent;

@@ -1,9 +1,9 @@
 <form action="" class="u-inlineblock u-clearfix">
-  <div class="field-group u-floatleft u-mr20 u-mb10">
-    <input class="field" type="text" placeholder="Search" />
+  <div class="fieldset u-floatleft u-mr20 u-mb10">
+    <input class="field field-white" type="text" placeholder="Search" />
   </div>
-  <div class="field-group field-select u-floatleft u-mr20 u-mb10">
-    <select class="field">
+  <div class="fieldset field-select u-floatleft u-mr20 u-mb10">
+    <select class="field field-white">
       <option disabled selected>City...</option>
       <option>1</option>
       <option>2</option>
@@ -11,8 +11,8 @@
     </select>
     <i class="icon icon-arrows-down icon-2x"></i>
   </div>
-  <div class="field-group field-select u-floatleft u-mr20 u-mb10">
-    <select class="field">
+  <div class="fieldset field-select u-floatleft u-mr20 u-mb10">
+    <select class="field field-white">
       <option disabled selected>Sector...</option>
       <option <?php echo (isset($catselected)) ? ' selected' : ''; ?>>Public administration and defence; compulsory social security</option>
       <option>2</option>
