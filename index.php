@@ -17,9 +17,8 @@
 
       <div class="slides">
         <ul>
-          <li class="slide" style="background-image: url('images/bosphorus_bridge.jpg');"></li>
-          <li class="slide" style="background-image: url('images/eminonu.jpg');"></li>
-          <li class="slide" style="background-image: url('images/palais.jpg');"></li>
+          <div class="slide" style="background-image: url('images/bos-bridge-maslak.jpg');"></div>
+          <li class="slide" style="background-image: url('images/newbridge-maslak.jpg');"></li>
         </ul>
       </div>
 
@@ -125,7 +124,7 @@
         </div>
         <div class="col-md-9">
           <p class="test2 c-white">
-            Deciding to expand your business in Turkey?
+            Considering to expand your business in Turkey?
             <small class="u-block u-mt20"><small>
               Our team members at the Embassy in Ankara, the Consulate in Istanbul and NBSO in Izmir are here to help you begin.
             </small></small>
