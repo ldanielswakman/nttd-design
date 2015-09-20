@@ -203,12 +203,14 @@ section {
 
 
 /* --- Content speciic styling --- */
-#intro p {
-  color: @white;
+#intro {
+  p, .field-select .icon {
+    color: @white;
+  }
 }
 .section-followup {
   background-color: @white;
-  
+
   &:hover {
     background-color: darken(@greylightest, 2%);
   }

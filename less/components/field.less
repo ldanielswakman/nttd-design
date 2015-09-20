@@ -29,9 +29,9 @@
   height: 40px;
   padding: 5px 5px 3px;
   .rounded(0);
-  background: transparent;
+  background: fade(@blue_soft, 5%);
   border: 0;
-  border-bottom: 2px solid @blue_soft;
+  border-bottom: 2px solid fade(@blue_soft, 50%);
   line-height: 30px;
   font-size: 1.25em;
   font-family: "Holland Serif";
@@ -40,7 +40,6 @@
   appearance: none;
   .box-sizing(border-box);
   color: @blue_medium;
-
 
   &:not([disabled]):not(:focus):not(:active):hover {
     background-color: fade(@blue_medium, 5%);
@@ -53,19 +52,19 @@
   }
   &::-webkit-input-placeholder {
     padding-top: 3px;
-    color: fade(@blue_medium, 70%);
+    color: fade(@blue_soft, 80%);
   }
   &:-moz-placeholder {
     padding-top: 3px;
-    color: fade(@blue_medium, 70%);
+    color: fade(@blue_soft, 80%);
   }
   &::-moz-placeholder {
     padding-top: 3px;
-    color: fade(@blue_medium, 70%);
+    color: fade(@blue_soft, 80%);
   }
   &:-ms-input-placeholder {  
     padding-top: 3px;
-    color: fade(@blue_medium, 70%);
+    color: fade(@blue_soft, 80%);
   }
   &.field-white {
     border-bottom-color: @white;
@@ -97,6 +96,10 @@
     }
   }
 }
+textarea.field {
+  height: auto;
+  resize: none;
+}
 .field-select {
   position: relative;
 
@@ -118,7 +121,6 @@
     position: absolute;
     top: 5px;
     right: 0;
-    color: @white;
     pointer-events: none;
   }
 }
@@ -153,7 +155,7 @@
       font-family: "linea-weather-10";
       font-size: 30px;
       font-weight: bold;
-      line-height: 30px;
+      line-height: 20px;
       opacity: 0.3;
       color: @blue_medium;
     }
@@ -164,3 +166,16 @@
     }
   }
 }
+// .fieldset-required {
+//   position: relative;
+//   margin-right: 30px;
+
+//   &:after {
+//     content: "*";
+//     position: absolute;
+//     top: 17px;
+//     right: -20px;
+//     color: @holland_orange;
+//     font-size: 2em;
+//   }
+// }
