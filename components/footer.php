@@ -5,7 +5,7 @@
     </div>
   </div>
   <div class="c-greymedium u-aligncenter u-bordertop u-pt40 u-mt20">
-    &copy; 2015 [Dutch Consulate]
+    &copy; 2015 Consulate General of the Kingdom of the Netherlands
     &nbsp;&nbsp;&mdash;&nbsp;&nbsp;
     Design & front-end by <a href="http://www.ldaniel.eu/" target="_blank" class="c-bluesoft">ldaniel.eu</a> and built by <a href="http://yh.com.tr/" target="_blank" class="c-bluesoft">Yeni Hayat</a>
   </div>

@@ -76,8 +76,8 @@ function scrollActions() {
 
 
   // header bg-orange & title fade-in
-  $thres1 = $('#intro').offset().top + 100;
-  $thres2 = $('#intro').outerHeight() - 100;
+  $thres1 = $('#intro_banner').offset().top + 100;
+  $thres2 = $('#intro_banner').outerHeight() - 100;
   if(scroll < $thres1) {
     $('header.bg-orange').css('background-color','transparent');
     $('header h4').css('opacity', 0);
@@ -104,6 +104,13 @@ function scrollActions() {
         $(this).css('background-attachment','scroll');
       }
     });
+  }
+}
+
+function showHiddenContent(obj) {
+  $context = obj.closest('.u-hasHiddenContent');
+  if($context.length > 0) {
+    $context.toggleClass('u-showHiddenContent');
   }
 }
 

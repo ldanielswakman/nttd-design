@@ -18,7 +18,7 @@
     include('components/header.php')
     ?>
 
-    <section id="intro">
+    <section id="intro_banner">
 
       <div class="header-placeholder u-relative"></div>
 

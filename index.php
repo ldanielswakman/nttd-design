@@ -40,14 +40,14 @@
         </div>
 
         <div class="quicklinks u-pinbottom u-fullwidth">
-          <div class="row">
+          <div class="row row-nopadding">
             <div class="col-md-3 col-sm-12">
-              <a href="/" class="u-block u-pt60 u-pb20">
-                <img src="images/holland_logo.svg" alt="" />
+              <a href="" class="u-block u-pt60 u-pb20">
+                <img src="images/holland_logo.svg" alt="" width="160px" />
               </a>
             </div>
             <div class="col-md-2 col-sm-3 u-pt40">
-              <a href="businessinfo.php" class="u-block u-pb40 u-pl10 u-borderleft">
+              <a href="businessinfo.php" class="u-block u-pb40">
                 <i class="icon icon-basic-signs icon-3x"></i><br />
                 <em><strong>
                   Doing Business<br />
@@ -57,7 +57,7 @@
               </a>
             </div>
             <div class="col-md-2 col-sm-3 u-pt40">
-              <a href="tradedirectory.php" class="u-block u-pb40 u-pl10 u-borderleft">
+              <a href="tradedirectory.php" class="u-block u-pb40">
                 <i class="icon icon-basicelaboration-folder-search icon-3x"></i><br />
                 <em><strong>
                   Browse the<br />
@@ -66,18 +66,22 @@
               </a>
             </div>
             <div class="col-md-2 col-sm-3 u-pt40">
-              <i class="icon icon-basic-question icon-3x"></i><br />
-              <em><strong>
-                How can we<br />
-                be of help
-              </em></strong>
+              <a href="aboutus.php" class="u-block u-pb40">
+                <i class="icon icon-basic-question icon-3x"></i><br />
+                <em><strong>
+                  How can we<br />
+                  be of help
+                </em></strong>
+              </a>
             </div>
             <div class="col-md-2 col-sm-3 u-pt40">
-              <i class="icon icon-basic-message-txt icon-3x"></i><br />
-              <em><strong>
-                Questions and<br />
-                getting in touch
-              </em></strong>
+              <a href="faqcontact.php" class="u-block u-pb40">
+                <i class="icon icon-basic-mail icon-3x"></i><br />
+                <em><strong>
+                  Questions and<br />
+                  getting in touch
+                </em></strong>
+              </a>
             </div>
           </div>
         </div>
@@ -234,21 +238,21 @@
 
             <ul class="list list-unpadded u-mb30">
               <li>
-                <a href="events-show.php">
+                <a href="news-show.php">
                   <i class="icon icon-arrows-right icon-2x u-floatright u-mt10"></i>
                   <h4>Subconist & Automotive</h4>
                   <small>25-28 November 2015, Wednesday<br />Machinery, automotive metaal working, subcontracting</small>
                 </a>
               </li>
               <li>
-                <a href="events-show.php">
+                <a href="news-show.php">
                   <i class="icon icon-arrows-right icon-2x u-floatright u-mt10"></i>
                   <h4>Logi Trans</h4>
                   <small>20-22 November 2015, Friday<br />Transport and logistics</small>
                 </a>
               </li>
               <li>
-                <a href="events-show.php">
+                <a href="news-show.php">
                   <i class="icon icon-arrows-right icon-2x u-floatright u-mt10"></i>
                   <h4>TurkChem</h4>
                   <small>16-18 October 2015, Friday<br />Chemical industry</small>
@@ -256,7 +260,7 @@
               </li>
             </ul>
 
-            <a href="events-list.php" class="btn btn-sm btn-greyoutline u-mt20">
+            <a href="news-list.php" class="btn btn-sm btn-greyoutline u-mt20">
               ALL EVENTS
               <i class="icon icon-arrows-right icon-15x u-floatright"></i>
             </a>
