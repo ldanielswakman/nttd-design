@@ -31,7 +31,7 @@
           </li>
           <li <?php echo (strpos($_SERVER['REQUEST_URI'], 'faqcontact') !== false) ? ' class="active"' : '' ?>>
             <a href="faqcontact.php">
-              <i class="icon icon-basic-message-txt icon-2x u-block u-mt5"></i>
+              <i class="icon icon-basic-mail icon-2x u-block u-mt5"></i>
             </a>
           </li>
         </ul>
@@ -54,6 +54,16 @@
               <a href="tradedirectory.php" class="u-floatleft">Trade Directory</a>
               <i class="icon icon-arrows-right icon-15x u-floatleft u-mh10"></i>
               <a href="businessinfo.php" class="u-floatleft">[Category]</a>
+            </em></h4>
+          <?php elseif( $curpage == 'news') : ?>
+            <h4 class="u-ml30 u-mv20 u-clearfix"><em>
+              <a href="news-list.php" class="u-floatleft">News</a>
+            </em></h4>
+          <?php elseif( $curpage == 'news-show') : ?>
+            <h4 class="u-ml30 u-mv20 u-clearfix"><em>
+              <a href="news-list.php" class="u-floatleft">News</a>
+              <i class="icon icon-arrows-right icon-15x u-floatleft u-mh10"></i>
+              Trade Mission to Bursa
             </em></h4>
           <?php
           endif;

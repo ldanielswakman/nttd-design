@@ -51,6 +51,29 @@ h5 {
 p {
   font-size: 1.1em;
   line-height: 1.8em;
+  color: @blue_medium;
+
+  a {
+    color: @holland_orange;
+
+    &:hover {
+      color: darken(@holland_orange, 10%);
+    }
+  }
+  &.c-orange a,
+  .c-orange a {
+    color: darken(@holland_orange, 10%);
+    
+    &:hover {
+      color: darken(@holland_orange, 20%);
+    }
+  }
+  strong {
+    font-size: 1.1em;
+  }
+}
+p + p {
+  margin-top: 1.5em;
 }
 a, a:hover, a:active, a:focus {
   text-decoration: none;
@@ -157,6 +180,7 @@ section {
   color: @white;
   font-size: 4em;
   text-align: center;
+  text-shadow: 2px 2px 30px fade(@holland_darkblue, 70%);
 }
 .test2 {
   font-family: "Expletus Sans";
@@ -173,6 +197,20 @@ section {
 
   big {
     line-height: 1.8em;
+  }
+}
+
+
+
+/* --- Content speciic styling --- */
+#intro p {
+  color: @white;
+}
+.section-followup {
+  background-color: @white;
+  
+  &:hover {
+    background-color: darken(@greylightest, 2%);
   }
 }
 

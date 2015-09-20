@@ -20,7 +20,7 @@ $(document).ready(function() {
   // initiate slideshow
   $('.slides').has('li').unslider({
     speed: 500,
-    delay: 8000,
+    delay: 5000,
     fluid: true
   });
 
