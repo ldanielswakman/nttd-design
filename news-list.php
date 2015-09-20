@@ -40,7 +40,7 @@
 
     <section>
       <div class="row row-full">
-        <div class="col-sm-3">
+        <div class="col-sm-3 u-static">
           <div class="bg-white content-small box-sticky">
             <p class="c-orange">
               Would you like to explore and experience business regions in Turkey?

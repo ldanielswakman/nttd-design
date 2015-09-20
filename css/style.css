@@ -4289,8 +4289,11 @@ figure img {
 .u-fullwidth {
   width: 100%;
 }
+.u-static {
+  position: static !important;
+}
 .u-relative {
-  position: relative;
+  position: relative !important;
 }
 .u-pintopleft {
   position: absolute !important;
@@ -4748,6 +4751,8 @@ dialog {
   max-height: 90vh;
   padding: 0;
   border: 0;
+  color: #092877;
+  overflow: scroll;
   opacity: 0;
   pointer-events: none;
   -webkit-box-shadow: 0 0 0 10px rgba(9, 40, 119, 0.05);
@@ -5083,10 +5088,17 @@ a:active,
 a:focus {
   text-decoration: none;
 }
+img {
+  max-width: 100%;
+}
 hr {
   border-top: 2px solid #e0e3ea;
   margin-top: 60px;
   margin-bottom: 60px;
+}
+label {
+  font-weight: normal;
+  color: #ff6600;
 }
 ::selection {
   background-color: #ff6600;

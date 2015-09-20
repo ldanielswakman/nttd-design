@@ -57,6 +57,12 @@
               <i class="icon icon-arrows-right icon-15x u-floatleft u-mh10"></i>
               <a href="businessinfo.php" class="u-floatleft">Register</a>
             </em></h4>
+          <?php elseif( $curpage == 'tradedir-show') : ?>
+            <h4 class="u-ml30 u-mv20 u-clearfix"><em>
+              <a href="tradedirectory.php" class="u-floatleft">Trade Directory</a>
+              <i class="icon icon-arrows-right icon-15x u-floatleft u-mh10"></i>
+              <a href="businessinfo.php" class="u-floatleft">Portakal Toerisme Nederland B.V.</a>
+            </em></h4>
           <?php elseif( $curpage == 'news') : ?>
             <h4 class="u-ml30 u-mv20 u-clearfix"><em>
               <a href="news-list.php" class="u-floatleft">News</a>

@@ -70,7 +70,7 @@
 
     <section>
       <div class="row row-full">
-        <div class="col-sm-3">
+        <div class="col-sm-3 u-static">
           <div class="content-small box-sticky">
             <a href="#agrifood" class="u-block u-mv10 c-orange">Agri-Food Industry</a>
             <a href="#chemicals" class="u-block u-mv10 c-orange">Chemicals</a>
