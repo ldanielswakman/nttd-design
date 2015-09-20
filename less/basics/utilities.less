@@ -1,148 +1,68 @@
 /* --- Utility Classes --- */
-.u-ml5 { margin-left: 5px !important; }
-.u-ml10 { margin-left: 10px !important; }
-.u-ml15 { margin-left: 15px !important; }
-.u-ml20 { margin-left: 20px !important; }
-.u-ml30 { margin-left: 30px !important; }
-.u-ml40 { margin-left: 40px !important; }
-.u-ml60 { margin-left: 60px !important; }
-.u-ml80 { margin-left: 80px !important; }
-.u-ml120 { margin-left: 120px !important; }
-.u-ml160 { margin-left: 160px !important; }
 
-.u-mr5 { margin-right: 5px !important; }
-.u-mr10 { margin-right: 10px !important; }
-.u-mr15 { margin-right: 15px !important; }
-.u-mr20 { margin-right: 20px !important; }
-.u-mr30 { margin-right: 30px !important; }
-.u-mr40 { margin-right: 40px !important; }
-.u-mr60 { margin-right: 60px !important; }
-.u-mr80 { margin-right: 80px !important; }
-.u-mr120 { margin-right: 120px !important; }
-.u-mr160 { margin-right: 160px !important; }
+// build margin classes (steps, maximum)
+.margins(5, 200);
+// margin loop function
+.margins(@steps, @max, @i: 0) when (@i =< (@max/@steps)) {
+  // output classes
+  .u-mt@{i} {
+    margin-top: ~"@{i}px" !important;
+  }
+  .u-mb@{i} {
+    margin-bottom: ~"@{i}px" !important;
+  }
+  .u-mr@{i} {
+    margin-right: ~"@{i}px" !important;
+  }
+  .u-ml@{i} {
+    margin-left: ~"@{i}px" !important;
+  }
+  .u-mv@{i} {
+    margin-top: ~"@{i}px" !important;
+    margin-bottom: ~"@{i}px" !important;
+  }
+  .u-mh@{i} {
+    margin-left: ~"@{i}px" !important;
+    margin-right: ~"@{i}px" !important;
+  }
+  .u-ma@{i} {
+    margin: ~"@{i}px" !important;
+  }
+  // initiate next iteration
+  .margins(@steps, @max, (@i + @steps));
+}
 
-.u-mt5 { margin-top: 5px !important; }
-.u-mt10 { margin-top: 10px !important; }
-.u-mt15 { margin-top: 15px !important; }
-.u-mt20 { margin-top: 20px !important; }
-.u-mt30 { margin-top: 30px !important; }
-.u-mt40 { margin-top: 40px !important; }
-.u-mt60 { margin-top: 60px !important; }
-.u-mt80 { margin-top: 80px !important; }
-.u-mt120 { margin-top: 120px !important; }
-.u-mt160 { margin-top: 160px !important; }
-
-.u-mb5 { margin-bottom: 5px !important; }
-.u-mb10 { margin-bottom: 10px !important; }
-.u-mb15 { margin-bottom: 15px !important; }
-.u-mb20 { margin-bottom: 20px !important; }
-.u-mb30 { margin-bottom: 30px !important; }
-.u-mb40 { margin-bottom: 40px !important; }
-.u-mb60 { margin-bottom: 60px !important; }
-.u-mb80 { margin-bottom: 80px !important; }
-.u-mb120 { margin-bottom: 120px !important; }
-.u-mb160 { margin-bottom: 160px !important; }
-
-.u-mv5 { margin-top: 5px !important; margin-bottom: 5px !important; }
-.u-mv10 { margin-top: 10px !important; margin-bottom: 10px !important; }
-.u-mv15 { margin-top: 15px !important; margin-bottom: 15px !important; }
-.u-mv20 { margin-top: 20px !important; margin-bottom: 20px !important; }
-.u-mv30 { margin-top: 40px !important; margin-bottom: 30px !important; }
-.u-mv40 { margin-top: 40px !important; margin-bottom: 40px !important; }
-.u-mv60 { margin-top: 60px !important; margin-bottom: 60px !important; }
-.u-mv80 { margin-top: 80px !important; margin-bottom: 80px !important; }
-.u-mv120 { margin-top: 120px !important; margin-bottom: 120px !important; }
-.u-mv160 { margin-top: 160px !important; margin-bottom: 160px !important; }
-
-.u-ma5 { margin: 5px !important; }
-.u-ma10 { margin: 10px !important; }
-.u-ma15 { margin: 15px !important; }
-.u-ma20 { margin: 20px !important; }
-.u-ma30 { margin: 30px !important; }
-.u-ma40 { margin: 40px !important; }
-.u-ma60 { margin: 60px !important; }
-.u-ma80 { margin: 80px !important; }
-.u-ma120 { margin: 120px !important; }
-.u-ma160 { margin: 160px !important; }
-
-.u-pl5 { padding-left: 5px !important; }
-.u-pl10 { padding-left: 10px !important; }
-.u-pl15 { padding-left: 15px !important; }
-.u-pl20 { padding-left: 20px !important; }
-.u-pl30 { padding-left: 30px !important; }
-.u-pl40 { padding-left: 40px !important; }
-.u-pl60 { padding-left: 60px !important; }
-.u-pl80 { padding-left: 80px !important; }
-.u-pl120 { padding-left: 120px !important; }
-.u-pl160 { padding-left: 160px !important; }
-
-.u-pr5 { padding-right: 5px !important; }
-.u-pr10 { padding-right: 10px !important; }
-.u-pr15 { padding-right: 15px !important; }
-.u-pr20 { padding-right: 20px !important; }
-.u-pr30 { padding-right: 30px !important; }
-.u-pr40 { padding-right: 40px !important; }
-.u-pr60 { padding-right: 60px !important; }
-.u-pr80 { padding-right: 80px !important; }
-.u-pr120 { padding-right: 120px !important; }
-.u-pr160 { padding-right: 160px !important; }
-
-.u-pt5 { padding-top: 5px !important; }
-.u-pt10 { padding-top: 10px !important; }
-.u-pt15 { padding-top: 15px !important; }
-.u-pt20 { padding-top: 20px !important; }
-.u-pt30 { padding-top: 30px !important; }
-.u-pt40 { padding-top: 40px !important; }
-.u-pt60 { padding-top: 60px !important; }
-.u-pt80 { padding-top: 80px !important; }
-.u-pt120 { padding-top: 120px !important; }
-.u-pt160 { padding-top: 160px !important; }
-
-.u-pb5 { padding-bottom: 5px !important; }
-.u-pb10 { padding-bottom: 10px !important; }
-.u-pb15 { padding-bottom: 15px !important; }
-.u-pb20 { padding-bottom: 20px !important; }
-.u-pb30 { padding-bottom: 30px !important; }
-.u-pb40 { padding-bottom: 40px !important; }
-.u-pb60 { padding-bottom: 60px !important; }
-.u-pb80 { padding-bottom: 80px !important; }
-.u-pb120 { padding-bottom: 120px !important; }
-.u-pb160 { padding-bottom: 160px !important; }
-
-.u-pv5 { padding-top: 5px !important; padding-bottom: 5px !important; }
-.u-pv10 { padding-top: 10px !important; padding-bottom: 10px !important; }
-.u-pv15 { padding-top: 15px !important; padding-bottom: 15px !important; }
-.u-pv20 { padding-top: 20px !important; padding-bottom: 20px !important; }
-.u-pv30 { padding-top: 30px !important; padding-bottom: 30px !important; }
-.u-pv40 { padding-top: 40px !important; padding-bottom: 40px !important; }
-.u-pv60 { padding-top: 60px !important; padding-bottom: 60px !important; }
-.u-pv80 { padding-top: 80px !important; padding-bottom: 80px !important; }
-.u-pv120 { padding-top: 120px !important; padding-bottom: 120px !important; }
-.u-pv160 { padding-top: 160px !important; padding-bottom: 160px !important; }
-
-.u-ph5 { padding-left: 5px !important; padding-right: 5px !important; }
-.u-ph10 { padding-left: 10px !important; padding-right: 10px !important; }
-.u-ph15 { padding-left: 15px !important; padding-right: 15px !important; }
-.u-ph20 { padding-left: 20px !important; padding-right: 20px !important; }
-.u-ph30 { padding-left: 30px !important; padding-right: 30px !important; }
-.u-ph40 { padding-left: 40px !important; padding-right: 40px !important; }
-.u-ph60 { padding-left: 60px !important; padding-right: 60px !important; }
-.u-ph80 { padding-left: 80px !important; padding-right: 80px !important; }
-.u-ph120 { padding-left: 120px !important; padding-right: 120px !important; }
-.u-ph160 { padding-left: 160px !important; padding-right: 160px !important; }
-
-.u-pa5 { padding: 5px !important; }
-.u-pa10 { padding: 10px !important; }
-.u-pa15 { padding: 15px !important; }
-.u-pa20 { padding: 20px !important; }
-.u-pa30 { padding: 30px !important; }
-.u-pa40 { padding: 40px !important; }
-.u-pa60 { padding: 60px !important; }
-.u-pa80 { padding: 80px !important; }
-.u-pa120 { padding: 120px !important; }
-.u-pa160 { padding: 160px !important; }
-
-.u-pa0 { padding: 0 !important; }
+// build padding classes (steps, maximum)
+.paddings(5, 200);
+// padding loop function
+.paddings(@steps, @max, @i: 0) when (@i =< (@max/@steps)) {
+  // output classes
+  .u-pt@{i} {
+    padding-top: ~"@{i}px" !important;
+  }
+  .u-pb@{i} {
+    padding-bottom: ~"@{i}px" !important;
+  }
+  .u-pr@{i} {
+    padding-right: ~"@{i}px" !important;
+  }
+  .u-pl@{i} {
+    padding-left: ~"@{i}px" !important;
+  }
+  .u-pv@{i} {
+    padding-top: ~"@{i}px" !important;
+    padding-bottom: ~"@{i}px" !important;
+  }
+  .u-ph@{i} {
+    padding-left: ~"@{i}px" !important;
+    padding-right: ~"@{i}px" !important;
+  }
+  .u-pa@{i} {
+    padding: ~"@{i}px" !important;
+  }
+  // initiate next iteration
+  .paddings(@steps, @max, (@i + @steps));
+}
 
 .u-alignleft { text-align: left; }
 .u-aligncenter { text-align: center; }
@@ -217,4 +137,18 @@
 }
 .u-opacity30 {
   opacity: 0.3 !important;
+}
+
+.u-hasHiddenContent {
+  .u-hiddenContent {
+    display: none;
+  }
+  &.u-showHiddenContent {
+    .u-hiddenContent {
+      display: block;
+    }
+  }
+}
+.u-hiddenContent {
+  display: none;
 }

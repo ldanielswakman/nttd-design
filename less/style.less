@@ -114,7 +114,7 @@ section {
   &.row-full {
     max-width: 100%;
   }
-  &.row-nopadding {
+  &.row-internalpadding {
     & > [class*="col-"] {
       padding-left: 10px;
       padding-right: 10px;
@@ -123,6 +123,12 @@ section {
       padding-left: 0;
     }
     & > [class*="col-"]:last-child {
+      padding-right: 0;
+    }
+  }
+  &.row-nopadding {
+    & > [class*="col-"] {
+      padding-left: 0;
       padding-right: 0;
     }
   }
@@ -202,8 +208,27 @@ section {
 
 
 
-/* --- Content speciic styling --- */
-#intro {
+/* --- Home page quick links --- */
+.quicklinks {
+  background-color: fade(@holland_orange, 70%);
+  color: @white;
+
+  a {
+    display: block;
+    padding: 10px 20px 40px;
+    color: @white;
+    border-left: 2px solid @greylightest;
+
+    &:hover {
+      background-color: @holland_orange;
+    }
+  }
+}
+
+
+
+/* --- Content specific styling --- */
+#intro_banner {
   p, .field-select .icon {
     color: @white;
   }
@@ -221,9 +246,9 @@ section {
 
 /* --- Trade Directory --- */
 .tradedir-category {
-  .u-block;
-  .u-mb20;
   .content-small;
+  display: block;
+  margin-bottom: 20px;
   color: @holland_orange;
   background-color: lighten(@greylight, 5%);
 
@@ -232,12 +257,13 @@ section {
   }
 
   .badge {
-    .u-floatleft;
-    .u-mr20;
-    .u-pt20;
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+    padding-top: 20px;
   }
   &.tradedir-catempty {
-    .u-pv10;
+    padding: 10px 0;
     background-color: transparent;
     color: @blue_soft;
 
