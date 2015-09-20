@@ -80,7 +80,7 @@
       </a>
       <?php if( isset($curpage) && $curpage == 'tradedirectory' || $curpage == 'tradedir-register') : ?>
         <a href="tradedirectory-register.php" class="btn btn-whiteoutline btn-reveal u-mb10 u-mt15 u-floatright">Register</a>
-        <a href="#" class="btn btn-whiteoutline btn-reveal u-mb10 u-mr10 u-mt15 u-floatright">Login</a>
+        <a href="javascript:toggleDialog('login')" class="btn btn-whiteoutline btn-reveal u-mb10 u-mr10 u-mt15 u-floatright">Login</a>
       <?php endif ?>
     </div>
   </div>

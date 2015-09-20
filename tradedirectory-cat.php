@@ -15,7 +15,8 @@
     // setting optional parameters for header
     $header_bg = 'orange';
     $header_quicklinks = true;
-    include('components/header.php')
+    include('components/header.php');
+    include('components/dialog.php');
     ?>
 
     <section id="intro_banner">

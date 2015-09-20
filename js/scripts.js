@@ -114,6 +114,20 @@ function showHiddenContent(obj) {
   }
 }
 
+function toggleDialog(dest) {
+  $('#dialog_' + dest).addClass('isVisible');
+  $('#dialog_mask').addClass('isVisible');
+}
+function closeDialog(dest) {
+  if(dest == 'all') {
+    $target = 'dialog';
+  } else {
+    $target = '#dialog_' + dest;
+  }
+  $($target).removeClass('isVisible');
+  $('#dialog_mask').removeClass('isVisible');
+}
+
 $(window).scroll(function() { scrollActions(); });
 $(window).resize(function() { scrollActions(); });
 $(document).bind("scrollstart", function() { scrollActions(); });

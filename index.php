@@ -11,6 +11,7 @@
     <?php 
     include('components/nav.php');
     include('components/header.php');
+    include('components/dialog.php');
     ?>
 
     <section class="hasSlides">
