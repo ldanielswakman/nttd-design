@@ -84,7 +84,7 @@
         <div class="col-sm-9">
           <div class="content-small">
             <h2 class="u-mb20">Sectoral Information</h2>
-            <p>The Turkish economy offers opportunies within a wide variety of sectors. We selected the sectors that are prominent and leading in the field of export of Turkey. These are also the sectors in which Dutch companies invested the most.</p>
+            <p><big><em>The Turkish economy offers opportunies within a wide variety of sectors. We selected the sectors that are prominent and leading in the field of export of Turkey. These are also the sectors in which Dutch companies invested the most.</em></big></p>
 
             <h3 id="agrifood" class="u-mt60 u-mb10">Agri-Food Industry</h3>
 
@@ -126,7 +126,7 @@
             <h5 class="u-mt20">Aquaculture Production</h5>
             <p>Aquaculture was included in the scope of agricultural support schemes in 2003. Aquaculture production; while it was 61 thousand tons in 2002, it rose to 189 thousand tons in 2011 with an increase approximately 209%. Turkey has become the 3rd developing country in the World in terms of aquaculture production. The exports of aquaculture products have risen to 412 Million Dollars while 80% of our exports are with the EU Countries.</p>
 
-            <p class="u-mt40"><big><em class="c-orange">Would you like to learn more about food processing, agriculture and animal husbandry?  Contact Ugur Isin of the Agricultural Department of the Embassy in Ankara.</em></big></p>
+            <p class="u-mt40"><big><em class="c-orange">Would you like to learn more about food processing, agriculture and animal husbandry?  Contact <a href="#">Uğur Işın</a> of the Agricultural Department of the Embassy in Ankara.</em></big></p>
 
             <div class="row row-full row-nopadding u-mv10">
 
@@ -143,6 +143,18 @@
         </div>
       </div>
     </section>
+
+    <a href="businessinfo-busop.php" class="u-block section-followup u-pv60">
+      <div class="row row-full">
+        <div class="col-sm-1 col-sm-offset-3 u-aligncenter">
+          <i class="icon icon-basic-signs icon-3x u-block u-ml30"></i>
+        </div>
+        <div class="col-sm-8">
+          <h4 class="u-opacity50">READ NEXT</h4>
+          <em style="font-size: 1.5em;">Sectoral information: Chemicals</em>
+        </div>
+      </div>
+    </a>
 
     <?php include('components/footer.php'); ?>
 
