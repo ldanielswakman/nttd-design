@@ -33,13 +33,15 @@
         <div class="col-md-8 c-white">
           <h4 class="u-opacity50">TRADE DIRECTORY</h4>
           <em style="font-size: 3em;">Browse the business network</em>
-          <div>
-            <div class="u-floatright u-ml20">
-              <a href="#" class="btn btn-whiteoutline u-block u-mb10">More info</a>
-              <a href="tradedirectory-register.php" class="btn btn-whiteoutline u-block u-mb10">Join</a>
-            </div>
-            <p class="u-mt20">Netherlands Turkey Trade Directory will give you access to almost 250 companies which are actively trading between Turkey and the Netherlands.</p>
-          </div>
+          <p class="u-mt20">Netherlands Turkey Trade Directory will give you access to almost 250 companies which are actively trading between Turkey and the Netherlands.</p>
+          <a href="javascript:void(0)" class="btn btn-sm btn-whiteoutline u-mt20 u-mr10">
+            More info
+            <i class="icon icon-arrows-plus icon-15x u-floatright"></i>
+          </a>
+          <a href="#sectors" class="btn btn-sm btn-whiteoutline u-mt20">
+            Start browsing
+            <i class="icon icon-arrows-down icon-15x u-floatright"></i>
+          </a>
         </div>
       </div>
 
@@ -49,7 +51,7 @@
 
     </section>
 
-    <section>
+    <section id="sectors">
       <div class="row row-full row-nopadding">
 
         <div class="col-md-4 col-sm-6">

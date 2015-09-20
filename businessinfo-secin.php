@@ -144,7 +144,7 @@
       </div>
     </section>
 
-    <a href="businessinfo-busop.php" class="u-block section-followup u-pv60">
+    <a href="businessinfo-chem.php" class="u-block section-followup u-pv60">
       <div class="row row-full">
         <div class="col-sm-1 col-sm-offset-3 u-aligncenter">
           <i class="icon icon-basic-signs icon-3x u-block u-ml30"></i>

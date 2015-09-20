@@ -1,9 +1,5 @@
 <header <?php echo (isset($header_bg)) ? ' class="bg-' . $header_bg . '"' : ''; ?>>
 
-  <a href="javascript:toggleMenu();" class="navicon">
-    <i class="icon icon-arrows-hamburger-2 icon-3x u-floatleft"></i>
-  </a>
-
   <div class="row row-full">
     <div class="col-md-3 col-sm-4">
     
@@ -38,7 +34,7 @@
       <?php endif ?>
 
     </div>
-    <div class="col-md-6 col-sm-5 col-xs-hide">
+    <div class="col-md-5 col-sm-5 col-xs-hide">
 
       <?php 
       if( isset($header_quicklinks) && $header_quicklinks == true ) :
@@ -72,7 +68,12 @@
       ?>
 
     </div>
-    <div class="col-md-3">
+    <div class="col-md-4 col-xs-hide">
+      <a href="javascript:toggleMenu();" class="navicon">
+        <i class="icon icon-arrows-hamburger-2 icon-3x u-floatleft"></i>
+      </a>
+      <a href="tradedirectory-register.php" class="btn btn-whiteoutline btn-reveal u-mb10 u-mt15 u-floatright">Register</a>
+      <a href="#" class="btn btn-whiteoutline btn-reveal u-mb10 u-mr10 u-mt15 u-floatright">Login</a>
     </div>
   </div>
 
