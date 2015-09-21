@@ -55,7 +55,7 @@
     </section>
 
     <section id="sectors">
-      <div class="row row-full row-nopadding">
+      <div class="row row-full row-internalpadding">
 
         <div class="col-md-4 col-sm-6">
           <a href="tradedirectory-cat.php" class="tradedir-category clearfix">
