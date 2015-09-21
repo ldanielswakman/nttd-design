@@ -45,7 +45,7 @@
           </li>
           <li class="active">
             <a href="businessinfo-busop.php">
-              Business opportunities
+              Business opportunities (coming)
             </a>
           </li>
           <li>
@@ -61,6 +61,11 @@
           <li>
             <a href="businessinfo-dodont.php">
               Do’s and Don’ts
+            </a>
+          </li>
+          <li>
+            <a href="businessinfo-htbt.php">
+              HTBT 2015
             </a>
           </li>
         </ul>
