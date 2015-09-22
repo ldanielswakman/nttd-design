@@ -13,15 +13,29 @@ $(document).ready(function() {
   });
 
   // fade in slides
-  setTimeout(function() {
-    $('.slides').addClass('loaded');
-  }, 300);
+  // setTimeout(function() {
+  //   $('.slides').addClass('loaded');
+  // }, 300);
 
   // initiate slideshow
-  $('.slides').has('li').unslider({
-    speed: 500,
-    delay: 5000,
-    fluid: true
+  // $('.slides').has('li').unslider({
+  //   speed: 500,
+  //   delay: 5000,
+  //   fluid: true
+  // });
+  $('.bxslider').each(function () {
+    if ( $(this).find('.slide').length > 1 ) {
+
+      $(this).bxSlider({
+        auto: true,
+        // adaptiveHeight: true,
+        mode: 'horizontal',
+        pause: 5000,
+        controls: false,
+        pager: false
+      });
+      
+    }
   });
 
   // initiate sticky boxes
@@ -92,7 +106,6 @@ function scrollActions() {
     }
   }
 
-
   // parallax effect to slides
   var $pstrength = 2; // Parallax strength
   if($(".slide").length > 0) {
@@ -100,7 +113,7 @@ function scrollActions() {
       var st = $(this).offset().top;
       if (!$touch) {
         prlx_offset = ($(this).attr('data-prlx-offset')) ? $(this).attr('data-prlx-offset') : 0;
-        var pos = (-prlx_offset - (scroll - st)/$pstrength)+'px';
+        var pos = -(-prlx_offset - (scroll - st)/$pstrength)+'px';
         $(this).css('background-position','center '+pos);
       } else if ($ios) {
         $(this).css('background-attachment','scroll');

@@ -17,16 +17,18 @@
     <section class="hasSlides">
 
       <div class="slides">
-        <ul>
+        <div class="bxslider">
           <div class="slide" style="background-image: url('images/bos-bridge-maslak.jpg');"></div>
-          <li class="slide" style="background-image: url('images/newbridge-maslak.jpg');"></li>
-        </ul>
+          <div class="slide" style="background-image: url('images/newbridge-maslak.jpg');"></div>
+          <!-- <img src="images/bos-bridge-maslak.jpg" alt="" />
+          <img src="images/newbridge-maslak.jpg" alt="" /> -->
+        </div>
       </div>
 
       <div class="section-content">
 
         <div class="header-placeholder u-relative"></div>
-        <div class="u-pintopright u-pa20">
+        <div class="u-pintopright u-pv15 u-ph25">
           <a href="javascript:toggleMenu();" class="btn btn-white btn-reveal u-pr60">MENU</a>
         </div>
 
@@ -113,7 +115,9 @@
     <section id="businessinfo" class="hasSlides g-greylight u-pv120">
 
       <div class="slides">
-        <div class="slide" style="background-image: url('images/maslak.jpg');"></div>
+        <div class="bxslider">
+          <div class="slide" style="background-image: url('images/maslak.jpg');"></div>
+        </div>
       </div>
 
       <div class="row">
@@ -141,7 +145,9 @@
     <section id="tradedirectory" class="bg-greylight u-pv120">
 
       <div class="slides">
-        <div class="slide" style="background-image: url('images/bosphorus_bridge_soft.jpg');"></div>
+        <div class="bxslider">
+          <div class="slide" style="background-image: url('images/bosphorus_bridge_soft.jpg');"></div>
+        </div>
       </div>
 
       <div class="row">
@@ -169,7 +175,9 @@
     <section id="aboutus" class="bg-greylight u-pv120">
 
       <div class="slides">
-        <div class="slide" style="background-image: url('images/grand_bazar.jpg');"></div>
+        <div class="bxslider">
+          <div class="slide" style="background-image: url('images/grand_bazar.jpg');"></div>
+        </div>
       </div>
 
       <div class="row">
@@ -291,7 +299,8 @@
           <a class="twitter-timeline c-greylight"
             data-widget-id="437257042844073984"
             href="https://twitter.com/NLeconomyinTR"
-            data-screen-name="NLeconomyinTR">
+            data-screen-name="NLeconomyinTR"
+            target="_blank">
           Loading Tweets by @NLeconomyinTR...
           </a>
 
