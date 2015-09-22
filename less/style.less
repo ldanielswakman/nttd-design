@@ -126,6 +126,12 @@ section {
   &.row-internalpadding {
     margin-left: -15px;
     margin-right: -15px;
+    width: calc(100% ~"+" 30px);
+    max-width: 1230px;
+
+    &.row-full {
+      max-width: calc(100% ~"+" 30px);
+    }
   }
   &.row-nopadding {
     & > [class*="col-"] {
@@ -173,20 +179,25 @@ section {
 
 
 
-/* --- Test paragraph sizes --- */
-.test {
-  margin-top: 150px;
-  font-style: italic;
-  color: @white;
-  font-size: 4em;
-  text-align: center;
+/* --- Special text formatting --- */
+.text-on-photo {
   text-shadow: 2px 2px 30px fade(@holland_darkblue, 70%);
 }
-.test2 {
+.text-tagline {
   font-family: "Expletus Sans";
-  font-size: 2em;
   color: @holland_darkblue;
   font-weight: 500;
+  font-size: 2em;
+}
+.text-large {
+  font-size: 2em;
+}
+.text-huge {
+  font-size: 3em;
+}
+.text-xhuge {
+  font-size: 3.5em;
+  line-height: 1.25em;
 }
 .test3 {
   font-family: "Expletus Sans";
@@ -207,7 +218,7 @@ section {
   background-color: fade(@holland_orange, 70%);
   color: @white;
 
-  a {
+  a:not(.logo) {
     display: block;
     padding: 10px 20px 40px;
     color: @white;

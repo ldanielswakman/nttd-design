@@ -32,7 +32,7 @@
         </div>
         <div class="col-md-8 c-white">
           <!-- <h4 class="u-opacity50">NEWS</h4> -->
-          <em style="font-size: 3em;">News</em>
+          <em class="text-huge">News</em>
         </div>
       </div>
 

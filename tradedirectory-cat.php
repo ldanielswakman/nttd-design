@@ -33,7 +33,7 @@
         </div>
         <div class="col-md-8 c-white">
           <h4 class="u-opacity50">TRADE DIRECTORY</h4>
-          <em style="font-size: 3em;">Browse the business network</em>
+          <em class="text-huge">Browse the business network</em>
         </div>
       </div>
 

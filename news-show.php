@@ -41,7 +41,7 @@
           <i class="icon icon-basic-message-multiple icon-5x u-block c-white u-mb40 u-mt10"></i>
         </div>
         <div class="col-md-8 c-white">
-          <em style="font-size: 3em;">Trade Mission to Bursa</em>
+          <em class="text-huge">Trade Mission to Bursa</em>
           <h4 class="u-opacity50">9 October 2015</h4>
         </div>
       </div>

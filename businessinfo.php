@@ -32,7 +32,7 @@
         </div>
         <div class="col-md-8 c-white">
           <h4 class="u-opacity50">BUSINESS INFO</h4>
-          <em style="font-size: 3em;">Doing Business in Turkey</em>
+          <em class="text-huge">Doing Business in Turkey</em>
         </div>
       </div>
 

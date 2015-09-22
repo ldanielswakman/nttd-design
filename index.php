@@ -33,9 +33,10 @@
         </div>
 
         <div class="row">
-          <div class="col-xs-12 u-aligncenter">
+          <div class="col-xs-12 u-aligncenter u-pt150">
 
-            <p class="test">Expand your business to new horizons.</p>
+            <h4 class="c-white">Netherlands Turkey Trade Network</h4>
+            <p class="text-on-photo text-xhuge u-aligncenter c-white"><em>Expand your business to new horizons.</em></p>
 
             <a href="#intro" class="c-white u-inlineblock u-pa20 u-mt10"><i class="icon icon-arrows-down icon-5x"></i></a>
 
@@ -45,8 +46,8 @@
         <div class="quicklinks u-pinbottom u-fullwidth">
           <div class="row row-nopadding">
             <div class="col-md-3 col-sm-12">
-              <a href="" class="u-block u-pt60 u-pb20">
-                <img src="images/holland_logo.svg" alt="" width="160px" />
+              <a href="" class="u-block u-pt60 u-pb20 logo">
+                <img src="images/holland_logo.svg" alt="" width="180px" />
               </a>
             </div>
             <div class="col-md-2 col-sm-3 u-pt40">
@@ -96,7 +97,7 @@
     <section id="intro" class="bg-greylight u-pv80">
       <div class="row">
         <div class="col-md-9">
-          <p class="test2">Holland Turkey Trade is the online platform for Dutch companies doing business in Turkey. </p>
+          <p class="text-tagline text-large">Holland Turkey Trade is the online platform for Dutch companies doing business in Turkey. </p>
         </div>
         <div class="col-md-3">
           <a href="javascript:void(0)" onclick="javascript:expandSection();" class="btn btn-lg btn-outline u-mt20">READ MORE</a>
@@ -119,9 +120,8 @@
           <h4 class="u-mt10 c-greymedium">NTTD on Twitter</h4>
         </div>
         <div class="col-xs-12">
-          <div id="twittejrfeed" class="twitterfeed">
-            <div class="u-pv20 u-mb20 u-aligncenter">Loading @NLEconomy's tweets...</div>
-            <?php // include('components/testtwitter.php') ?>
+          <div id="twitterfeed" class="twitterfeed">
+            <div class="u-pv20 u-mb20 u-aligncenter c-greymedium">Loading @NLEconomy's tweets...</div>
           </div>
         </div>
       </div>
@@ -147,7 +147,7 @@
         <div class="col-md-2">
         </div>
         <div class="col-md-9">
-          <p class="test2 c-white">
+          <p class="text-tagline text-large c-white">
             Considering to expand your business in Turkey?
             <small class="u-block u-mt20"><small>
               Our team members at the Embassy in Ankara, the Consulate in Istanbul and NBSO in Izmir are here to help you begin.
@@ -177,7 +177,7 @@
         <div class="col-md-1">
         </div>
         <div class="col-md-9">
-          <p class="test2">
+          <p class="text-tagline text-large">
             <small>
               Netherlands Turkey Trade Directory is an online network where Dutch companies in Turkey and Turkish companies that have commercial links with the Netherlands are displayed.
             </small>
@@ -207,7 +207,7 @@
         <div class="col-md-3">
         </div>
         <div class="col-md-7">
-          <p class="test2">
+          <p class="text-tagline text-large">
             <small>
               The Economic Network of the Netherlands in Turkey with its trade and investment staff can help Dutch companies in several ways.
             </small>
@@ -218,8 +218,8 @@
     </section>
 
     <section>
-      <div class="row row-internalpadding">
-        <div class="col-md-4 col-sm-6">
+      <div class="row row-full row-internalpadding">
+        <div class="col-sm-6">
           <div id="news" class="u-border content u-mb20">
 
             <h3 class="u-mb30 c-bluesoft">News</h3>
@@ -290,9 +290,6 @@
             </a>
 
           </div>
-        </div>
-        <div class="col-sm-6 u-aligncenter">
-
         </div>
       </div>
     </section>

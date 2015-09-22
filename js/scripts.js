@@ -41,7 +41,7 @@ $(document).ready(function() {
   function handleTweets(tweets){
     var n = 0;
     var element = document.getElementById('twitterfeed');
-    var html = '<ul class="row">';
+    var html = '<ul class="row row-internalpadding">';
     while(n < tweets.length) {
       html += '<li class="col-md-4 col-sm-6"><div class="tweet-box content-small">' + tweets[n] + '</div></li>';
       n++;
