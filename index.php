@@ -18,8 +18,9 @@
 
       <div class="slides">
         <div class="bxslider">
-          <div class="slide" style="background-image: url('images/bos-bridge-maslak.jpg');"></div>
-          <div class="slide" style="background-image: url('images/newbridge-maslak.jpg');"></div>
+          <div class="slide" style="background-image: url('images/banner_metrobridge.jpg');"></div>
+          <div class="slide" style="background-image: url('images/banner_containership.jpg');" data-prlx-offset="-200"></div>
+          <div class="slide" style="background-image: url('images/banner_bridgebusiness.jpg');"></div>
           <!-- <img src="images/bos-bridge-maslak.jpg" alt="" />
           <img src="images/newbridge-maslak.jpg" alt="" /> -->
         </div>
