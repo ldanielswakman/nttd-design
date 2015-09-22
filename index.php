@@ -131,14 +131,14 @@
 
       <div class="slides">
         <div class="bxslider">
-          <div class="slide" style="background-image: url('images/maslak.jpg');"></div>
+          <div class="slide" style="background-image: url('images/banner_businessinfo.jpg');"></div>
         </div>
       </div>
 
       <div class="row">
         <div class="col-xs-12">
           <div class="c-white u-mb40 u-aligncenter">
-            <i class="icon icon-arrows-expand icon-4x"></i>
+            <i class="icon icon-basic-signs icon-4x"></i>
           </div>
         </div>
       </div>
@@ -153,6 +153,7 @@
               Our team members at the Embassy in Ankara, the Consulate in Istanbul and NBSO in Izmir are here to help you begin.
             </small></small>
           </p>
+          <a href="businessinfo.php" class="btn btn-lg btn-primary u-mt20">READ MORE</a>
         </div>
       </div>
     </section>
@@ -161,14 +162,14 @@
 
       <div class="slides">
         <div class="bxslider">
-          <div class="slide" style="background-image: url('images/bosphorus_bridge_soft.jpg');"></div>
+          <div class="slide" style="background-image: url('images/banner_tradedir.jpg');"></div>
         </div>
       </div>
 
       <div class="row">
         <div class="col-xs-12">
           <div class="u-mb40 u-aligncenter">
-            <i class="icon icon-basic-folder-multiple icon-4x"></i>
+            <i class="icon icon-basicelaboration-folder-search icon-4x"></i>
           </div>
         </div>
       </div>
@@ -182,6 +183,7 @@
               Netherlands Turkey Trade Directory is an online network where Dutch companies in Turkey and Turkish companies that have commercial links with the Netherlands are displayed.
             </small>
           </p>
+          <a href="tradedirectory.php" class="btn btn-lg btn-primary u-mt20">READ MORE</a>
         </div>
       </div>
 
@@ -191,14 +193,14 @@
 
       <div class="slides">
         <div class="bxslider">
-          <div class="slide" style="background-image: url('images/grand_bazar.jpg');"></div>
+          <div class="slide" style="background-image: url('images/banner_aboutus.jpg');" data-prlx-offset="-150"></div>
         </div>
       </div>
 
       <div class="row">
         <div class="col-xs-12">
           <div class="u-mb40 u-aligncenter">
-            <i class="icon icon-basic-lightbulb icon-4x"></i>
+            <i class="icon icon-basic-question icon-4x"></i>
           </div>
         </div>
       </div>
@@ -212,6 +214,7 @@
               The Economic Network of the Netherlands in Turkey with its trade and investment staff can help Dutch companies in several ways.
             </small>
           </p>
+          <a href="aboutus.php" class="btn btn-lg btn-primary u-mt20">READ MORE</a>
         </div>
       </div>
 

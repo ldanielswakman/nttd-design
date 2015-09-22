@@ -24,7 +24,7 @@
 
       <div class="slides">
         <div class="bxslider">
-          <div class="slide" style="background-image: url('images/bosphorus_bridge_orange.jpg');"></div>
+          <div class="slide" style="background-image: url('images/banner_businessinfo.jpg');"></div>
         </div>
       </div>
 

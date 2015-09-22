@@ -25,7 +25,7 @@
 
       <div class="slides">
         <div class="bxslider">
-          <div class="slide" style="background-image: url('images/maslak_soft.jpg');"></div>
+          <div class="slide" style="background-image: url('images/banner_tradedir.jpg');"data-prlx-offset="-100"></div>
         </div>
       </div>
 
