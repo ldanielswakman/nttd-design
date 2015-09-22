@@ -18,16 +18,6 @@
     include('components/header.php')
     ?>
 
-    <?php
-    // setting current page parameter
-    $curpage = 'news-show';
-    include('components/nav.php');
-    // setting optional parameters for header
-    $header_bg = 'orange';
-    $header_quicklinks = true;
-    include('components/header.php')
-    ?>
-
     <section id="intro">
 
       <div class="header-placeholder u-relative"></div>

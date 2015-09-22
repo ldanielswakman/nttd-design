@@ -4904,7 +4904,7 @@ header h4 {
 }
 .header-placeholder {
   display: block;
-  height: 60px;
+  height: 70px;
 }
 /* --- Header Quicklinks --- */
 .header_quicklinks {
@@ -5294,6 +5294,10 @@ section.hasSlides .section-content {
   font-weight: 500;
   font-size: 2em;
 }
+.text-small {
+  font-size: 0.8em;
+  line-height: 1.5em;
+}
 .text-large {
   font-size: 2em;
 }
@@ -5388,4 +5392,19 @@ section.hasSlides .section-content {
 }
 .tradedir-category.tradedir-catempty:hover {
   background-color: #ffffff;
+}
+/* --- Trade Directory --- */
+.team-member {
+  background: #ffffff;
+}
+.team-member-image {
+  display: inline-block;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center center;
 }

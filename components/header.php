@@ -73,6 +73,12 @@
               <i class="icon icon-arrows-right icon-15x u-floatleft u-mh10"></i>
               Trade Mission to Bursa
             </em></h4>
+          <?php elseif( $curpage == 'aboutus') : ?>
+            <h4 class="u-ml30 u-mv20 u-clearfix"><em>
+              <a href="news-list.php" class="u-floatleft">About Us</a>
+              <i class="icon icon-arrows-right icon-15x u-floatleft u-mh10"></i>
+              The Team
+            </em></h4>
           <?php
           endif;
         endif;
