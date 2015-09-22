@@ -24,7 +24,7 @@
 
       <div class="slides">
         <div class="bxslider">
-          <div class="slide" style="background-image: url('images/bosphorus_bridge_orange.jpg');"></div>
+          <div class="slide" style="background-image: url('images/banner_businessinfo.jpg');"></div>
         </div>
       </div>
 
@@ -33,7 +33,7 @@
           <i class="icon icon-basic-signs icon-5x u-block c-white u-mb40"></i>
         </div>
         <div class="col-md-8 c-white">
-          <h4 class="u-opacity50">BUSINESS INFO</h4>
+          <h4 class="u-opacity70">BUSINESS INFO</h4>
           <em class="text-huge">Doing Business in Turkey</em>
         </div>
       </div>
@@ -63,6 +63,11 @@
           <li>
             <a href="businessinfo-dodont.php">
               Do’s and Don’ts
+            </a>
+          </li>
+          <li>
+            <a href="businessinfo-htbt.php">
+              HTBT 2015
             </a>
           </li>
         </ul>
@@ -152,7 +157,7 @@
           <i class="icon icon-basic-signs icon-3x u-block u-ml30"></i>
         </div>
         <div class="col-sm-8">
-          <h4 class="u-opacity50">READ NEXT</h4>
+          <h4 class="u-opacity70">READ NEXT</h4>
           <em style="font-size: 1.5em;">Sectoral information: Chemicals</em>
         </div>
       </div>

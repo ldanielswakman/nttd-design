@@ -34,7 +34,7 @@
           <i class="icon icon-basicelaboration-folder-search icon-4x u-block c-white u-mv20"></i>
         </div>
         <div class="col-md-8 c-white">
-          <h4 class="u-opacity50">TRADE DIRECTORY</h4>
+          <h4 class="u-opacity70">TRADE DIRECTORY</h4>
           <em class="text-huge">Browse the business network</em>
         </div>
       </div>

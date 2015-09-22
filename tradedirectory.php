@@ -34,7 +34,7 @@
           <i class="icon icon-basicelaboration-folder-search icon-4x u-block c-white u-mv20"></i>
         </div>
         <div class="col-md-8 c-white">
-          <h4 class="u-opacity50">TRADE DIRECTORY</h4>
+          <h4 class="u-opacity70">TRADE DIRECTORY</h4>
           <em class="text-huge">Browse the business network</em>
           <p class="u-hiddenContent"><strong><em>A great online Business-to-Business networking tool that came to life as an initiative of the Dutch Economic Network in 2010!</em></strong></p>
           <p class="u-mt20">Netherlands Turkey Trade Directory will give you access to almost 250 companies which are actively trading between Turkey and the Netherlands.<span class="u-hiddenContent">The directory consists of Turkish companies that have close business ties with the Netherlands, Dutch companies based in the Netherlands that have commercial activities with Turkey and Dutch companies established in Turkey.</span></p>

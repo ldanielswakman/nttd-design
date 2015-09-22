@@ -24,7 +24,7 @@
 
       <div class="slides">
         <div class="bxslider">
-          <div class="slide" style="background-image: url('images/bosphorus_bridge_orange.jpg');"></div>
+          <div class="slide" style="background-image: url('images/banner_newsevents.jpg');"></div>
         </div>
       </div>
 
@@ -34,7 +34,7 @@
         </div>
         <div class="col-md-8 c-white">
           <em class="text-huge">Trade Mission to Bursa</em>
-          <h4 class="u-opacity50">9 October 2015</h4>
+          <h4 class="u-opacity70">9 October 2015</h4>
         </div>
       </div>
 

@@ -24,7 +24,7 @@
 
       <div class="slides">
         <div class="bxslider">
-          <div class="slide" style="background-image: url('images/bosphorus_bridge_orange.jpg');"></div>
+          <div class="slide" style="background-image: url('images/banner_newsevents.jpg');"></div>
         </div>
       </div>
 
@@ -33,7 +33,6 @@
           <i class="icon icon-basic-message-multiple icon-5x u-block c-white u-mb40 u-mt5"></i>
         </div>
         <div class="col-md-8 c-white">
-          <!-- <h4 class="u-opacity50">NEWS</h4> -->
           <em class="text-huge">News</em>
         </div>
       </div>

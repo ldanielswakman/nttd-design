@@ -33,7 +33,7 @@
           <i class="icon icon-basic-mail icon-5x u-block c-white u-mb40 u-mt10"></i>
         </div>
         <div class="col-md-8 c-white">
-          <h4 class="u-opacity50">FAQ & CONTACT</h4>
+          <h4 class="u-opacity70">FAQ & CONTACT</h4>
           <em class="text-huge">Get in touch</em>
         </div>
       </div>

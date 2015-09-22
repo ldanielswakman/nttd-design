@@ -24,7 +24,7 @@
 
       <div class="slides">
         <div class="bxslider">
-          <div class="slide" style="background-image: url('images/bosphorus_bridge_orange.jpg');"></div>
+          <div class="slide" style="background-image: url('images/banner_businessinfo.jpg');"></div>
         </div>
       </div>
 
@@ -33,7 +33,7 @@
           <i class="icon icon-basic-signs icon-5x u-block c-white u-mb40"></i>
         </div>
         <div class="col-md-8 c-white">
-          <h4 class="u-opacity50">BUSINESS INFO</h4>
+          <h4 class="u-opacity70">BUSINESS INFO</h4>
           <em class="text-huge">Doing Business in Turkey</em>
         </div>
       </div>
