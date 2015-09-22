@@ -199,15 +199,12 @@ section {
   font-size: 3.5em;
   line-height: 1.25em;
 }
-.test3 {
-  font-family: "Expletus Sans";
-  font-size: 1em;
-  line-height: 1.8em;
-  color: @holland_darkblue;
-  font-weight: 500;
-
-  big {
-    line-height: 1.8em;
+@media screen and (max-width: 768px) {
+  .text-huge {
+    font-size: 2em;
+  }
+  .text-xhuge {
+    font-size: 2em;
   }
 }
 
@@ -220,6 +217,7 @@ section {
 
   a:not(.logo) {
     display: block;
+    margin-top: 40px;
     padding: 10px 20px 40px;
     color: @white;
     border-left: 2px solid @greylightest;
@@ -229,11 +227,28 @@ section {
     }
   }
 }
+@media screen and (max-width: 768px) {
+  .quicklinks a:not(.logo) {
+    margin: 0;
+    padding: 10px;
+    border: none;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  .quicklinks a:not(.logo) {
+    font-size: 0.6em;
+    em {
+      font-size: 1.5em;
+    }
+  }
+}
 
 
 
 /* --- Content specific styling --- */
 #intro_banner {
+  // max-height: calc(100vh ~"-" @sectionpadding * 2 );
   p, .field-select .icon {
     color: @white;
   }

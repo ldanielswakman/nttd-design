@@ -24,10 +24,12 @@
       <div class="header-placeholder u-relative"></div>
 
       <div class="slides">
-        <div class="slide" style="background-image: url('images/maslak_soft.jpg');"></div>
+        <div class="bxslider">
+          <div class="slide" style="background-image: url('images/maslak_soft.jpg');"></div>
+        </div>
       </div>
 
-      <div class="row u-pv60">
+      <div class="row u-pv4vw">
         <div class="col-md-1 col-md-offset-2 u-aligncenter">
           <i class="icon icon-basicelaboration-folder-search icon-4x u-block c-white u-mv20"></i>
         </div>

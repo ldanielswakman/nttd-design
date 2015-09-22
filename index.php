@@ -14,7 +14,7 @@
     include('components/dialog.php');
     ?>
 
-    <section class="hasSlides">
+    <section id="intro_banner" class="hasSlides">
 
       <div class="slides">
         <div class="bxslider">
@@ -33,7 +33,7 @@
         </div>
 
         <div class="row">
-          <div class="col-xs-12 u-aligncenter u-pt150">
+          <div class="col-xs-12 u-aligncenter u-pt12vw">
 
             <h4 class="c-white">Netherlands Turkey Trade Network</h4>
             <p class="text-on-photo text-xhuge u-aligncenter c-white"><em>Expand your business to new horizons.</em></p>
@@ -45,13 +45,13 @@
 
         <div class="quicklinks u-pinbottom u-fullwidth">
           <div class="row row-nopadding">
-            <div class="col-md-3 col-sm-12">
+            <div class="col-md-3 col-sm-12 col-xs-hide">
               <a href="" class="u-block u-pt60 u-pb20 logo">
                 <img src="images/holland_logo.svg" alt="" width="180px" />
               </a>
             </div>
-            <div class="col-md-2 col-sm-3 u-pt40">
-              <a href="businessinfo.php" class="u-block u-pb40">
+            <div class="col-md-2 col-sm-3 col-xs-6">
+              <a href="businessinfo.php" class="u-block">
                 <i class="icon icon-basic-signs icon-3x"></i><br />
                 <em><strong>
                   Doing Business<br />
@@ -60,8 +60,8 @@
                 </em>
               </a>
             </div>
-            <div class="col-md-2 col-sm-3 u-pt40">
-              <a href="tradedirectory.php" class="u-block u-pb40">
+            <div class="col-md-2 col-sm-3 col-xs-6">
+              <a href="tradedirectory.php" class="u-block">
                 <i class="icon icon-basicelaboration-folder-search icon-3x"></i><br />
                 <em><strong>
                   Browse the<br />
@@ -69,8 +69,8 @@
                 </em></strong>
               </a>
             </div>
-            <div class="col-md-2 col-sm-3 u-pt40">
-              <a href="aboutus.php" class="u-block u-pb40">
+            <div class="col-md-2 col-sm-3 col-xs-6">
+              <a href="aboutus.php" class="u-block">
                 <i class="icon icon-basic-question icon-3x"></i><br />
                 <em><strong>
                   How can we<br />
@@ -78,8 +78,8 @@
                 </em></strong>
               </a>
             </div>
-            <div class="col-md-2 col-sm-3 u-pt40">
-              <a href="faqcontact.php" class="u-block u-pb40">
+            <div class="col-md-2 col-sm-3 col-xs-6">
+              <a href="faqcontact.php" class="u-block">
                 <i class="icon icon-basic-mail icon-3x"></i><br />
                 <em><strong>
                   Questions and<br />

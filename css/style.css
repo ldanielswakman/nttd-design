@@ -4266,6 +4266,21 @@ figure img {
 .u-pa200 {
   padding: 200px !important;
 }
+.u-pt12vw {
+  padding-top: 12vw !important;
+}
+.u-pv4vw {
+  padding-top: 4vw !important;
+  padding-bottom: 4vw !important;
+}
+.u-pv8vw {
+  padding-top: 8vw !important;
+  padding-bottom: 8vw !important;
+}
+.u-pv12vw {
+  padding-top: 12vw !important;
+  padding-bottom: 12vw !important;
+}
 .u-alignleft {
   text-align: left;
 }
@@ -4733,6 +4748,7 @@ textarea.field {
   overflow: auto;
   background-color: #a3afcc;
   background-color: #e0e3ea;
+  pointer-events: none;
 }
 .slides ul {
   width: 100%;
@@ -4904,7 +4920,7 @@ header h4 {
 }
 .header_quicklinks a {
   display: block;
-  padding: 15px 10px;
+  padding: 15px 5px;
   color: rgba(255, 255, 255, 0.5);
 }
 .header_quicklinks a:hover {
@@ -4926,7 +4942,7 @@ header h4 {
 }
 @media screen and (max-width: 768px) {
   .navicon {
-    padding: 5px;
+    padding: 10px 0;
   }
 }
 .list {
@@ -5288,15 +5304,13 @@ section.hasSlides .section-content {
   font-size: 3.5em;
   line-height: 1.25em;
 }
-.test3 {
-  font-family: "Expletus Sans";
-  font-size: 1em;
-  line-height: 1.8em;
-  color: #092877;
-  font-weight: 500;
-}
-.test3 big {
-  line-height: 1.8em;
+@media screen and (max-width: 768px) {
+  .text-huge {
+    font-size: 2em;
+  }
+  .text-xhuge {
+    font-size: 2em;
+  }
 }
 /* --- Home page quick links --- */
 .quicklinks {
@@ -5305,12 +5319,29 @@ section.hasSlides .section-content {
 }
 .quicklinks a:not(.logo) {
   display: block;
+  margin-top: 40px;
   padding: 10px 20px 40px;
   color: #ffffff;
   border-left: 2px solid #f9f9f9;
 }
 .quicklinks a:not(.logo):hover {
   background-color: #ff6600;
+}
+@media screen and (max-width: 768px) {
+  .quicklinks a:not(.logo) {
+    margin: 0;
+    padding: 10px;
+    border: none;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  .quicklinks a:not(.logo) {
+    font-size: 0.6em;
+  }
+  .quicklinks a:not(.logo) em {
+    font-size: 1.5em;
+  }
 }
 /* --- Content specific styling --- */
 #intro_banner p,
