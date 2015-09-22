@@ -112,6 +112,21 @@
       </div>
     </section>
 
+    <section class="bg-white">
+      <div class="row">
+        <div class="col-xs-12 u-pv20">
+          <a href="twitter.com" target="_blank" class="btn btn-sm btn-greyoutline u-floatright">See all tweets <i class="icon icon-arrows-right icon-15x u-floatright"></i></a>
+          <h4 class="u-mt10 c-greymedium">NTTD on Twitter</h4>
+        </div>
+        <div class="col-xs-12">
+          <div id="twittejrfeed" class="twitterfeed">
+            <div class="u-pv20 u-mb20 u-aligncenter">Loading @NLEconomy's tweets...</div>
+            <?php // include('components/testtwitter.php') ?>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section id="businessinfo" class="hasSlides g-greylight u-pv120">
 
       <div class="slides">
@@ -240,7 +255,7 @@
 
           </div>
         </div>
-        <div class="col-md-4 col-sm-6">
+        <div class="col-sm-6">
           <div id="events" class="u-border content u-mb20">
 
             <h3 class="u-mb30 c-bluesoft">Events</h3>
@@ -276,33 +291,7 @@
 
           </div>
         </div>
-        <div class="col-md-4 u-aligncenter">
-
-          <!-- Twitter Embedded Timeline -->
-          <script>window.twttr = (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0],
-              t = window.twttr || {};
-            if (d.getElementById(id)) return t;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = "https://platform.twitter.com/widgets.js";
-            fjs.parentNode.insertBefore(js, fjs);
-           
-            t._e = [];
-            t.ready = function(f) {
-              t._e.push(f);
-            };
-           
-            return t;
-          }(document, "script", "twitter-wjs"));</script>
-
-          <a class="twitter-timeline c-greylight"
-            data-widget-id="437257042844073984"
-            href="https://twitter.com/NLeconomyinTR"
-            data-screen-name="NLeconomyinTR"
-            target="_blank">
-          Loading Tweets by @NLeconomyinTR...
-          </a>
+        <div class="col-sm-6 u-aligncenter">
 
         </div>
       </div>

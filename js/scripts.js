@@ -12,17 +12,6 @@ $(document).ready(function() {
     offset: -130,
   });
 
-  // fade in slides
-  // setTimeout(function() {
-  //   $('.slides').addClass('loaded');
-  // }, 300);
-
-  // initiate slideshow
-  // $('.slides').has('li').unslider({
-  //   speed: 500,
-  //   delay: 5000,
-  //   fluid: true
-  // });
   $('.bxslider').each(function () {
     if ( $(this).find('.slide').length > 1 ) {
 
@@ -30,13 +19,36 @@ $(document).ready(function() {
         auto: true,
         // adaptiveHeight: true,
         mode: 'horizontal',
-        pause: 5000,
+        pause: 6000,
         controls: false,
         pager: false
       });
       
     }
   });
+
+  // load custom twitter feed
+  twitterFetcher.fetch({
+    "id": '437257042844073984',
+    "domId": 'twitterfeed',
+    "maxTweets": 3,
+    "enableLinks": true,
+    "showUser": true,
+    "showTime": true,
+    "lang": 'en',
+    "customCallback": handleTweets
+  });
+  function handleTweets(tweets){
+    var n = 0;
+    var element = document.getElementById('twitterfeed');
+    var html = '<ul class="row">';
+    while(n < tweets.length) {
+      html += '<li class="col-md-4 col-sm-6"><div class="tweet-box content-small">' + tweets[n] + '</div></li>';
+      n++;
+    }
+    html += '</ul>';
+    element.innerHTML = html;
+  }
 
   // initiate sticky boxes
   $(".box-sticky").stick_in_parent({

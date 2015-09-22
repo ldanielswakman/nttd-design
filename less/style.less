@@ -21,6 +21,7 @@
 @import url('elements/menu.less');
 @import url('elements/nav.less');
 @import url('elements/tabs.less');
+@import url('elements/twitterfeed.less');
 
 // Generic styling
 @sectionpadding: 20px;
@@ -123,16 +124,8 @@ section {
     max-width: 100%;
   }
   &.row-internalpadding {
-    & > [class*="col-"] {
-      padding-left: 10px;
-      padding-right: 10px;
-    }
-    & > [class*="col-"]:first-child {
-      padding-left: 0;
-    }
-    & > [class*="col-"]:last-child {
-      padding-right: 0;
-    }
+    margin-left: -15px;
+    margin-right: -15px;
   }
   &.row-nopadding {
     & > [class*="col-"] {
@@ -165,13 +158,6 @@ section {
   }
   .content-small {
     padding: 10px;
-  }
-  .row.row-full {
-    [class*="col-sm-6"]:first-child,
-    [class*="col-sm-6"]:last-child {
-      padding-left: 0;
-      padding-right: 0;
-    }
   }
   .row .col-xs-hide {
     display: none !important;

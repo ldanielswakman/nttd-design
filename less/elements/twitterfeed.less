@@ -1,0 +1,64 @@
+.twitterfeed {
+  font-family: "Expletus Sans";
+
+  li {
+    list-style: none;
+    padding-bottom: 20px;
+
+    .tweet-box {
+      position: relative;
+      border: 2px solid @greylight;
+      overflow: hidden;
+
+      &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 15px;
+        height: 100%;
+        background: -webkit-gradient(linear, 0% 0%, 80% 0, from(transparent), to(@white));
+        background: -webkit-linear-gradient(left, transparent, @white);
+        background: -moz-linear-gradient(left, transparent, @white);
+        background: -ms-linear-gradient(left, transparent, @white);
+        background: -o-linear-gradient(left, transparent, @white);
+      }
+    }
+  }
+  p {
+    font-size: 1em;
+    line-height: 1.5em;
+    color: @blue_soft;
+    margin: 0;
+  }
+  a {
+    color: @holland_darkblue;
+  }
+  .user {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+
+    img {
+      display: none;
+    }
+  }
+  .timePosted,
+  .interact {
+    display: inline-block;
+    float: left;
+    width: 30%;
+    margin-top: 5px;
+    padding-top: 5px;
+    border-top: 1px solid @greylight;
+    font-size: 0.9em;
+  }
+  .interact {
+    width: 70%;
+    text-align: right;
+
+    a {
+      display: inline-block;
+      padding-left: 10px;
+    }
+  }
+}

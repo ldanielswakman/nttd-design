@@ -20,6 +20,7 @@
   <script src="js/jquery.smooth-scroll.min.js"></script>
   <script src="js/jquery.sticky-kit.min.js"></script>
   <script src="js/jquery.bxslider.min.js"></script>
+  <script src="js/twitterFetcher_min.js"></script>
   <script src="js/scripts.js"></script>
 
 </head>
