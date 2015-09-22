@@ -195,9 +195,9 @@
     </section>
 
     <section>
-      <div class="row row-full">
-        <div class="col-sm-6">
-          <div id="news" class="u-border content">
+      <div class="row row-internalpadding">
+        <div class="col-md-4 col-sm-6">
+          <div id="news" class="u-border content u-mb20">
 
             <h3 class="u-mb30 c-bluesoft">News</h3>
 
@@ -232,8 +232,8 @@
 
           </div>
         </div>
-        <div class="col-sm-6">
-          <div id="events" class="u-border content">
+        <div class="col-md-4 col-sm-6">
+          <div id="events" class="u-border content u-mb20">
 
             <h3 class="u-mb30 c-bluesoft">Events</h3>
 
@@ -267,6 +267,34 @@
             </a>
 
           </div>
+        </div>
+        <div class="col-md-4 u-aligncenter">
+
+          <!-- Twitter Embedded Timeline -->
+          <script>window.twttr = (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0],
+              t = window.twttr || {};
+            if (d.getElementById(id)) return t;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://platform.twitter.com/widgets.js";
+            fjs.parentNode.insertBefore(js, fjs);
+           
+            t._e = [];
+            t.ready = function(f) {
+              t._e.push(f);
+            };
+           
+            return t;
+          }(document, "script", "twitter-wjs"));</script>
+
+          <a class="twitter-timeline c-greylight"
+            data-widget-id="437257042844073984"
+            href="https://twitter.com/NLeconomyinTR"
+            data-screen-name="NLeconomyinTR">
+          Loading Tweets by @NLeconomyinTR...
+          </a>
+
         </div>
       </div>
     </section>
