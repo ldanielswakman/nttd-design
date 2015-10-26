@@ -21,8 +21,6 @@
           <div class="slide" style="background-image: url('images/banner_metrobridge.jpg');"></div>
           <div class="slide" style="background-image: url('images/banner_containership.jpg');" data-prlx-offset="-200"></div>
           <div class="slide" style="background-image: url('images/banner_bridgebusiness.jpg');"></div>
-          <!-- <img src="images/bos-bridge-maslak.jpg" alt="" />
-          <img src="images/newbridge-maslak.jpg" alt="" /> -->
         </div>
       </div>
 
@@ -46,14 +44,35 @@
 
         <div class="quicklinks u-pinbottom u-fullwidth">
           <div class="row row-nopadding">
-            <div class="col-md-3 col-sm-12 col-xs-hide">
-              <a href="" class="u-block u-pt60 u-pb20 logo">
+            <div class="col-md-3 col-sm-12 col-sm-hide">
+              <a href="" class="u-block u-pt40 u-pb20 logo">
                 <img src="images/holland_logo.svg" alt="" width="180px" />
+              </a>
+            </div>
+            <div class="col-md-2 col-sm-3 col-xs-6">
+              <a href="aboutus.php" class="u-block">
+                <i class="icon icon-basic-question icon-3x"></i><br />
+                <h6 class="u-opacity70 u-mt10">ABOUT US</h6>
+                <em><strong>
+                  How can we<br />
+                  be of help
+                </em></strong>
+              </a>
+            </div>
+            <div class="col-md-2 col-sm-3 col-xs-6">
+              <a href="tradedirectory.php" class="u-block">
+                <i class="icon icon-basicelaboration-folder-search icon-3x"></i><br />
+                <h6 class="u-opacity70 u-mt10">TRADE DIRECTORY</h6>
+                <em><strong>
+                  Browse the<br />
+                  business network
+                </em></strong>
               </a>
             </div>
             <div class="col-md-2 col-sm-3 col-xs-6">
               <a href="businessinfo.php" class="u-block">
                 <i class="icon icon-basic-signs icon-3x"></i><br />
+                <h6 class="u-opacity70 u-mt10">BUSINESS INFO</h6>
                 <em><strong>
                   Doing Business<br />
                   in Turkey
@@ -62,26 +81,9 @@
               </a>
             </div>
             <div class="col-md-2 col-sm-3 col-xs-6">
-              <a href="tradedirectory.php" class="u-block">
-                <i class="icon icon-basicelaboration-folder-search icon-3x"></i><br />
-                <em><strong>
-                  Browse the<br />
-                  business network
-                </em></strong>
-              </a>
-            </div>
-            <div class="col-md-2 col-sm-3 col-xs-6">
-              <a href="aboutus.php" class="u-block">
-                <i class="icon icon-basic-question icon-3x"></i><br />
-                <em><strong>
-                  How can we<br />
-                  be of help
-                </em></strong>
-              </a>
-            </div>
-            <div class="col-md-2 col-sm-3 col-xs-6">
               <a href="faqcontact.php" class="u-block">
                 <i class="icon icon-basic-mail icon-3x"></i><br />
+                <h6 class="u-opacity70 u-mt10">FAQ & CONTACT</h6>
                 <em><strong>
                   Questions and<br />
                   getting in touch

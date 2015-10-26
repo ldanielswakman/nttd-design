@@ -90,7 +90,7 @@
       <a href="javascript:toggleMenu();" class="navicon">
         <i class="icon icon-arrows-hamburger-2 icon-3x u-floatleft"></i>
       </a>
-      <div class="col-xs-hide">
+      <div class="col-sm-hide">
         <?php if( isset($curpage) && $curpage == 'tradedirectory' || $curpage == 'tradedir-register') : ?>
           <a href="tradedirectory-register.php" class="btn btn-whiteoutline btn-reveal u-mb10 u-mt15 u-floatright">Register</a>
           <a href="javascript:toggleDialog('login')" class="btn btn-whiteoutline btn-reveal u-mb10 u-mr10 u-mt15 u-floatright">Login</a>

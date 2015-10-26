@@ -82,64 +82,84 @@
             <ul class="list u-mb30">
 
               <li onclick="javascript:showHiddenContent($(this));" class="u-hasHiddenContent u-pv20 u-mb10">
-                <div class="u-floatright u-revealedContent"><i class="icon icon-arrows-down icon-2x"></i></div>
-                <div class="u-floatright u-hiddenContent"><i class="icon icon-arrows-up icon-2x"></i></div>
-                <h4>How can I find the list of business lawyers/consultants based in Turkey and the Netherlands?</h4>
-                <p class="u-hiddenContent">The Answer. With a <a href="#">link</a> if needed.</p>
+                <div>
+                  <div class="u-floatright u-revealedContent"><i class="icon icon-arrows-down icon-2x"></i></div>
+                  <div class="u-floatright u-hiddenContent"><i class="icon icon-arrows-up icon-2x"></i></div>
+                  <h4>How can I find the list of business lawyers/consultants based in Turkey and the Netherlands?</h4>
+                  <p class="u-hiddenContent">The Answer. With a <a href="#">link</a> if needed.</p>
+                </div>
               </li>
               <li onclick="javascript:showHiddenContent($(this));" class="u-hasHiddenContent u-pv20 u-mb10">
-                <div class="u-floatright u-revealedContent"><i class="icon icon-arrows-down icon-2x"></i></div>
-                <div class="u-floatright u-hiddenContent"><i class="icon icon-arrows-up icon-2x"></i></div>
-                <h4>How can I find the list of tax consultants based in Turkey?</h4>
-                <p class="u-hiddenContent">The Answer. With a <a href="#">link</a> if needed.</p>
+                <div>
+                  <div class="u-floatright u-revealedContent"><i class="icon icon-arrows-down icon-2x"></i></div>
+                  <div class="u-floatright u-hiddenContent"><i class="icon icon-arrows-up icon-2x"></i></div>
+                  <h4>How can I find the list of tax consultants based in Turkey?</h4>
+                  <p class="u-hiddenContent">The Answer. With a <a href="#">link</a> if needed.</p>
+                </div>
               </li>
               <li onclick="javascript:showHiddenContent($(this));" class="u-hasHiddenContent u-pv20 u-mb10">
-                <div class="u-floatright u-revealedContent"><i class="icon icon-arrows-down icon-2x"></i></div>
-                <div class="u-floatright u-hiddenContent"><i class="icon icon-arrows-up icon-2x"></i></div>
-                <h4>What are the related laws and regulations for establishing a company in Turkey?</h4>
-                <p class="u-hiddenContent">The Answer. With a <a href="#">link</a> if needed.</p>
+                <div>
+                  <div class="u-floatright u-revealedContent"><i class="icon icon-arrows-down icon-2x"></i></div>
+                  <div class="u-floatright u-hiddenContent"><i class="icon icon-arrows-up icon-2x"></i></div>
+                  <h4>What are the related laws and regulations for establishing a company in Turkey?</h4>
+                  <p class="u-hiddenContent">The Answer. With a <a href="#">link</a> if needed.</p>
+                </div>
               </li>
               <li onclick="javascript:showHiddenContent($(this));" class="u-hasHiddenContent u-pv20 u-mb10">
-                <div class="u-floatright u-revealedContent"><i class="icon icon-arrows-down icon-2x"></i></div>
-                <div class="u-floatright u-hiddenContent"><i class="icon icon-arrows-up icon-2x"></i></div>
-                <h4>What is the residence permit application procedure for non-nationals in Turkey?</h4>
-                <p class="u-hiddenContent">The Answer. With a <a href="#">link</a> if needed.</p>
+                <div>
+                  <div class="u-floatright u-revealedContent"><i class="icon icon-arrows-down icon-2x"></i></div>
+                  <div class="u-floatright u-hiddenContent"><i class="icon icon-arrows-up icon-2x"></i></div>
+                  <h4>What is the residence permit application procedure for non-nationals in Turkey?</h4>
+                  <p class="u-hiddenContent">The Answer. With a <a href="#">link</a> if needed.</p>
+                </div>
               </li>
               <li onclick="javascript:showHiddenContent($(this));" class="u-hasHiddenContent u-pv20 u-mb10">
-                <div class="u-floatright u-revealedContent"><i class="icon icon-arrows-down icon-2x"></i></div>
-                <div class="u-floatright u-hiddenContent"><i class="icon icon-arrows-up icon-2x"></i></div>
-                <h4>What is the work permit application procedure for non-nationals in Turkey?</h4>
-                <p class="u-hiddenContent">The Answer. With a <a href="#">link</a> if needed.</p>
+                <div>
+                  <div class="u-floatright u-revealedContent"><i class="icon icon-arrows-down icon-2x"></i></div>
+                  <div class="u-floatright u-hiddenContent"><i class="icon icon-arrows-up icon-2x"></i></div>
+                  <h4>What is the work permit application procedure for non-nationals in Turkey?</h4>
+                  <p class="u-hiddenContent">The Answer. With a <a href="#">link</a> if needed.</p>
+                </div>
               </li>
               <li onclick="javascript:showHiddenContent($(this));" class="u-hasHiddenContent u-pv20 u-mb10">
-                <div class="u-floatright u-revealedContent"><i class="icon icon-arrows-down icon-2x"></i></div>
-                <div class="u-floatright u-hiddenContent"><i class="icon icon-arrows-up icon-2x"></i></div>
-                <h4>How can I find the information on Turkish Business Culture?</h4>
-                <p class="u-hiddenContent">The Answer. With a <a href="#">link</a> if needed.</p>
+                <div>
+                  <div class="u-floatright u-revealedContent"><i class="icon icon-arrows-down icon-2x"></i></div>
+                  <div class="u-floatright u-hiddenContent"><i class="icon icon-arrows-up icon-2x"></i></div>
+                  <h4>How can I find the information on Turkish Business Culture?</h4>
+                  <p class="u-hiddenContent">The Answer. With a <a href="#">link</a> if needed.</p>
+                </div>
               </li>
               <li onclick="javascript:showHiddenContent($(this));" class="u-hasHiddenContent u-pv20 u-mb10">
-                <div class="u-floatright u-revealedContent"><i class="icon icon-arrows-down icon-2x"></i></div>
-                <div class="u-floatright u-hiddenContent"><i class="icon icon-arrows-up icon-2x"></i></div>
-                <h4>How can I find the list of executive search firms and recruitment channels in Turkey?</h4>
-                <p class="u-hiddenContent">The Answer. With a <a href="#">link</a> if needed.</p>
+                <div>
+                  <div class="u-floatright u-revealedContent"><i class="icon icon-arrows-down icon-2x"></i></div>
+                  <div class="u-floatright u-hiddenContent"><i class="icon icon-arrows-up icon-2x"></i></div>
+                  <h4>How can I find the list of executive search firms and recruitment channels in Turkey?</h4>
+                  <p class="u-hiddenContent">The Answer. With a <a href="#">link</a> if needed.</p>
+                </div>
               </li>
               <li onclick="javascript:showHiddenContent($(this));" class="u-hasHiddenContent u-pv20 u-mb10">
-                <div class="u-floatright u-revealedContent"><i class="icon icon-arrows-down icon-2x"></i></div>
-                <div class="u-floatright u-hiddenContent"><i class="icon icon-arrows-up icon-2x"></i></div>
-                <h4>Where can I find information concerning the Dutch Foreign Direct Investments in Turkey?</h4>
-                <p class="u-hiddenContent">The Answer. With a <a href="#">link</a> if needed.</p>
+                <div>
+                  <div class="u-floatright u-revealedContent"><i class="icon icon-arrows-down icon-2x"></i></div>
+                  <div class="u-floatright u-hiddenContent"><i class="icon icon-arrows-up icon-2x"></i></div>
+                  <h4>Where can I find information concerning the Dutch Foreign Direct Investments in Turkey?</h4>
+                  <p class="u-hiddenContent">The Answer. With a <a href="#">link</a> if needed.</p>
+                </div>
               </li>
               <li onclick="javascript:showHiddenContent($(this));" class="u-hasHiddenContent u-pv20 u-mb10">
-                <div class="u-floatright u-revealedContent"><i class="icon icon-arrows-down icon-2x"></i></div>
-                <div class="u-floatright u-hiddenContent"><i class="icon icon-arrows-up icon-2x"></i></div>
-                <h4>Where can I find information on the bilateral economic relations between Turkey and the Netherlands?</h4>
-                <p class="u-hiddenContent">The Answer. With a <a href="#">link</a> if needed.</p>
+                <div>
+                  <div class="u-floatright u-revealedContent"><i class="icon icon-arrows-down icon-2x"></i></div>
+                  <div class="u-floatright u-hiddenContent"><i class="icon icon-arrows-up icon-2x"></i></div>
+                  <h4>Where can I find information on the bilateral economic relations between Turkey and the Netherlands?</h4>
+                  <p class="u-hiddenContent">The Answer. With a <a href="#">link</a> if needed.</p>
+                </div>
               </li>
               <li onclick="javascript:showHiddenContent($(this));" class="u-hasHiddenContent u-pv20 u-mb10">
-                <div class="u-floatright u-revealedContent"><i class="icon icon-arrows-down icon-2x"></i></div>
-                <div class="u-floatright u-hiddenContent"><i class="icon icon-arrows-up icon-2x"></i></div>
-                <h4>What are the procedures for exporting to the Netherlands?</h4>
-                <p class="u-hiddenContent">The Answer. With a <a href="#">link</a> if needed.</p>
+                <div>
+                  <div class="u-floatright u-revealedContent"><i class="icon icon-arrows-down icon-2x"></i></div>
+                  <div class="u-floatright u-hiddenContent"><i class="icon icon-arrows-up icon-2x"></i></div>
+                  <h4>What are the procedures for exporting to the Netherlands?</h4>
+                  <p class="u-hiddenContent">The Answer. With a <a href="#">link</a> if needed.</p>
+                </div>
               </li>
 
             </ul>

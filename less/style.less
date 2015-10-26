@@ -158,6 +158,11 @@ section {
     line-height: 1.8em;
   }
 }
+@media screen and (max-width: 991px) {
+  .row .col-sm-hide {
+    display: none !important;
+  }
+}
 @media screen and (max-width: 768px) {
   .content {
     padding: 20px;
@@ -221,10 +226,10 @@ section {
 
   a:not(.logo) {
     display: block;
-    margin-top: 40px;
-    padding: 10px 20px 40px;
+    // margin-top: 20px;
+    padding: 20px;
     color: @white;
-    border-left: 2px solid @greylightest;
+    border-left: 1px solid fade(@white, 50%);
 
     &:hover {
       background-color: @holland_orange;

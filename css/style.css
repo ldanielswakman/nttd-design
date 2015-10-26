@@ -26,6 +26,9 @@
 .c-orange {
   color: #ff6600 !important;
 }
+.c-darkblue {
+  color: #092877 !important;
+}
 .c-greylight {
   color: #e0e3ea !important;
 }
@@ -34,6 +37,9 @@
 }
 .c-white {
   color: #ffffff !important;
+}
+.c-bluemedium {
+  color: #27448c !important;
 }
 .c-bluesoft {
   color: #7c8db5 !important;
@@ -4381,6 +4387,9 @@ figure img {
 .u-hasHiddenContent.u-showHiddenContent .u-hiddenContent {
   display: block;
 }
+.u-hasHiddenContent.u-showHiddenContent .u-revealedContent {
+  display: none;
+}
 .u-hiddenContent {
   display: none;
 }
@@ -4949,18 +4958,20 @@ header h4 {
   list-style: none;
   font-family: "Expletus Sans";
 }
-.list a {
+.list > li > * {
   display: block;
   border: 2px solid transparent;
   padding: 10px;
+  cursor: pointer;
+  background-color: rgba(249, 249, 249, 0.0001);
 }
-.list a:hover {
+.list > li > *:hover {
   background-color: rgba(124, 141, 181, 0.08);
 }
-.list a:hover .icon {
+.list > li > *:hover .icon {
   color: #ff6600;
 }
-.list a .list-figure {
+.list > li > * .list-figure {
   display: block;
   width: 100%;
   height: 50px;
@@ -5269,6 +5280,11 @@ section.hasSlides .section-content {
   font-size: 1.1em;
   line-height: 1.8em;
 }
+@media screen and (max-width: 991px) {
+  .row .col-sm-hide {
+    display: none !important;
+  }
+}
 @media screen and (max-width: 768px) {
   .content {
     padding: 20px;
@@ -5323,10 +5339,9 @@ section.hasSlides .section-content {
 }
 .quicklinks a:not(.logo) {
   display: block;
-  margin-top: 40px;
-  padding: 10px 20px 40px;
+  padding: 20px;
   color: #ffffff;
-  border-left: 2px solid #f9f9f9;
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
 }
 .quicklinks a:not(.logo):hover {
   background-color: #ff6600;
