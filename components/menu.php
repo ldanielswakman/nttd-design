@@ -14,6 +14,12 @@
       <li>
         <a href="#">Our Services</a>
       </li>
+      <li>
+        <a href="news-list.php">News</a>
+      </li>
+      <li>
+        <a href="news-list.php">Events</a>
+      </li>
     </ul>
   </div>
   <div class="col-md-3 col-sm-6 u-mb20">

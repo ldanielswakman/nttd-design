@@ -42,17 +42,10 @@
     <section>
       <div class="row row-full">
         <div class="col-sm-3 u-static">
-          <div class="bg-white content-small box-sticky">
-            <p class="c-orange">
-              Would you like to explore and experience business regions in Turkey?
-            </p>
-            <a href="javascript:void(0)" class="btn btn-outline btn-reveal u-mt20">Join our HTBT 2015!</a>
-          </div>
+          <?php include('components/sticky-box.php'); ?>
         </div>
         <div class="col-sm-9">
-          <div class="content-small">
-
-            <!-- <h3 class="u-mb30 c-bluesoft">News</h3> -->
+          <div class="content-small u-pt0">
 
             <ul class="list list-unpadded u-mb30">
               <li>
@@ -161,6 +154,8 @@
                 </a>
               </li>
             </ul>
+
+            <?php include('components/list-pagination.php') ?>
 
           </div>
         </div>

@@ -39,3 +39,26 @@
     width: calc(100% ~"+" 20px);
   }
 }
+
+.list-pagination {
+  font-family: "Expletus Sans";
+
+  li {
+    display: inline-block;
+    float: left;
+
+    &.active a {
+      background-color: transparent;
+      color: @holland_orange;
+    }
+  }
+  a {
+    .btn;
+    background-color: @white;
+
+    &:hover {
+      background-color: @holland_orange;
+      color: @white;
+    }
+  }
+}

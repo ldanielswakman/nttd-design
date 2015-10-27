@@ -4875,7 +4875,7 @@ dialog.isVisible {
 .flash p {
   max-width: 40em;
 }
-.flash ul:not(.list) {
+.flash ul:not(.list, .list-pagination) {
   max-width: 40em;
   margin-left: 30px;
   list-style: disc;
@@ -5005,6 +5005,202 @@ header h4 {
   margin-left: -10px;
   margin-right: -10px;
   width: calc(100% + 20px);
+}
+.list-pagination {
+  font-family: "Expletus Sans";
+}
+.list-pagination li {
+  display: inline-block;
+  float: left;
+}
+.list-pagination li.active a {
+  background-color: transparent;
+  color: #ff6600;
+}
+.list-pagination a {
+  display: inline-block;
+  font-family: "Expletus Sans";
+  padding: 6px 15px 3px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  border: 2px solid transparent;
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  background-clip: border-box;
+  background-color: #ffffff;
+}
+.list-pagination a.btn-lg {
+  padding: 10px 20px 6px;
+  font-size: 1.1em;
+}
+.list-pagination a.btn-sm {
+  padding: 3px 8px 0px;
+  font-size: 0.9em;
+}
+.list-pagination a.btn-sm .icon {
+  -webkit-transform: translateY(2px);
+  -moz-transform: translateY(2px);
+  -o-transform: translateY(2px);
+  -ms-transform: translateY(2px);
+  transform: translateY(2px);
+}
+.list-pagination a:active {
+  -webkit-transform: translateY(2px);
+  -moz-transform: translateY(2px);
+  -o-transform: translateY(2px);
+  -ms-transform: translateY(2px);
+  transform: translateY(2px);
+}
+.list-pagination a.btn-primary {
+  background-color: #ff6600;
+  color: #ffffff;
+}
+.list-pagination a.btn-primary:hover {
+  background-color: #cc5200;
+  border-color: transparent;
+}
+.list-pagination a.btn-secondary {
+  background-color: #7c8db5;
+  color: #ffffff;
+}
+.list-pagination a.btn-secondary:hover {
+  background-color: #092877;
+  border-color: transparent;
+}
+.list-pagination a.btn-outline {
+  background-color: transparent;
+  border-color: #ff6600;
+  color: #ff6600;
+}
+.list-pagination a.btn-outline:hover {
+  background-color: #ff6600;
+  color: #ffffff;
+}
+.list-pagination a.btn-greyoutline {
+  background-color: transparent;
+  border-color: #adb8d1;
+  color: #7c8db5;
+}
+.list-pagination a.btn-greyoutline:hover {
+  border-color: #ff6600;
+  color: #ff6600;
+}
+.list-pagination a.btn-greyoutline .icon {
+  -webkit-transform: translateY(2px);
+  -moz-transform: translateY(2px);
+  -o-transform: translateY(2px);
+  -ms-transform: translateY(2px);
+  transform: translateY(2px);
+}
+.list-pagination a.btn-whiteoutline {
+  background-color: transparent;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+.list-pagination a.btn-whiteoutline:hover {
+  background-color: #ffffff;
+  color: #ff6600;
+}
+.list-pagination a.btn-whiteoutline .icon {
+  -webkit-transform: translateY(2px);
+  -moz-transform: translateY(2px);
+  -o-transform: translateY(2px);
+  -ms-transform: translateY(2px);
+  transform: translateY(2px);
+}
+.list-pagination a.btn-white {
+  background-color: #f9f9f9;
+  color: #ff6600;
+}
+.list-pagination a.btn-white:hover {
+  background-color: #092877;
+  color: #ffffff;
+}
+.list-pagination a.btn-reveal {
+  background-color: transparent;
+  border-color: transparent;
+}
+.list-pagination a.btn-reveal.btn-white {
+  color: #ffffff;
+}
+.list-pagination a.btn-reveal.btn-white:hover {
+  background-color: rgba(9, 40, 119, 0.2);
+  color: #ffffff;
+}
+.list-pagination a.btn-reveal.btn-outline {
+  border-color: rgba(249, 249, 249, 0.5);
+  color: #ff6600;
+}
+.list-pagination a.btn-reveal.btn-outline:hover {
+  background-color: transparent;
+  border-color: #ff6600;
+}
+.list-pagination a.btn-reveal.btn-whiteoutline {
+  color: #ffffff;
+}
+.list-pagination a.btn-reveal.btn-whiteoutline:hover {
+  background-color: transparent;
+  border-color: #ffffff;
+}
+.list-pagination a.btn-attachment {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  background-color: #ffffff;
+  overflow: hidden;
+  white-space: inherit;
+  text-align: left;
+  line-height: 1.5em;
+  color: #ff6600;
+}
+.list-pagination a.btn-attachment:hover {
+  background-color: #f4f4f4;
+}
+.list-pagination a.btn-attachment:before {
+  position: absolute;
+  bottom: -20px;
+  right: 10px;
+  font-family: "linea-basic-elaboration-10" !important;
+  font-size: 6em;
+  line-height: 1em;
+  font-weight: normal;
+  color: rgba(9, 40, 119, 0.08);
+}
+.list-pagination a.btn-attachment[href$=".pdf"]:before {
+  content: "8";
+}
+.list-pagination a.btn-attachment[href$=".doc"]:before,
+.list-pagination a.btn-attachment[href$=".docx"]:before {
+  content: "7";
+}
+.list-pagination a.btn-attachment .title:before,
+.list-pagination a.btn-attachment .title:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 10px solid transparent;
+}
+.list-pagination a.btn-attachment .title:before {
+  border-bottom-color: #ff6600;
+  border-right-color: #ff6600;
+}
+.list-pagination a.btn-attachment .title:after {
+  border-top-color: #f9f9f9;
+  border-left-color: #f9f9f9;
+}
+.list-pagination a.btn-attachment .data {
+  font-size: 0.9em;
+  color: #c2c8d5;
+}
+.list-pagination a:hover {
+  background-color: #ff6600;
+  color: #ffffff;
 }
 #menu {
   font-family: "Expletus Sans";
@@ -5286,8 +5482,8 @@ section.hasSlides .section-content {
 .content-small p {
   max-width: 40em;
 }
-.content ul:not(.list),
-.content-small ul:not(.list) {
+.content ul:not(.list, .list-pagination),
+.content-small ul:not(.list, .list-pagination) {
   max-width: 40em;
   margin-left: 30px;
   list-style: disc;
@@ -5411,7 +5607,7 @@ section.hasSlides .section-content {
 .tradedir-category p {
   max-width: 40em;
 }
-.tradedir-category ul:not(.list) {
+.tradedir-category ul:not(.list, .list-pagination) {
   max-width: 40em;
   margin-left: 30px;
   list-style: disc;
