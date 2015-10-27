@@ -14,6 +14,16 @@
     include('components/dialog.php');
     ?>
 
+    <!-- 'Follow us' floating button -->
+    <div class="u-pinfixbottomright isHidden" id="floatingaction" data-appear-ypos="0" data-disappear-ypos="1000">
+      <a href="https://twitter.com/NLeconomyinTR" target="_blank" class="btn btn-secondary clearfix u-pt10">
+        <!-- <i class="icon icon-basic- u-floatleft"></i> -->
+        <img src="images/twitter-icon.png" alt="" class="u-floatleft u-mr10" style="height: 18px; margin-top: 3px;" />
+        <h5 class="u-floatleft u-mr10">Follow us</h5>
+        <i class="icon icon-arrows-slim-right icon-15x u-floatleft"></i>
+      </a>
+    </div>
+
     <section id="intro_banner" class="hasSlides">
 
       <div class="slides">

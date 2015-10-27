@@ -144,6 +144,19 @@ function scrollActions() {
     $(".box-sticky").trigger("sticky_kit:detach");
   }
 
+  $('#floatingaction').each(function() {
+    height = $(this).outerHeight();
+    // $(this).addClass('isHidden');
+    appearPosY = ($(this).attr('data-appear-ypos')) ? $(this).attr('data-appear-ypos') : 0;
+    disappearPosY = ($(this).attr('data-disappear-ypos')) ? $(this).attr('data-disappear-ypos') : $(window).height();
+
+    if (scroll < appearPosY || scroll >= disappearPosY) {
+      $(this).addClass('isHidden');
+    } else {
+      $(this).removeClass('isHidden');
+    }
+  });
+
 }
 
 function showHiddenContent(obj) {

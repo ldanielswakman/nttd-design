@@ -4351,6 +4351,12 @@ figure img {
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
 }
+.u-pinfixbottomright {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
 .u-border {
   border: 2px solid #e0e3ea;
 }
@@ -4452,6 +4458,14 @@ figure img {
 }
 .btn.btn-primary:hover {
   background-color: #cc5200;
+  border-color: transparent;
+}
+.btn.btn-secondary {
+  background-color: #7c8db5;
+  color: #ffffff;
+}
+.btn.btn-secondary:hover {
+  background-color: #092877;
   border-color: transparent;
 }
 .btn.btn-outline {
@@ -5372,6 +5386,19 @@ section.hasSlides .section-content {
 }
 .section-followup:hover {
   background-color: #f4f4f4;
+}
+#floatingaction {
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+#floatingaction.isHidden {
+  -webkit-transform: translateY(50px);
+  -moz-transform: translateY(50px);
+  -o-transform: translateY(50px);
+  -ms-transform: translateY(50px);
+  transform: translateY(50px);
 }
 /* --- Trade Directory --- */
 .tradedir-category {
