@@ -203,6 +203,7 @@ section {
 }
 .text-large {
   font-size: 2em;
+  line-height: 1.2em;
 }
 .text-huge {
   font-size: 3em;
@@ -210,6 +211,14 @@ section {
 .text-xhuge {
   font-size: 3.5em;
   line-height: 1.25em;
+}
+.text-btntxt {
+  display: inline-block;
+  font-family: "Expletus Sans";
+  font-weight: 500;
+  font-size: 1.2em;
+  line-height: 42px;
+  vertical-align: middle;
 }
 @media screen and (max-width: 768px) {
   .text-huge {
@@ -295,13 +304,6 @@ section {
   &:hover {
     background-color: @white;
   }
-
-  .badge {
-    display: inline-block;
-    float: left;
-    margin-right: 20px;
-    padding-top: 20px;
-  }
   &.tradedir-catempty {
     padding: 10px 0;
     background-color: transparent;
@@ -310,6 +312,16 @@ section {
     &:hover {
       background-color: @white;
     }
+  }
+  .badge {
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+    padding-top: 20px;
+  }
+  h5 {
+    max-height: 48px;
+    overflow: hidden;
   }
 }
 

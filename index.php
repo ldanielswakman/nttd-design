@@ -107,16 +107,16 @@
     
     </section>
 
-    <section id="intro" class="bg-greylight u-pv80">
+    <section id="intro" class="bg-greylight u-pv80 u-hasHiddenContent">
       <div class="row">
         <div class="col-md-9">
           <p class="text-tagline text-large">Holland Turkey Trade is the online platform for Dutch companies doing business in Turkey. </p>
         </div>
         <div class="col-md-3">
-          <a href="javascript:void(0)" onclick="javascript:expandSection();" class="btn btn-lg btn-outline u-mt20">READ MORE</a>
+          <a href="javascript:void(0)" onclick="javascript:showHiddenContent($(this));" class="btn btn-lg btn-outline u-mt20">READ MORE</a>
         </div>
       </div>
-      <div class="row u-mt40">
+      <div class="row u-mt40 u-hiddenContent">
         <div class="col-md-6">
           <p><big>The site is an initiative of the Dutch Economic Diplomacy Team in Turkey with the aim to stimulate business and networking relations among the Dutch business community in Turkey.</big></p>
         </div>
@@ -159,14 +159,17 @@
       <div class="row">
         <div class="col-md-2">
         </div>
-        <div class="col-md-9">
-          <p class="text-tagline text-large c-white">
-            Considering to expand your business in Turkey?
+        <div class="col-md-8">
+          <p class="text-large c-white"><em>Considering to expand your business in Turkey?</em></p>
+          <p class="text-tagline text-large c-white u-mt30">
             <small class="u-block u-mt20"><small>
               Our team members at the Embassy in Ankara, the Consulate in Istanbul and NBSO in Izmir are here to help you begin.
             </small></small>
           </p>
-          <a href="businessinfo.php" class="btn btn-lg btn-primary u-mt20">READ MORE</a>
+          <div class="u-alignright u-mt20">
+            <span class="text-btntxt c-white u-mh10">ALL THE RELEVANT INFORMATION ABOUT</span>
+            <a href="businessinfo.php" class="btn btn-lg btn-secondary btn-pointright">DOING BUSINESS IN TURKEY</a>
+          </div>
         </div>
       </div>
     </section>
@@ -182,21 +185,26 @@
       <div class="row">
         <div class="col-xs-12">
           <div class="u-mb40 u-aligncenter">
-            <i class="icon icon-basicelaboration-folder-search icon-4x"></i>
+            <i class="icon icon-basicelaboration-folder-search icon-4x c-white"></i>
           </div>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-md-1">
+        <div class="col-md-2">
         </div>
-        <div class="col-md-9">
-          <p class="text-tagline text-large">
+        <div class="col-md-8">
+          <p class="text-large"><em>Browse the business network</em></p>
+          <p class="text-tagline text-large c-white u-mt15">
             <small>
               Netherlands Turkey Trade Directory is an online network where Dutch companies in Turkey and Turkish companies that have commercial links with the Netherlands are displayed.
             </small>
           </p>
-          <a href="tradedirectory.php" class="btn btn-lg btn-primary u-mt20">READ MORE</a>
+          <div class="u-alignright u-mt20">
+            <a href="tradedirectory-register.php" class="btn btn-whiteoutline">ENLIST</a>
+            <span class="text-btntxt c-white u-mh10">YOUR COMPANY OR BROWSE THE</span>
+            <a href="tradedirectory.php" class="btn btn-lg btn-primary btn-pointright">TRADE DIRECTORY</a>
+          </div>
         </div>
       </div>
 
@@ -219,15 +227,19 @@
       </div>
 
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-2">
         </div>
-        <div class="col-md-7">
-          <p class="text-tagline text-large">
+        <div class="col-md-8">
+          <p class="text-large c-bluemedium"><em>How can we be of help</em></p>
+          <p class="text-tagline text-large u-mt30">
             <small>
               The Economic Network of the Netherlands in Turkey with its trade and investment staff can help Dutch companies in several ways.
             </small>
           </p>
-          <a href="aboutus.php" class="btn btn-lg btn-primary u-mt20">READ MORE</a>
+          <div class="u-alignright u-mt20">
+            <span class="text-btntxt c-orange u-mh10">READ MORE ABOUT</span>
+            <a href="aboutus.php" class="btn btn-lg btn-primary btn-pointright">OUR SERVICES</a>
+          </div>
         </div>
       </div>
 

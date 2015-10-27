@@ -159,6 +159,8 @@
                 </div>
               </div>
 
+              [Captcha]
+
               <div class="u-alignright u-mt50">
                 <button type="submit" class="btn btn-primary">Send message</button>
               </div>

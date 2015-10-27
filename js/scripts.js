@@ -111,13 +111,16 @@ function scrollActions() {
     $thres2 = $('#intro_banner').outerHeight() - 100;
     if(scroll < $thres1) {
       $('header.bg-orange').css('background-color','transparent');
+      $('header.bg-bluesoft').css('background-color','transparent');
       $('header h4').css('opacity', 0);
     } else if (scroll > $thres1 && scroll < $thres2) {
       $alpha = (scroll - $thres1) / ($thres2 - $thres1);
       $('header.bg-orange').css('background-color','rgba(255, 102, 0, ' + $alpha + ')');
+      $('header.bg-bluesoft').css('background-color','rgba(124, 141, 181, ' + $alpha + ')');
       $('header h4').css('opacity', $alpha );
     } else {
       $('header.bg-orange').css('background-color','');
+      $('header.bg-bluesoft').css('background-color','');
       $('header h4').css('opacity', 1);
     }
   }

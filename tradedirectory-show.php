@@ -13,7 +13,7 @@
     $curpage = 'tradedir-show';
     include('components/nav.php');
     // setting optional parameters for header
-    $header_bg = 'orange';
+    $header_bg = 'bluesoft';
     $header_quicklinks = true;
     include('components/header.php');
     include('components/dialog.php');
