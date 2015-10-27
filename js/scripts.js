@@ -180,6 +180,10 @@ function closeDialog(dest) {
   $('#dialog_mask').removeClass('isVisible');
 }
 
+function closeFlash(obj) {
+  obj.closest('.flash').addClass('u-hide');
+}
+
 $(window).scroll(function() { scrollActions(); });
 $(window).resize(function() { scrollActions(); });
 $(document).bind("scrollstart", function() { scrollActions(); });

@@ -4892,20 +4892,36 @@ dialog.isVisible {
   font-family: "linea-arrows-10" !important;
   font-size: 2em;
 }
+.flash.flash-info:before {
+  content: "\e034";
+}
 .flash.flash-error {
+  background-color: #f5d6de;
   color: #cc0033;
 }
 .flash.flash-error:before {
   content: "\e073";
 }
-.flash.flash-info:before {
-  content: "\e034";
+.flash.flash-error a {
+  color: #cc0033;
+  font-weight: bold;
+}
+.flash.flash-error a:hover {
+  color: #660019;
 }
 .flash.flash-success {
+  background-color: #c9f1df;
   color: #00bb66;
 }
 .flash.flash-success:before {
   content: "\e06c";
+}
+.flash.flash-success a {
+  color: #00bb66;
+  font-weight: bold;
+}
+.flash.flash-success a:hover {
+  color: #00552e;
 }
 header {
   position: fixed;

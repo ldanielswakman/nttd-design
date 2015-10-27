@@ -77,6 +77,9 @@
         <div class="col-sm-9">
 
           <div class="flash flash-success">
+            <a href="javascript:void(0)" onclick="javascript:closeFlash($(this))" class="u-floatright u-pa5">
+              <i class="icon icon-arrows-remove icon-2x"></i>
+            </a>
             <h4>Thank you!</h4>
             Your message has been successfully sent. We'll get in touch with you shortly!
           </div>
