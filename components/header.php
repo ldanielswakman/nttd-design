@@ -10,9 +10,9 @@
               <img src="images/holland_logo_mark.svg" alt="" width="35px" />
             </a>
           </li>
-          <li <?php echo (strpos($_SERVER['REQUEST_URI'], 'businessinfo') !== false) ? ' class="active"' : '' ?>>
-            <a href="businessinfo.php">
-              <i class="icon icon-basic-signs icon-2x u-block"></i>
+          <li <?php echo (strpos($_SERVER['REQUEST_URI'], 'aboutus') !== false) ? ' class="active"' : '' ?>>
+            <a href="aboutus.php">
+              <i class="icon icon-basic-question icon-2x u-block u-mt5"></i>
             </a>
           </li>
           <li <?php echo (strpos($_SERVER['REQUEST_URI'], 'tradedirectory') !== false) ? ' class="active"' : '' ?>>
@@ -20,9 +20,9 @@
               <i class="icon icon-basicelaboration-folder-search icon-2x u-block u-mt5"></i>
             </a>
           </li>
-          <li <?php echo (strpos($_SERVER['REQUEST_URI'], 'aboutus') !== false) ? ' class="active"' : '' ?>>
-            <a href="aboutus.php">
-              <i class="icon icon-basic-question icon-2x u-block u-mt5"></i>
+          <li <?php echo (strpos($_SERVER['REQUEST_URI'], 'businessinfo') !== false) ? ' class="active"' : '' ?>>
+            <a href="businessinfo.php">
+              <i class="icon icon-basic-signs icon-2x u-block"></i>
             </a>
           </li>
           <li <?php echo (strpos($_SERVER['REQUEST_URI'], 'faqcontact') !== false) ? ' class="active"' : '' ?>>

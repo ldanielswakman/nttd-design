@@ -65,11 +65,6 @@
               Do’s and Don’ts
             </a>
           </li>
-          <li>
-            <a href="businessinfo-htbt.php">
-              HTBT 2015
-            </a>
-          </li>
         </ul>
       </div>
 
