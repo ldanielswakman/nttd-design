@@ -56,7 +56,7 @@
             </a>
           </li>
           <li>
-            <a href="faqcontact.php">
+            <a href="faqcontact-disclaimer.php">
               Disclaimer
             </a>
           </li>

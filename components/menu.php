@@ -72,19 +72,19 @@
     </a>
     <ul>
       <li>
-        <a href="#">Frequently Asked Questions</a>
+        <a href="faqcontact.php">Frequently Asked Questions</a>
       </li>
       <li>
         <a href="#">Jurisdictional Map</a>
       </li>
-      <li>
+      <li class="active">
         <a href="#">Address information</a>
       </li>
       <li>
-        <a href="#">Disclaimer</a>
+        <a href="faqcontact-disclaimer.php">Disclaimer</a>
       </li>
       <li>
-        <a href="#">Contact us</a>
+        <a href="faqcontact-contact.php">Contact us</a>
       </li>
     </ul>
   </div>

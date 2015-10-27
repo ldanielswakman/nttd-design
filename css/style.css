@@ -4882,6 +4882,9 @@ dialog.isVisible {
   font-size: 1.1em;
   line-height: 1.8em;
 }
+.flash figure img {
+  max-width: 90%;
+}
 .flash:before {
   content: "\e074";
   float: left;
@@ -5221,6 +5224,10 @@ header h4 {
 #menu a:hover {
   color: #27448c;
 }
+#menu li.active a {
+  color: #092877;
+  font-weight: bold;
+}
 nav {
   position: fixed;
   bottom: 100%;
@@ -5490,6 +5497,10 @@ section.hasSlides .section-content {
   font-size: 1.1em;
   line-height: 1.8em;
 }
+.content figure img,
+.content-small figure img {
+  max-width: 90%;
+}
 @media screen and (max-width: 991px) {
   .row .col-sm-hide {
     display: none !important;
@@ -5613,6 +5624,9 @@ section.hasSlides .section-content {
   list-style: disc;
   font-size: 1.1em;
   line-height: 1.8em;
+}
+.tradedir-category figure img {
+  max-width: 90%;
 }
 .tradedir-category:hover {
   background-color: #ffffff;
