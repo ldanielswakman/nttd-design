@@ -75,10 +75,10 @@
         <a href="faqcontact.php">Frequently Asked Questions</a>
       </li>
       <li>
-        <a href="#">Jurisdictional Map</a>
+        <a href="faqcontact-jurismap.php">Jurisdictional Map</a>
       </li>
       <li class="active">
-        <a href="#">Address information</a>
+        <a href="faqcontact-address.php">Address information</a>
       </li>
       <li>
         <a href="faqcontact-disclaimer.php">Disclaimer</a>

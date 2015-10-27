@@ -46,12 +46,12 @@
             </a>
           </li>
           <li>
-            <a href="faqcontact.php">
+            <a href="faqcontact-jurismap.php">
               Jurisdictional Map
             </a>
           </li>
           <li>
-            <a href="faqcontact.php">
+            <a href="faqcontact-address.php">
               Address information
             </a>
           </li>

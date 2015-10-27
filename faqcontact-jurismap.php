@@ -45,7 +45,7 @@
               Frequently Asked Questions
             </a>
           </li>
-          <li>
+          <li class="active">
             <a href="faqcontact-jurismap.php">
               Jurisdictional Map
             </a>
@@ -55,7 +55,7 @@
               Address information
             </a>
           </li>
-          <li class="active">
+          <li>
             <a href="faqcontact-disclaimer.php">
               Disclaimer
             </a>
@@ -78,9 +78,13 @@
 
           <div class="content content-small">
 
-            <h3>Disclaimer</h3>
+            <h3>Jurisdictional map</h3>
 
-            <p>This is a placeholder paragraph text. Disclaimer text will come here.</p>
+            <p>The jurisdictional map will be here.</p>
+
+            <figure>
+              <img src="images/banner_containership.jpg" alt="" />
+            </figure>
             
           </div>
 
