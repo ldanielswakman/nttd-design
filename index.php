@@ -55,7 +55,7 @@
         <div class="quicklinks u-pinbottom u-fullwidth">
           <div class="row row-nopadding">
             <div class="col-md-3 col-sm-12 col-sm-hide">
-              <a href="" class="u-block u-pt40 u-pb20 logo">
+              <a href="" class="u-block u-pt40 u-pb20 u-pl10 logo">
                 <img src="images/holland_logo.svg" alt="" width="180px" />
               </a>
             </div>

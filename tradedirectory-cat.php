@@ -51,7 +51,7 @@
     <section>
       <div class="row row-full row-nopadding">
 
-        <div class="col-md-4 col-xs-hide">
+        <div class="col-md-4">
           <a href="tradedirectory-cat.php" class="tradedir-category clearfix">
             <div class="badge">
               <i class="icon icon-basic-lock icon-3x"></i>
@@ -59,56 +59,56 @@
             <h5 class="u-mt10">Public administration and defence; compulsory social security</h5>
             <div class="c-greymedium">23 companies</div>
           </a>
-          <a href="tradedirectory-cat.php" class="tradedir-category tradedir-catempty clearfix">
+          <a href="tradedirectory-cat.php" class="tradedir-category tradedir-catempty clearfix col-sm-hide">
             <div class="badge">
               <i class="icon icon-basic-settings icon-3x"></i>
             </div>
             <h5 class="u-mt10">Manufacturing</h5>
             <div class="c-greymedium">21 companies</div>
           </a>
-          <a href="tradedirectory-cat.php" class="tradedir-category tradedir-catempty clearfix">
+          <a href="tradedirectory-cat.php" class="tradedir-category tradedir-catempty clearfix col-sm-hide">
             <div class="badge">
               <i class="icon icon-basic-flag2 icon-3x"></i>
             </div>
             <h5 class="u-mt10">Agriculture, forestry and fishing</h5>
             <div class="c-greymedium">20 companies</div>
           </a>
-          <a href="tradedirectory-cat.php" class="tradedir-category tradedir-catempty clearfix">
+          <a href="tradedirectory-cat.php" class="tradedir-category tradedir-catempty clearfix col-sm-hide">
             <div class="badge">
               <i class="icon icon-basic-hammer icon-3x"></i>
             </div>
             <h5 class="u-mt10">Mining and quarrying</h5>
             <div class="c-greymedium">17 companies</div>
           </a>
-          <a href="tradedirectory-cat.php" class="tradedir-category tradedir-catempty clearfix">
+          <a href="tradedirectory-cat.php" class="tradedir-category tradedir-catempty clearfix col-sm-hide">
             <div class="badge">
               <i class="icon icon-basic-bolt icon-3x"></i>
             </div>
             <h5 class="u-mt10">Electricity, gas, steam and air conditioning supply</h5>
             <div class="c-greymedium">16 companies</div>
           </a>
-          <a href="tradedirectory-cat.php" class="tradedir-category tradedir-catempty clearfix">
+          <a href="tradedirectory-cat.php" class="tradedir-category tradedir-catempty clearfix col-sm-hide">
             <div class="badge">
               <i class="icon icon-weather-drop icon-3x"></i>
             </div>
             <h5 class="u-mt10">Water supply; sewerage; waste managment and remediation activities</h5>
             <div class="c-greymedium">13 companies</div>
           </a>
-          <a href="tradedirectory-cat.php" class="tradedir-category tradedir-catempty clearfix">
+          <a href="tradedirectory-cat.php" class="tradedir-category tradedir-catempty clearfix col-sm-hide">
             <div class="badge">
               <i class="icon icon-basic-pencil-ruler icon-3x"></i>
             </div>
             <h5 class="u-mt10">Construction</h5>
             <div class="c-greymedium">17 companies</div>
           </a>
-          <a href="tradedirectory-cat.php" class="tradedir-category tradedir-catempty clearfix">
+          <a href="tradedirectory-cat.php" class="tradedir-category tradedir-catempty clearfix col-sm-hide">
             <div class="badge">
               <i class="icon icon-ecommerce-cart-content icon-3x"></i>
             </div>
             <h5 class="u-mt10">Wholesale and retail trade; repair of motor vehicles and motorcycles</h5>
             <div class="c-greymedium">16 companies</div>
           </a>
-          <a href="tradedirectory-cat.php" class="tradedir-category tradedir-catempty clearfix">
+          <a href="tradedirectory-cat.php" class="tradedir-category tradedir-catempty clearfix col-sm-hide">
             <div class="badge">
               <i class="icon icon-arrows-switch-horizontal icon-3x"></i>
             </div>
@@ -242,6 +242,8 @@
             </ul>
 
           </div>
+
+          <?php include('components/list-pagination.php') ?>
 
         </div>
 

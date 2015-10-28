@@ -5337,6 +5337,24 @@ nav.isExpanded {
   -ms-transform: translateY(420px);
   transform: translateY(420px);
 }
+@media screen and (max-width: 991px) {
+  nav.isExpanded {
+    -webkit-transform: translateY(641px);
+    -moz-transform: translateY(641px);
+    -o-transform: translateY(641px);
+    -ms-transform: translateY(641px);
+    transform: translateY(641px);
+  }
+}
+@media screen and (max-width: 768px) {
+  nav.isExpanded {
+    -webkit-transform: translateY(601px);
+    -moz-transform: translateY(601px);
+    -o-transform: translateY(601px);
+    -ms-transform: translateY(601px);
+    transform: translateY(601px);
+  }
+}
 #nav_mask {
   position: fixed;
   top: 0;
