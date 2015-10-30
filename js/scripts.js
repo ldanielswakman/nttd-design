@@ -147,6 +147,7 @@ function scrollActions() {
     $(".box-sticky").trigger("sticky_kit:detach");
   }
 
+  // floating action button behaviour
   $('#floatingaction').each(function() {
     height = $(this).outerHeight();
     // $(this).addClass('isHidden');
@@ -159,6 +160,20 @@ function scrollActions() {
       $(this).removeClass('isHidden');
     }
   });
+
+  // smooth out height alignment for news & event boxes
+  $('#news, #events').removeAttr('style');
+  $newsheight = $('#news').outerHeight();
+  $eventsheight = $('#events').outerHeight();
+  if ($(window).width() > 768) {
+    if ($newsheight > $eventsheight) {
+      $('#events').css('height', $newsheight);
+    } else if ($newsheight == $eventsheight) {
+      // do nothing
+    } else {
+      $('#news').css('height', $eventsheight);
+    }
+  }
 
 }
 
