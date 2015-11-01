@@ -4907,9 +4907,9 @@ dialog.isVisible {
 .flash p {
   max-width: 40em;
 }
-.flash ul:not(.list, .list-pagination) {
+.flash ul:not(.list) {
   max-width: 40em;
-  margin-left: 30px;
+  margin-left: 20px;
   list-style: disc;
   font-size: 1.1em;
   line-height: 1.8em;
@@ -5401,6 +5401,12 @@ nav.isExpanded {
   border-bottom-color: #ffffff;
   font-weight: bold;
 }
+.tabs.tabs-ondark a {
+  color: #092877;
+}
+.tabs.tabs-ondark li.active a {
+  border-bottom-color: #092877;
+}
 .twitterfeed {
   font-family: "Expletus Sans";
 }
@@ -5587,10 +5593,10 @@ section.hasSlides .section-content {
 .content-small p {
   max-width: 40em;
 }
-.content ul:not(.list, .list-pagination),
-.content-small ul:not(.list, .list-pagination) {
+.content ul:not(.list),
+.content-small ul:not(.list) {
   max-width: 40em;
-  margin-left: 30px;
+  margin-left: 20px;
   list-style: disc;
   font-size: 1.1em;
   line-height: 1.8em;
@@ -5725,9 +5731,9 @@ section.hasSlides .section-content {
 .tradedir-category p {
   max-width: 40em;
 }
-.tradedir-category ul:not(.list, .list-pagination) {
+.tradedir-category ul:not(.list) {
   max-width: 40em;
-  margin-left: 30px;
+  margin-left: 20px;
   list-style: disc;
   font-size: 1.1em;
   line-height: 1.8em;
@@ -5758,11 +5764,24 @@ section.hasSlides .section-content {
 }
 /* --- Trade Directory --- */
 .team-member {
+  height: 150px;
+  padding-right: 10px;
   background: #ffffff;
+}
+.team-member h4 {
+  max-height: 2.4em;
+  line-height: 1.2em;
+  overflow: hidden;
+}
+.team-member em {
+  max-height: 2.4em;
+  line-height: 1.2em;
+  overflow: hidden;
 }
 .team-member-image {
   display: inline-block;
-  margin: 0 auto;
+  float: left;
+  margin: 0 20px 10px;
   width: 100px;
   height: 100px;
   -webkit-border-radius: 50%;

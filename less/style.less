@@ -150,9 +150,9 @@ section {
   p {
     max-width: 40em;
   }
-  ul:not(.list, .list-pagination) {
+  ul:not(.list) {
     max-width: 40em;
-    margin-left: 30px;
+    margin-left: 20px;
     list-style: disc;
     font-size: 1.1em;
     line-height: 1.8em;
@@ -330,11 +330,30 @@ section {
 
 /* --- Trade Directory --- */
 .team-member {
+  height: 150px;
+  padding-right: 10px;
   background: @white;
+
+  h4 {
+    max-height: 2.4em;
+    line-height: 1.2em;
+    overflow: hidden;
+    // display: block;
+    // max-width: 100%;
+    // overflow: hidden;
+    // text-overflow: ellipsis;
+    // white-space: nowrap;
+  }
+  em {
+    max-height: 2.4em;
+    line-height: 1.2em;
+    overflow: hidden;
+  }
 }
 .team-member-image {
   display: inline-block;
-  margin: 0 auto;
+  float: left;
+  margin: 0 20px 10px;
   width: 100px;
   height: 100px;
   .rounded(50%);
