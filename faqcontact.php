@@ -81,7 +81,7 @@
 
             <ul class="list u-mb30">
 
-              <li onclick="javascript:showHiddenContent($(this));" class="u-hasHiddenContent u-pv20 u-mb10">
+              <li onclick="javascript:showHiddenContent(this);" class="u-hasHiddenContent u-pv20 u-mb10">
                 <div>
                   <div class="u-floatright u-revealedContent"><i class="icon icon-arrows-down icon-2x"></i></div>
                   <div class="u-floatright u-hiddenContent"><i class="icon icon-arrows-up icon-2x"></i></div>
@@ -89,7 +89,7 @@
                   <p class="u-hiddenContent">The Answer. With a <a href="#">link</a> if needed.</p>
                 </div>
               </li>
-              <li onclick="javascript:showHiddenContent($(this));" class="u-hasHiddenContent u-pv20 u-mb10">
+              <li onclick="javascript:showHiddenContent(this);" class="u-hasHiddenContent u-pv20 u-mb10">
                 <div>
                   <div class="u-floatright u-revealedContent"><i class="icon icon-arrows-down icon-2x"></i></div>
                   <div class="u-floatright u-hiddenContent"><i class="icon icon-arrows-up icon-2x"></i></div>
@@ -97,7 +97,7 @@
                   <p class="u-hiddenContent">The Answer. With a <a href="#">link</a> if needed.</p>
                 </div>
               </li>
-              <li onclick="javascript:showHiddenContent($(this));" class="u-hasHiddenContent u-pv20 u-mb10">
+              <li onclick="javascript:showHiddenContent(this);" class="u-hasHiddenContent u-pv20 u-mb10">
                 <div>
                   <div class="u-floatright u-revealedContent"><i class="icon icon-arrows-down icon-2x"></i></div>
                   <div class="u-floatright u-hiddenContent"><i class="icon icon-arrows-up icon-2x"></i></div>
@@ -105,7 +105,7 @@
                   <p class="u-hiddenContent">The Answer. With a <a href="#">link</a> if needed.</p>
                 </div>
               </li>
-              <li onclick="javascript:showHiddenContent($(this));" class="u-hasHiddenContent u-pv20 u-mb10">
+              <li onclick="javascript:showHiddenContent(this);" class="u-hasHiddenContent u-pv20 u-mb10">
                 <div>
                   <div class="u-floatright u-revealedContent"><i class="icon icon-arrows-down icon-2x"></i></div>
                   <div class="u-floatright u-hiddenContent"><i class="icon icon-arrows-up icon-2x"></i></div>
@@ -113,7 +113,7 @@
                   <p class="u-hiddenContent">The Answer. With a <a href="#">link</a> if needed.</p>
                 </div>
               </li>
-              <li onclick="javascript:showHiddenContent($(this));" class="u-hasHiddenContent u-pv20 u-mb10">
+              <li onclick="javascript:showHiddenContent(this);" class="u-hasHiddenContent u-pv20 u-mb10">
                 <div>
                   <div class="u-floatright u-revealedContent"><i class="icon icon-arrows-down icon-2x"></i></div>
                   <div class="u-floatright u-hiddenContent"><i class="icon icon-arrows-up icon-2x"></i></div>
@@ -121,7 +121,7 @@
                   <p class="u-hiddenContent">The Answer. With a <a href="#">link</a> if needed.</p>
                 </div>
               </li>
-              <li onclick="javascript:showHiddenContent($(this));" class="u-hasHiddenContent u-pv20 u-mb10">
+              <li onclick="javascript:showHiddenContent(this);" class="u-hasHiddenContent u-pv20 u-mb10">
                 <div>
                   <div class="u-floatright u-revealedContent"><i class="icon icon-arrows-down icon-2x"></i></div>
                   <div class="u-floatright u-hiddenContent"><i class="icon icon-arrows-up icon-2x"></i></div>
@@ -129,7 +129,7 @@
                   <p class="u-hiddenContent">The Answer. With a <a href="#">link</a> if needed.</p>
                 </div>
               </li>
-              <li onclick="javascript:showHiddenContent($(this));" class="u-hasHiddenContent u-pv20 u-mb10">
+              <li onclick="javascript:showHiddenContent(this);" class="u-hasHiddenContent u-pv20 u-mb10">
                 <div>
                   <div class="u-floatright u-revealedContent"><i class="icon icon-arrows-down icon-2x"></i></div>
                   <div class="u-floatright u-hiddenContent"><i class="icon icon-arrows-up icon-2x"></i></div>
@@ -137,7 +137,7 @@
                   <p class="u-hiddenContent">The Answer. With a <a href="#">link</a> if needed.</p>
                 </div>
               </li>
-              <li onclick="javascript:showHiddenContent($(this));" class="u-hasHiddenContent u-pv20 u-mb10">
+              <li onclick="javascript:showHiddenContent(this);" class="u-hasHiddenContent u-pv20 u-mb10">
                 <div>
                   <div class="u-floatright u-revealedContent"><i class="icon icon-arrows-down icon-2x"></i></div>
                   <div class="u-floatright u-hiddenContent"><i class="icon icon-arrows-up icon-2x"></i></div>
@@ -145,7 +145,7 @@
                   <p class="u-hiddenContent">The Answer. With a <a href="#">link</a> if needed.</p>
                 </div>
               </li>
-              <li onclick="javascript:showHiddenContent($(this));" class="u-hasHiddenContent u-pv20 u-mb10">
+              <li onclick="javascript:showHiddenContent(this);" class="u-hasHiddenContent u-pv20 u-mb10">
                 <div>
                   <div class="u-floatright u-revealedContent"><i class="icon icon-arrows-down icon-2x"></i></div>
                   <div class="u-floatright u-hiddenContent"><i class="icon icon-arrows-up icon-2x"></i></div>
@@ -153,7 +153,7 @@
                   <p class="u-hiddenContent">The Answer. With a <a href="#">link</a> if needed.</p>
                 </div>
               </li>
-              <li onclick="javascript:showHiddenContent($(this));" class="u-hasHiddenContent u-pv20 u-mb10">
+              <li onclick="javascript:showHiddenContent(this);" class="u-hasHiddenContent u-pv20 u-mb10">
                 <div>
                   <div class="u-floatright u-revealedContent"><i class="icon icon-arrows-down icon-2x"></i></div>
                   <div class="u-floatright u-hiddenContent"><i class="icon icon-arrows-up icon-2x"></i></div>

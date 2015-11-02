@@ -39,7 +39,7 @@
           <p class="u-hiddenContent"><strong><em>A great online Business-to-Business networking tool that came to life as an initiative of the Dutch Economic Network in 2010!</em></strong></p>
           <p class="u-mt20">Netherlands Turkey Trade Directory will give you access to almost 250 companies which are actively trading between Turkey and the Netherlands.<span class="u-hiddenContent">The directory consists of Turkish companies that have close business ties with the Netherlands, Dutch companies based in the Netherlands that have commercial activities with Turkey and Dutch companies established in Turkey.</span></p>
           <p class="u-hiddenContent">Netherlands Turkey Trade Directory entails detailed member profiles which include a wide range of information such as executive names, contact numbers, addresses, sectoral involvement, company types and number of employees.</p>
-          <a href="javascript:void(0)" onclick="showHiddenContent($(this))" class="btn btn-sm btn-whiteoutline u-mt20 u-mr10">
+          <a href="javascript:void(0)" onclick="showHiddenContent(this)" class="btn btn-sm btn-whiteoutline u-mt20 u-mr10">
             More info
             <i class="icon icon-arrows-plus icon-15x u-floatright"></i>
           </a>

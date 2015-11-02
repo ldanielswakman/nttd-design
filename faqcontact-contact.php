@@ -110,40 +110,33 @@
                 <div class="field-validation" style="display: none;">Please fill out the correct value for this field.</div>
               </div>
 
-              <div class="u-hasHiddenContent clearfix">
-                <div class="u-revealedContent">
-                  <a href="javascript:void(0)" onclick="javascript:showHiddenContent($(this));" class="btn btn-sm btn-greyoutline u-floatright u-mt15">Add telephone number</a>
-                </div>
-                <div class="u-hiddenContent">
-                  <div class="fieldset">
-                    <label>Telephone number</label>
-                    <input class="field u-fullwidth" type="tel" name="phone" placeholder="Telephone number" />
-                    <div class="field-validation" style="display: none;">Please fill out the correct value for this field.</div>
-                  </div>
+              <div class="u-alignright">
+                <a href="javascript:void(0)" onclick="javascript:showHiddenContent('#field_phone'); $(this).hide();" class="btn btn-sm btn-greyoutline u-mt15 u-ml5">Add telephone number</a>
+                <a href="javascript:void(0)" onclick="javascript:showHiddenContent('#field_jobtitle'); $(this).hide();" class="btn btn-sm btn-greyoutline u-mt15 u-ml5">Add job title</a>
+                <a href="javascript:void(0)" onclick="javascript:showHiddenContent('#field_companyinfo'); $(this).hide();" class="btn btn-sm btn-greyoutline u-mt15 u-ml5">Add company info</a>
+              </div>
+
+              <div class="u-hasHiddenContent" id="field_phone">
+                <div class="fieldset u-hiddenContent">
+                  <label>Telephone number</label>
+                  <input class="field u-fullwidth" type="tel" name="phone" placeholder="Telephone number" />
+                  <div class="field-validation" style="display: none;">Please fill out the correct value for this field.</div>
                 </div>
               </div>
 
-              <div class="u-hasHiddenContent clearfix">
-                <div class="u-revealedContent">
-                  <a href="javascript:void(0)" onclick="javascript:showHiddenContent($(this));" class="btn btn-sm btn-greyoutline u-floatright u-mt15">Add job title</a>
-                </div>
-                <div class="u-hiddenContent">
-                  <div class="fieldset">
-                    <label>Job Title</label>
-                    <input class="field u-fullwidth" type="tel" name="phone" placeholder="Job Title" />
-                    <div class="field-validation" style="display: none;">Please fill out the correct value for this field.</div>
-                  </div>
+              <div class="u-hasHiddenContent" id="field_jobtitle">
+                <div class="fieldset u-hiddenContent">
+                  <label>Job Title</label>
+                  <input class="field u-fullwidth" type="tel" name="jobtitle" placeholder="Job Title" />
+                  <div class="field-validation" style="display: none;">Please fill out the correct value for this field.</div>
                 </div>
               </div>
 
-              <div class="u-hasHiddenContent clearfix">
-                <div class="u-revealedContent">
-                  <a href="javascript:void(0)" onclick="javascript:showHiddenContent($(this));" class="btn btn-sm btn-greyoutline u-floatright u-mt15"> Add company info</a>
-                </div>
+              <div class="u-hasHiddenContent" id="field_companyinfo">
                 <div class="u-hiddenContent">
                   <div class="fieldset">
                     <label>Company name</label>
-                    <input class="field u-fullwidth" type="name" name="phone" placeholder="Company name" />
+                    <input class="field u-fullwidth" type="name" name="companyname" placeholder="Company name" />
                     <div class="field-validation" style="display: none;">Please fill out the correct value for this field.</div>
                   </div>
                   <div class="fieldset">
@@ -159,7 +152,7 @@
                 </div>
               </div>
 
-              [Captcha]
+              <div class="u-mt20">[Captcha]</div>
 
               <div class="u-alignright u-mt50">
                 <button type="submit" class="btn btn-primary">Send message</button>

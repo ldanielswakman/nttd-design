@@ -178,7 +178,7 @@ function scrollActions() {
 }
 
 function showHiddenContent(obj) {
-  $context = obj.closest('.u-hasHiddenContent');
+  $context = $(obj).closest('.u-hasHiddenContent');
   if($context.length > 0) {
     $context.toggleClass('u-showHiddenContent');
   }

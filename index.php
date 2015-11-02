@@ -113,7 +113,7 @@
           <p class="text-tagline text-large">Holland Turkey Trade is the online platform for Dutch companies doing business in Turkey. </p>
         </div>
         <div class="col-md-3">
-          <a href="javascript:void(0)" onclick="javascript:showHiddenContent($(this));" class="btn btn-lg btn-outline u-mt20">READ MORE</a>
+          <a href="javascript:void(0)" onclick="javascript:showHiddenContent(this);" class="btn btn-lg btn-outline u-mt20">READ MORE</a>
         </div>
       </div>
       <div class="row u-mt40 u-hiddenContent">
