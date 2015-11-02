@@ -47,10 +47,16 @@
             <h4 class="c-white">Netherlands Turkey Trade Network</h4>
             <p class="text-on-photo text-xhuge u-aligncenter c-white"><em>Expand your business to new horizons.</em></p>
 
-            <a href="#intro" class="c-white u-inlineblock u-pa20 u-mt10"><i class="icon icon-arrows-down icon-5x"></i></a>
+            <div class="row">
+              <div class="col-sm-12 col-xs-hide">
+                <a href="#intro" class="c-white u-inlineblock u-pa20 u-mt10"><i class="icon icon-arrows-down icon-5x"></i></a>
+              </div>
+            </div>
 
           </div>
         </div>
+
+        <div class="quicklinks-xs-placeholder"></div>
 
         <div class="quicklinks u-pinbottom u-fullwidth">
           <div class="row row-nopadding">
@@ -140,7 +146,7 @@
       </div>
     </section>
 
-    <section id="businessinfo" class="hasSlides g-greylight u-pv120">
+    <section id="businessinfo" class="hasSlides g-greylight u-pv12vw">
 
       <div class="slides">
         <div class="bxslider">
@@ -157,9 +163,7 @@
       </div>
 
       <div class="row">
-        <div class="col-md-2">
-        </div>
-        <div class="col-md-8">
+        <div class="col-md-8 col-md-offset-2">
           <p class="text-large c-white"><em>Considering to expand your business in Turkey?</em></p>
           <p class="text-tagline text-large c-white u-mt30">
             <small class="u-block u-mt20"><small>
@@ -174,7 +178,7 @@
       </div>
     </section>
 
-    <section id="tradedirectory" class="bg-greylight u-pv120">
+    <section id="tradedirectory" class="bg-greylight u-pv12vw">
 
       <div class="slides">
         <div class="bxslider">
@@ -210,7 +214,7 @@
 
     </section>
 
-    <section id="aboutus" class="bg-greylight u-pv120">
+    <section id="aboutus" class="bg-greylight u-pv12vw">
 
       <div class="slides">
         <div class="bxslider">
