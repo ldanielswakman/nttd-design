@@ -154,36 +154,39 @@
       </div>
     </section>
 
-    <section id="businessinfo" class="hasSlides g-greylight u-pv12vw">
+    <section id="aboutus" class="bg-greylight u-pv12vw">
 
       <div class="slides">
         <div class="bxslider">
-          <div class="slide" style="background-image: url('images/banner_businessinfo.jpg');"></div>
+          <div class="slide" style="background-image: url('images/banner_aboutus.jpg');" data-prlx-offset="-150"></div>
         </div>
       </div>
 
       <div class="row">
         <div class="col-xs-12">
-          <div class="c-white u-mb40 u-aligncenter">
-            <i class="icon icon-basic-signs icon-4x"></i>
+          <div class="u-mb40 u-aligncenter">
+            <i class="icon icon-basic-question icon-4x"></i>
           </div>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-          <p class="text-large c-white"><em>Considering to expand your business in Turkey?</em></p>
-          <p class="text-tagline text-large c-white u-mt30">
-            <small class="u-block u-mt20"><small>
-              Our team members at the Embassy in Ankara, the Consulate in Istanbul and NBSO in Izmir are here to help you begin.
-            </small></small>
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-8">
+          <p class="text-large c-bluemedium"><em>How we can help you</em></p>
+          <p class="text-tagline text-large u-mt30">
+            <small>
+              The Economic Network of the Netherlands in Turkey with its trade and investment staff can help Dutch companies in several ways.
+            </small>
           </p>
           <div class="u-alignright u-mt20">
-            <span class="text-btntxt c-white u-mh10">ALL THE RELEVANT INFORMATION ABOUT</span>
-            <a href="businessinfo.php" class="btn btn-lg btn-secondary btn-pointright">DOING BUSINESS IN TURKEY</a>
+            <span class="text-btntxt c-orange u-mh10">READ MORE ABOUT</span>
+            <a href="aboutus.php" class="btn btn-lg btn-primary btn-pointright">OUR SERVICES</a>
           </div>
         </div>
       </div>
+
     </section>
 
     <section id="tradedirectory" class="bg-greylight u-pv12vw">
@@ -206,7 +209,7 @@
         <div class="col-md-2">
         </div>
         <div class="col-md-8">
-          <p class="text-large"><em>Browse the business network</em></p>
+          <p class="text-large"><em>Enlist your company to our trade directory</em></p>
           <p class="text-tagline text-large c-white u-mt15">
             <small>
               Netherlands Turkey Trade Directory is an online network where Dutch companies in Turkey and Turkish companies that have commercial links with the Netherlands are displayed.
@@ -222,39 +225,36 @@
 
     </section>
 
-    <section id="aboutus" class="bg-greylight u-pv12vw">
+    <section id="businessinfo" class="hasSlides g-greylight u-pv12vw">
 
       <div class="slides">
         <div class="bxslider">
-          <div class="slide" style="background-image: url('images/banner_aboutus.jpg');" data-prlx-offset="-150"></div>
+          <div class="slide" style="background-image: url('images/banner_businessinfo.jpg');"></div>
         </div>
       </div>
 
       <div class="row">
         <div class="col-xs-12">
-          <div class="u-mb40 u-aligncenter">
-            <i class="icon icon-basic-question icon-4x"></i>
+          <div class="c-white u-mb40 u-aligncenter">
+            <i class="icon icon-basic-signs icon-4x"></i>
           </div>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-md-2">
-        </div>
-        <div class="col-md-8">
-          <p class="text-large c-bluemedium"><em>How can we be of help</em></p>
-          <p class="text-tagline text-large u-mt30">
-            <small>
-              The Economic Network of the Netherlands in Turkey with its trade and investment staff can help Dutch companies in several ways.
-            </small>
+        <div class="col-md-8 col-md-offset-2">
+          <p class="text-large c-white"><em> Considering to expand your business in Turkey?</em></p>
+          <p class="text-tagline text-large c-white u-mt30">
+            <small class="u-block u-mt20"><small>
+              Our team members at the Embassy in Ankara, the Consulate in Istanbul and NBSO in Izmir are here to help you to get started.
+            </small></small>
           </p>
           <div class="u-alignright u-mt20">
-            <span class="text-btntxt c-orange u-mh10">READ MORE ABOUT</span>
-            <a href="aboutus.php" class="btn btn-lg btn-primary btn-pointright">OUR SERVICES</a>
+            <span class="text-btntxt c-white u-mh10">ALL THE RELEVANT INFORMATION ABOUT</span>
+            <a href="businessinfo.php" class="btn btn-lg btn-secondary btn-pointright">DOING BUSINESS IN TURKEY</a>
           </div>
         </div>
       </div>
-
     </section>
 
     <section class="u-mb0">

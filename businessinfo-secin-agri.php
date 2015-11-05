@@ -85,10 +85,8 @@
         </div>
         <div class="col-sm-9">
           <div class="content-small">
-            <h2 class="u-mb20">Sectoral Information</h2>
-            <p><big><em>The Turkish economy offers opportunies within a wide variety of sectors. We selected the sectors that are prominent and leading in the field of export of Turkey. These are also the sectors in which Dutch companies invested the most.</em></big></p>
 
-            <h3 id="agrifood" class="u-mt60 u-mb10">Agri-Food Industry</h3>
+            <h3 id="agrifood" class="u-mb10">Agri-Food Industry</h3>
 
             <img src="images/content/FOOD.png" alt="" />
             <img src="images/content/AGRO.png" alt="" />

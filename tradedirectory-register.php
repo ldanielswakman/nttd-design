@@ -291,7 +291,7 @@
               <div class="fieldset fieldset-checkbox">
                 <input class="field" type="checkbox" id="company_confirmation" name="company[confirmation]" />
                 <label for="company_confirmation">I hereby confirm the accuracy and completeness of the information which I have provided and I assume the entire legal responsibility for it.</label>
-                <small class="c-greymedium">By completing this form, I acknowledge that new profiles and adjustments on the existing profiles are subject to initial approval whereas only authorized profiles will be admitted to NTTD. Please click on the Submit button to complete the registration process.</small>
+                <small class="u-block u-mt10 c-greymedium">By completing this form, I acknowledge that new profiles and adjustments on the existing profiles are subject to initial approval whereas only authorized profiles will be admitted to NTTD. Please click on the Submit button to complete the registration process.</small>
                 <div class="field-validation" style="display: none;">Please accept the terms and conditions.</div>
               </div>
 
