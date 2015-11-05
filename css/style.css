@@ -5402,16 +5402,11 @@ nav.isExpanded {
 .twitterfeed {
   font-family: "Expletus Sans";
 }
-.twitterfeed li {
-  list-style: none;
-  padding-bottom: 20px;
-}
-.twitterfeed li .tweet-box {
+.twitterfeed .tweet-box {
   position: relative;
-  border: 2px solid #e0e3ea;
   overflow: hidden;
 }
-.twitterfeed li .tweet-box:after {
+.twitterfeed .tweet-box:after {
   content: "";
   position: absolute;
   top: 0;
@@ -5440,15 +5435,19 @@ nav.isExpanded {
 .twitterfeed .user img {
   display: none;
 }
+.twitterfeed .tweet a {
+  display: inline-block;
+  max-width: 100%;
+}
 .twitterfeed .timePosted,
 .twitterfeed .interact {
   display: inline-block;
-  float: left;
-  width: 35%;
+  width: 33%;
   margin-top: 5px;
   padding-top: 5px;
   border-top: 1px solid #e0e3ea;
   font-size: 0.9em;
+  vertical-align: top;
 }
 .twitterfeed .timePosted {
   display: inline-block;

@@ -113,34 +113,42 @@
     
     </section>
 
-    <section id="intro" class="bg-greylight u-pv80 u-hasHiddenContent">
-      <div class="row">
-        <div class="col-md-9">
-          <p class="text-tagline text-large">Holland Turkey Trade is the online platform for Dutch companies doing business in Turkey. </p>
-        </div>
-        <div class="col-md-3">
-          <a href="javascript:void(0)" onclick="javascript:showHiddenContent(this);" class="btn btn-lg btn-outline u-mt20">READ MORE</a>
-        </div>
-      </div>
-      <div class="row u-mt40 u-hiddenContent">
-        <div class="col-md-6">
-          <p><big>The site is an initiative of the Dutch Economic Diplomacy Team in Turkey with the aim to stimulate business and networking relations among the Dutch business community in Turkey.</big></p>
-        </div>
-        <div class="col-md-6">
-          <p>This initiative of the Dutch Economic Diplomacy Team that has been operational since January 2010, will help you on your way of exploring the market by sharing knowledge and information on doing business in Turkey, providing networks and showing relevant news and upcoming events from Turkey and the NL.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="bg-white">
+    <!-- <section class="bg-white">
       <div class="row">
         <div class="col-xs-12 u-pv20">
           <a href="twitter.com" target="_blank" class="btn btn-sm btn-greyoutline u-floatright">See all tweets <i class="icon icon-arrows-right icon-15x u-floatright"></i></a>
           <h4 class="u-mt10 c-greymedium">NTTD on Twitter</h4>
         </div>
         <div class="col-xs-12">
-          <div id="twitterfeed" class="twitterfeed">
-            <div class="u-pv20 u-mb20 u-aligncenter c-greymedium">Loading @NLEconomy's tweets...</div>
+        </div>
+      </div>
+    </section> -->
+
+    <section id="intro" class="u-hasHiddenContent">
+      <div class="row row-internalpadding row-full">
+        <div class="col-md-8">
+          <div class="bg-greylight content-small u-pv80">
+
+            <p class="text-tagline text-large">Holland Turkey Trade is the online platform for Dutch companies doing business in Turkey. </p>
+            <a href="javascript:void(0)" onclick="javascript:showHiddenContent(this);" class="btn btn-lg btn-outline u-mt20">READ MORE</a>
+
+            <div class="row row-internalpadding u-mt40 u-hiddenContent">
+              <div class="col-md-6">
+                <p><big>The site is an initiative of the Dutch Economic Diplomacy Team in Turkey with the aim to stimulate business and networking relations among the Dutch business community in Turkey.</big></p>
+              </div>
+              <div class="col-md-6">
+                <p>This initiative of the Dutch Economic Diplomacy Team that has been operational since January 2010, will help you on your way of exploring the market by sharing knowledge and information on doing business in Turkey, providing networks and showing relevant news and upcoming events from Turkey and the NL.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="content-small bg-white">
+            <a href="https://twitter.com/NLeconomyinTR" target="_blank"><h4 class="c-greymedium u-mt10 u-mb20">NTTD on Twitter  <i class="icon icon-arrows-right icon-1x u-floatright"></i></h4></a>
+            <div id="twitterfeed" class="twitterfeed">
+              <div class="u-pv20 u-mb20 u-aligncenter c-greymedium">Loading @NLEconomy's tweets...</div>
+            </div>
           </div>
         </div>
       </div>
@@ -249,9 +257,9 @@
 
     </section>
 
-    <section>
+    <section class="u-mb0">
       <div class="row row-full row-internalpadding">
-        <div class="col-sm-6">
+        <div class="col-sm-6 u-heightcompare">
           <div id="news" class="u-border content u-mb20">
 
             <h3 class="u-mb30 c-bluesoft">News</h3>

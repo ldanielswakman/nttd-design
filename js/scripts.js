@@ -43,13 +43,23 @@ $(document).ready(function() {
   function handleTweets(tweets){
     var n = 0;
     var element = document.getElementById('twitterfeed');
-    var html = '<ul class="row row-internalpadding">';
+    var html = '<div class="bxslider">';
     while(n < tweets.length) {
-      html += '<li class="col-md-4 col-sm-6"><div class="tweet-box content-small">' + tweets[n] + '</div></li>';
+      html += '<div class="tweet-box bg-white">' + tweets[n] + '</div>';
       n++;
     }
-    html += '</ul>';
+    html += '</div>';
     element.innerHTML = html;
+    if (tweets.length > 1) {
+      $('#twitterfeed .bxslider').bxSlider({
+        auto: true,
+        // adaptiveHeight: true,
+        mode: 'horizontal',
+        pause: 5000,
+        controls: false,
+        pager: false
+      });
+    }
   }
 
   // perform scrollActions on pageload

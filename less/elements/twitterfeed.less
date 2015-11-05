@@ -1,28 +1,22 @@
 .twitterfeed {
   font-family: "Expletus Sans";
+  
+  .tweet-box {
+    position: relative;
+    overflow: hidden;
 
-  li {
-    list-style: none;
-    padding-bottom: 20px;
-
-    .tweet-box {
-      position: relative;
-      border: 2px solid @greylight;
-      overflow: hidden;
-
-      &:after {
-        content: "";
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 15px;
-        height: 100%;
-        background: -webkit-gradient(linear, 0% 0%, 80% 0, from(transparent), to(@white));
-        background: -webkit-linear-gradient(left, transparent, @white);
-        background: -moz-linear-gradient(left, transparent, @white);
-        background: -ms-linear-gradient(left, transparent, @white);
-        background: -o-linear-gradient(left, transparent, @white);
-      }
+    &:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 15px;
+      height: 100%;
+      background: -webkit-gradient(linear, 0% 0%, 80% 0, from(transparent), to(@white));
+      background: -webkit-linear-gradient(left, transparent, @white);
+      background: -moz-linear-gradient(left, transparent, @white);
+      background: -ms-linear-gradient(left, transparent, @white);
+      background: -o-linear-gradient(left, transparent, @white);
     }
   }
   p {
@@ -42,15 +36,19 @@
       display: none;
     }
   }
+  .tweet a {
+    display: inline-block;
+    max-width: 100%;
+  }
   .timePosted,
   .interact {
     display: inline-block;
-    float: left;
-    width: 35%;
+    width: 33%;
     margin-top: 5px;
     padding-top: 5px;
     border-top: 1px solid @greylight;
     font-size: 0.9em;
+    vertical-align: top;
   }
   .timePosted {
     .u-truncate;
