@@ -23,11 +23,7 @@
 
       <div class="header-placeholder u-relative"></div>
 
-      <div class="slides">
-        <div class="bxslider">
-          <div class="slide" style="background-image: url('images/banner_tradedir.jpg');"></div>
-        </div>
-      </div>
+      <div class="slide" style="background-image: url('images/banner_tradedir.jpg');"></div>
 
       <div class="row u-pv4vw">
         <div class="col-md-1 col-md-offset-2 u-aligncenter">
