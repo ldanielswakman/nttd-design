@@ -12,4 +12,4 @@
 
 </nav>
 
-<div id="nav_mask"></div>
+<a href="javascript:toggleMenu();" id="nav_mask"></a>
