@@ -4437,6 +4437,8 @@ figure img {
   line-height: 30px;
   letter-spacing: 0.02em;
   background-clip: border-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .btn.btn-lg {
   padding: 10px 20px 6px;
@@ -4992,6 +4994,15 @@ header a {
 header h4 {
   font-family: "Holland Serif";
 }
+header:before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  height: 20px;
+  width: 100%;
+  background-color: #f9f9f9;
+}
 .header-placeholder {
   display: block;
   height: 70px;
@@ -5098,6 +5109,8 @@ header h4 {
   line-height: 30px;
   letter-spacing: 0.02em;
   background-clip: border-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
   background-color: #ffffff;
 }
 .list-pagination a.btn-lg {
@@ -5347,6 +5360,8 @@ nav {
   -moz-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
+  opacity: 0;
+  pointer-events: none;
 }
 nav.isExpanded {
   -webkit-transform: translateY(0);
@@ -5354,6 +5369,8 @@ nav.isExpanded {
   -o-transform: translateY(0);
   -ms-transform: translateY(0);
   transform: translateY(0);
+  opacity: 1;
+  pointer-events: all;
 }
 #nav_mask {
   position: fixed;

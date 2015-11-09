@@ -21,6 +21,15 @@ header {
   h4 {
     font-family: "Holland Serif";
   }
+  &:before {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    height: @sectionpadding;
+    width: 100%;
+    background-color: @greylightest;
+  }
 }
 .header-placeholder {
   display: block;
