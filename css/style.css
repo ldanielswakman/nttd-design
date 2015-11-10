@@ -4936,7 +4936,8 @@ dialog.isVisible {
   line-height: 1.8em;
 }
 .flash figure img {
-  max-width: 90%;
+  width: auto;
+  max-width: 40em;
 }
 .flash:before {
   content: "\e074";
@@ -5623,7 +5624,8 @@ section.hasSlides .section-content {
 }
 .content figure img,
 .content-small figure img {
-  max-width: 90%;
+  width: auto;
+  max-width: 40em;
 }
 @media screen and (max-width: 991px) {
   .row .col-sm-hide {
@@ -5769,7 +5771,8 @@ section.hasSlides .section-content {
   line-height: 1.8em;
 }
 .tradedir-category figure img {
-  max-width: 90%;
+  width: auto;
+  max-width: 40em;
 }
 .tradedir-category:hover {
   background-color: #ffffff;
