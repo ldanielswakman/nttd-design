@@ -4938,7 +4938,7 @@ dialog.isVisible {
   font-size: 1.1em;
   line-height: 1.8em;
 }
-.flash figure img {
+.flash .figure img {
   width: auto;
   max-width: 40em;
 }
@@ -5633,8 +5633,8 @@ section.hasSlides .section-content {
   font-size: 1.1em;
   line-height: 1.8em;
 }
-.content figure img,
-.content-small figure img {
+.content .figure img,
+.content-small .figure img {
   width: auto;
   max-width: 40em;
 }
@@ -5644,8 +5644,8 @@ section.hasSlides .section-content {
   }
 }
 @media screen and (max-width: 768px) {
-  .content figure img,
-  .content-small figure img {
+  .content .figure img,
+  .content-small .figure img {
     max-width: 100%;
   }
   .content {
@@ -5781,7 +5781,7 @@ section.hasSlides .section-content {
   font-size: 1.1em;
   line-height: 1.8em;
 }
-.tradedir-category figure img {
+.tradedir-category .figure img {
   width: auto;
   max-width: 40em;
 }

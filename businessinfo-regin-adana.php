@@ -86,9 +86,9 @@
 
             <h2 class="u-mb20">Adana</h2>
 
-            <figure>
+            <div class="figure">
               <img src="images/content/Adana.png" alt="" />
-            </figure>
+            </div>
 
           </div>
         </div>

@@ -78,9 +78,9 @@
 
             <p>The jurisdictional map will be here.</p>
 
-            <figure>
+            <div class="figure">
               <img src="images/banner_containership.jpg" alt="" />
-            </figure>
+            </div>
             
           </div>
 

@@ -125,8 +125,8 @@
                 <a href="tradedirectory-show.php" class="">
                   <div class="row">
                     <div class="col-sm-3 col-xs-3 u-pv20">
-                      <figure class="list-figure" style="background-image:url('images/content/client-logo-1.jpg');">
-                      </figure>
+                      <div class="list-figure" style="background-image:url('images/content/client-logo-1.jpg');">
+                      </div>
                     </div>
                     <div class="col-sm-3 col-xs-7 u-pv20">
                       7 Hills Foundation
@@ -144,8 +144,8 @@
                 <a href="tradedirectory-show.php" class="">
                   <div class="row">
                     <div class="col-sm-3 col-xs-3 u-pv20">
-                      <figure class="list-figure" style="background-image:url('images/content/client-logo-2.jpg');">
-                      </figure>
+                      <div class="list-figure" style="background-image:url('images/content/client-logo-2.jpg');">
+                      </div>
                     </div>
                     <div class="col-sm-3 col-xs-7 u-pv20">
                       NilBa Iş ve Dış Ticaret
@@ -163,8 +163,8 @@
                 <a href="tradedirectory-show.php" class="">
                   <div class="row">
                     <div class="col-sm-3 col-xs-3 u-pv20">
-                      <figure class="list-figure" style="background-image:url('images/content/client-logo-3.jpg');">
-                      </figure>
+                      <div class="list-figure" style="background-image:url('images/content/client-logo-3.jpg');">
+                      </div>
                     </div>
                     <div class="col-sm-3 col-xs-7 u-pv20">
                       Portakal Toerisme Nederland B.V
@@ -182,8 +182,8 @@
                 <a href="tradedirectory-show.php" class="">
                   <div class="row">
                     <div class="col-sm-3 col-xs-3 u-pv20">
-                      <figure class="list-figure" style="background-image:url('images/content/client-logo-1.jpg');">
-                      </figure>
+                      <div class="list-figure" style="background-image:url('images/content/client-logo-1.jpg');">
+                      </div>
                     </div>
                     <div class="col-sm-3 col-xs-7 u-pv20">
                       7 Hills Foundation
@@ -201,8 +201,8 @@
                 <a href="tradedirectory-show.php" class="">
                   <div class="row">
                     <div class="col-sm-3 col-xs-3 u-pv20">
-                      <figure class="list-figure" style="background-image:url('images/content/client-logo-2.jpg');">
-                      </figure>
+                      <div class="list-figure" style="background-image:url('images/content/client-logo-2.jpg');">
+                      </div>
                     </div>
                     <div class="col-sm-3 col-xs-7 u-pv20">
                       NilBa Iş ve Dış Ticaret
@@ -220,8 +220,8 @@
                 <a href="tradedirectory-show.php" class="">
                   <div class="row">
                     <div class="col-sm-3 col-xs-3 u-pv20">
-                      <figure class="list-figure" style="background-image:url('images/content/client-logo-3.jpg');">
-                      </figure>
+                      <div class="list-figure" style="background-image:url('images/content/client-logo-3.jpg');">
+                      </div>
                     </div>
                     <div class="col-sm-3 col-xs-7 u-pv20">
                       Portakal Toerisme Nederland B.V

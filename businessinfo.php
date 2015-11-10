@@ -76,9 +76,9 @@
             <h3 class="u-mb20">Bilateral Trade</h3>
             <p class="u-mb40">If you’re looking for more information on bilateral trade and Turkish economy, please contact our team at the Economic & Commercial Departments.</p>
 
-            <figure>
+            <div class="figure">
               <img src="images/content/bilateral_trade.png" alt="" />
-            </figure>
+            </div>
 
             <h4 class="u-mt60">Further reading</h4>
 

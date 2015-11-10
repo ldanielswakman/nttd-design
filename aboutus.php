@@ -66,9 +66,9 @@
             <p><big><em>HollandTurkeyTrade is the online platform for Dutch companies doing business in Turkey. The site is an initiative of the Dutch Economic Diplomacy Team in Turkey.</em></big></p>
             <p>The Team consists of the <a href="#embassy">Dutch Embassy in Ankara</a>, the <a href="#consulate">Consulate General in Istanbul</a>, the <a href="#support">Netherlands Business Support Office (NSBO) in Izmir</a> and Netherlands Foreign Investment Agency Istanbul. The website offers practical information on topics that may be of interest in exploring the Turkish market, starting a business in Turkey or strengthen your position in the Turkish market. Additionally HollandTurkeyTrade.com provides information on the various sectors in Turkey and the opportunities that lie ahead for Dutch companies.</p>
 
-            <figure>
+            <div class="figure">
               <img src="images/content/infographic_stayintouch.png" alt="" class="u-mv30" />
-            </figure>
+            </div>
 
           </div>
         </div>

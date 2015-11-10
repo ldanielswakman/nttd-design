@@ -79,9 +79,9 @@
 
             <p class="u-mb30">Although Turks and Dutch’s have a long history of diplomacy & bilateral trade, there are some cultural differences that you need to be aware of in order to be successful in the Turkish market. Check the report by ING & Turkije Instituut- Cultural Differences in Doing Business in Turkey.</p>
 
-            <figure>
+            <div class="figure">
               <img src="images/content/dodonts.png" alt="" />
-            </figure>
+            </div>
 
           </div>
         </div>
