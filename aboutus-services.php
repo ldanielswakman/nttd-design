@@ -66,19 +66,34 @@
 
             <h3>Our services</h3>
 
-            <p>The Economic and the Agricultural Department of the Netherlands Embassy in Ankara together with the Commercial &Economic Department of the Consulate General in Istanbul and Netherlands Business Support Office in Izmir assist Dutch companies looking for market opportunities in Turkey. We do this by providing reliable market information, answering specific trade questions and offering a local network and exclusive programs like the Palais de Hollande and Orange Carpet Facility. We also work to actively identify trade opportunities and possible investment opportunities for Dutch companies in Turkey.</p>
+            <p>The Economic and the Agricultural Department of the Netherlands Embassy in Ankara together with the Commercial &Economic Department of the Consulate General in Istanbul and Netherlands Business Support Office in Izmir assist Dutch companies looking for market opportunities in Turkey. We do this by providing reliable market <a href="#service_info">information</a>, answering specific trade <a href="#service_knowlegde">questions</a> and offering a local <a href="#service_network">network</a> and <a href="#service_programs">exclusive programs</a> like the Palais de Hollande and Orange Carpet Facility. We also work to actively identify trade opportunities and possible investment opportunities for Dutch companies in Turkey.</p>
 
-            <h4 class="u-mt20">Information</h4>
-
-            <ul>
-              <li>Political and economic developments in Turkey</li>
-              <li>innovation and R&D trends</li>
-              <li>lists of suppliers</li>
-              <li>importers</li>
-              <li>etc.</li>
-              <li>Tailor made services like business partner scan</li>
-              <li>advice on establishing your business in TR</li>
-            </ul>
+            <div class="row row-internalpadding u-mv30">
+              <div id="service_info" class="col-sm-6 u-mv20">
+                <i class="icon icon-basic-info icon-3x u-block u-mb20 c-orange"></i>
+                <h4 class="c-orange">Information</h4>
+                <p>Political and economic developments in Turkey, innovation and R&D trends, lists of suppliers, importers, etc., Tailor made services like business partner scan, advice on establishing your business in TR.</p>
+              </div>
+              <div id="serviceknowledge" class="col-sm-6 u-mv20">
+                <i class="icon icon-basic-lightbulb icon-3x u-block u-mb20 c-orange"></i>
+                <h4 class="c-orange">Knowledge</h4>
+                <p>Organizing seminars on specific topics, Advice on subsidies and programs of the Dutch Govt, Assistance in resolving trade and investment disputes, Advice on customs related issues, Advice on CSR in TR,</p>
+              </div>
+              <div id="service_network" class="col-sm-6 u-mv20">
+                <i class="icon icon-basic-share icon-3x u-block u-mb20 c-orange"></i>
+                <h4 class="c-orange">Network</h4>
+                <ul>
+                  <li>Organizing regional Trade Mission in Turkey</li>
+                  <li>networking receptions</li>
+                  <li>Access to economic and commercial contact in TR</li>
+                  <li>Assistance in contact with Turkish authorities</li>
+                </ul>
+              </div>
+              <div id="service_programs" class="col-sm-6 u-mv20">
+                <i class="icon icon-basic-star icon-3x u-block u-mb20 c-orange"></i>
+                <h4 class="c-orange">Exclusive Programs</h4>
+              </div>
+            </div>
 
           </div>
         </div>
