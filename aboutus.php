@@ -75,7 +75,7 @@
       <div class="row row-full">
         <div class="col-sm-3 u-static">
           <div class="content-small box-sticky">
-            [image]
+            <img src="images/content/office.png" alt="" />
           </div>
         </div>
         <div class="col-sm-9">
