@@ -6,6 +6,7 @@ dialog {
   left: 0;
   z-index: 5;
   display: block;
+  display: ~"none\9"; // IE hack
   min-width: 280px;
   min-width: 40vw;
   max-width: 900px;
@@ -21,6 +22,7 @@ dialog {
   .transform(scale(.5));
 
   &.isVisible {
+    display: ~"block\9"; // IE hack
     opacity: 1;
     pointer-events: all;
     .transform(scale(1));
@@ -34,6 +36,7 @@ dialog {
   bottom: 0;
   left: 0;
   display: block;
+  display: ~"none\9"; // IE hack
   width: 100%;
   height: 100%;
   height: 100vh;
@@ -44,6 +47,7 @@ dialog {
   .transition(0.3s);
 
   &.isVisible {
+    display: ~"block\9"; // IE hack
     opacity: 1;
     pointer-events: all;
   }
