@@ -39,7 +39,15 @@
     <section>
       <div class="row row-full">
         <div class="col-sm-3 u-static">
-          <?php include('components/sticky-box.php'); ?>
+          <?php
+          // Example event meta data
+          $stickybox_content = '<p><small>';
+          $stickybox_content .= '<i class="icon icon-basic-calendar icon-15x u-floatleft u-mr10 u-mt5 c-greymedium"></i> 25-28 November<br />';
+          $stickybox_content .= '<i class="icon icon-basic-clock icon-15x u-floatleft u-mr10 u-mt5 c-greymedium"></i> 9.00-17.30<br />';
+          $stickybox_content .= '<i class="icon icon-basic-geolocalize-01 icon-15x u-floatleft u-mr10 u-mt5 c-greymedium"></i> Istanbul, CNR Expo';
+          $stickybox_content .= '</small></p>';
+          include('components/sticky-box.php'); 
+          ?>
         </div>
         <div class="col-sm-9">
           <div class="content-small">

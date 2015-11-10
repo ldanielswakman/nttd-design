@@ -72,7 +72,7 @@
           <div class="content-small">
 
             <h2 class="u-mb20">Sectoral Information</h2>
-            <p><big><em>The Turkish economy offers opportunies within a wide variety of sectors. We selected the sectors that are prominent and leading in the field of export of Turkey. These are also the sectors in which Dutch companies invested the most.</em></big></p>
+            <p class="u-alignjustify"><big><em>The Turkish economy offers opportunies within a wide variety of sectors. We selected the sectors that are prominent and leading in the field of export of Turkey. These are also the sectors in which Dutch companies invested the most.</em></big></p>
 
           </div>
         </div>

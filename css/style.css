@@ -4303,6 +4303,9 @@ figure img {
 .u-alignright {
   text-align: right;
 }
+.u-alignjustify {
+  text-align: justify;
+}
 .u-floatleft {
   display: inline-block;
   float: left;
