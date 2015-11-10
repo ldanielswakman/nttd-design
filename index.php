@@ -145,7 +145,7 @@
         </div>
         <div class="col-md-4">
           <div class="content-small bg-white">
-            <a href="https://twitter.com/NLeconomyinTR" target="_blank"><h4 class="c-greymedium u-mt10 u-mb20">NTTD on Twitter  <i class="icon icon-arrows-right icon-1x u-floatright"></i></h4></a>
+            <a href="https://twitter.com/NLeconomyinTR" target="_blank"><h4 class="c-greymedium u-mt10 u-mb20">NTTD on Twitter  <i class="icon icon-arrows-circle-left icon-1x u-floatright"></i></h4></a>
             <div id="twitterfeed" class="twitterfeed">
               <div class="u-pv20 u-mb20 u-aligncenter c-greymedium">Loading @NLEconomy's tweets...</div>
             </div>
@@ -187,7 +187,7 @@
 
     <section id="tradedirectory" class="bg-greylight u-pv12vw">
 
-      <div class="slide" style="background-image: url('images/banner_tradedir.jpg');"></div>
+      <div class="slide bg-bluesoft" style="background-image: url('images/banner_tradedir.jpg');"></div>
 
       <div class="row">
         <div class="col-xs-12">
@@ -219,7 +219,7 @@
 
     <section id="businessinfo" class="hasSlides g-greylight u-pv12vw">
 
-      <div class="slide" style="background-image: url('images/banner_businessinfo.jpg');"></div>
+      <div class="slide bg-orange" style="background-image: url('images/banner_businessinfo.jpg');"></div>
 
       <div class="row">
         <div class="col-xs-12">
