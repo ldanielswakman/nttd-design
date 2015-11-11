@@ -80,12 +80,12 @@
     </section>
 
     <section>
-      <div class="row row-full">
+      <div class="row row-full row-internalpadding">
 
         <div class="col-md-3 col-sm-4 col-xs-6">
           <a href="businessinfo-secin-agri.php" class="u-block bg-white u-mb20">
 
-            <img src="images/content/FOOD.png" alt="" />
+            <div class="figure-card" style="background-image: url('images/content/FOOD.png');"></div>
 
             <div class="u-pa20">
               <h3 class="u-mb10">Agri-Food Industry</h3>
@@ -97,7 +97,7 @@
         <div class="col-md-3 col-sm-4 col-xs-6">
           <a href="businessinfo-secin-agri.php" class="u-block bg-white u-mb20">
 
-            <img src="images/content/HEALTH.png" alt="" />
+            <div class="figure-card" style="background-image: url('images/content/HEALTH.png');"></div>
 
             <div class="u-pa20">
               <h3 class="u-mb10">Health Industry</h3>
@@ -109,7 +109,7 @@
         <div class="col-md-3 col-sm-4 col-xs-6">
           <a href="businessinfo-secin-agri.php" class="u-block bg-white u-mb20">
 
-            <img src="images/content/FOOD.png" alt="" />
+            <div class="figure-card" style="background-image: url('images/content/AGRO.png');"></div>
 
             <div class="u-pa20">
               <h3 class="u-mb10">Agri-Food Industry</h3>
@@ -121,7 +121,7 @@
         <div class="col-md-3 col-sm-4 col-xs-6">
           <a href="businessinfo-secin-agri.php" class="u-block bg-white u-mb20">
 
-            <img src="images/content/HEALTH.png" alt="" />
+            <div class="figure-card" style="background-image: url('images/content/HEALTH.png');"></div>
 
             <div class="u-pa20">
               <h3 class="u-mb10">Health Industry</h3>
