@@ -5091,237 +5091,6 @@ header:before {
   margin-right: -10px;
   width: calc(100% + 20px);
 }
-.list-pagination {
-  font-family: "Expletus Sans";
-}
-.list-pagination li {
-  display: inline-block;
-  float: left;
-}
-.list-pagination li.active a {
-  background-color: transparent;
-  color: #ff6600;
-}
-.list-pagination a {
-  display: inline-block;
-  max-width: 100%;
-  font-family: "Expletus Sans";
-  padding: 6px 15px 3px;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
-  border: 2px solid transparent;
-  font-weight: 600;
-  font-size: 1em;
-  line-height: 30px;
-  letter-spacing: 0.02em;
-  background-clip: border-box;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  background-color: #ffffff;
-}
-.list-pagination a.btn-lg {
-  padding: 10px 20px 6px;
-  font-size: 1.1em;
-}
-.list-pagination a.btn-sm {
-  padding: 3px 8px 0px;
-  font-size: 0.9em;
-}
-.list-pagination a.btn-sm .icon {
-  -webkit-transform: translateY(2px);
-  -moz-transform: translateY(2px);
-  -o-transform: translateY(2px);
-  -ms-transform: translateY(2px);
-  transform: translateY(2px);
-}
-.list-pagination a:active {
-  -webkit-transform: translateY(2px);
-  -moz-transform: translateY(2px);
-  -o-transform: translateY(2px);
-  -ms-transform: translateY(2px);
-  transform: translateY(2px);
-}
-.list-pagination a.btn-pointright {
-  position: relative;
-  margin-right: 22px;
-}
-.list-pagination a.btn-pointright:after {
-  content: "";
-  position: absolute;
-  left: 100%;
-  top: 0;
-  margin-left: 2px;
-  margin-top: -2px;
-  border: 22px solid transparent;
-  border-width: 22px 14px 22px 14px;
-}
-.list-pagination a.btn-pointright.btn-lg:after {
-  border-width: 25px 15px 25px 15px;
-}
-.list-pagination a.btn-pointright.btn-sm:after {
-  border-width: 18px 12px 18px 12px;
-}
-.list-pagination a.btn-primary {
-  background-color: #ff6600;
-  color: #ffffff;
-}
-.list-pagination a.btn-primary:hover {
-  background-color: #cc5200;
-  border-color: transparent;
-}
-.list-pagination a.btn-primary.btn-pointright:after {
-  border-left-color: #ff6600;
-}
-.list-pagination a.btn-primary.btn-pointright:hover:after {
-  border-left-color: #cc5200;
-}
-.list-pagination a.btn-secondary {
-  background-color: #7c8db5;
-  color: #ffffff;
-}
-.list-pagination a.btn-secondary:hover {
-  background-color: #092877;
-  border-color: transparent;
-}
-.list-pagination a.btn-secondary.btn-pointright:after {
-  border-left-color: #7c8db5;
-}
-.list-pagination a.btn-secondary.btn-pointright:hover:after {
-  border-left-color: #092877;
-}
-.list-pagination a.btn-outline {
-  background-color: transparent;
-  border-color: #ff6600;
-  color: #ff6600;
-}
-.list-pagination a.btn-outline:hover {
-  background-color: #ff6600;
-  color: #ffffff;
-}
-.list-pagination a.btn-greyoutline {
-  background-color: transparent;
-  border-color: #adb8d1;
-  color: #7c8db5;
-}
-.list-pagination a.btn-greyoutline:hover {
-  border-color: #ff6600;
-  color: #ff6600;
-}
-.list-pagination a.btn-greyoutline .icon {
-  -webkit-transform: translateY(2px);
-  -moz-transform: translateY(2px);
-  -o-transform: translateY(2px);
-  -ms-transform: translateY(2px);
-  transform: translateY(2px);
-}
-.list-pagination a.btn-whiteoutline {
-  background-color: transparent;
-  border-color: #ffffff;
-  color: #ffffff;
-}
-.list-pagination a.btn-whiteoutline:hover {
-  background-color: #ffffff;
-  color: #ff6600;
-}
-.list-pagination a.btn-whiteoutline .icon {
-  -webkit-transform: translateY(2px);
-  -moz-transform: translateY(2px);
-  -o-transform: translateY(2px);
-  -ms-transform: translateY(2px);
-  transform: translateY(2px);
-}
-.list-pagination a.btn-white {
-  background-color: #f9f9f9;
-  color: #ff6600;
-}
-.list-pagination a.btn-white:hover {
-  background-color: #092877;
-  color: #ffffff;
-}
-.list-pagination a.btn-reveal {
-  background-color: transparent;
-  border-color: transparent;
-}
-.list-pagination a.btn-reveal.btn-white {
-  color: #ffffff;
-}
-.list-pagination a.btn-reveal.btn-white:hover {
-  background-color: rgba(9, 40, 119, 0.2);
-  color: #ffffff;
-}
-.list-pagination a.btn-reveal.btn-outline {
-  border-color: rgba(249, 249, 249, 0.5);
-  color: #ff6600;
-}
-.list-pagination a.btn-reveal.btn-outline:hover {
-  background-color: transparent;
-  border-color: #ff6600;
-}
-.list-pagination a.btn-reveal.btn-whiteoutline {
-  color: #ffffff;
-}
-.list-pagination a.btn-reveal.btn-whiteoutline:hover {
-  background-color: transparent;
-  border-color: #ffffff;
-}
-.list-pagination a.btn-attachment {
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 100%;
-  padding: 30px;
-  background-color: #ffffff;
-  overflow: hidden;
-  white-space: inherit;
-  text-align: left;
-  line-height: 1.5em;
-  color: #ff6600;
-}
-.list-pagination a.btn-attachment:hover {
-  background-color: #f4f4f4;
-}
-.list-pagination a.btn-attachment:before {
-  position: absolute;
-  bottom: -20px;
-  right: 10px;
-  font-family: "linea-basic-elaboration-10" !important;
-  font-size: 6em;
-  line-height: 1em;
-  font-weight: normal;
-  color: rgba(9, 40, 119, 0.08);
-}
-.list-pagination a.btn-attachment[href$=".pdf"]:before {
-  content: "8";
-}
-.list-pagination a.btn-attachment[href$=".doc"]:before,
-.list-pagination a.btn-attachment[href$=".docx"]:before {
-  content: "7";
-}
-.list-pagination a.btn-attachment .title:before,
-.list-pagination a.btn-attachment .title:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  border: 10px solid transparent;
-}
-.list-pagination a.btn-attachment .title:before {
-  border-bottom-color: #ff6600;
-  border-right-color: #ff6600;
-}
-.list-pagination a.btn-attachment .title:after {
-  border-top-color: #f9f9f9;
-  border-left-color: #f9f9f9;
-}
-.list-pagination a.btn-attachment .data {
-  font-size: 0.9em;
-  color: #c2c8d5;
-}
-.list-pagination a:hover {
-  background-color: #ff6600;
-  color: #ffffff;
-}
 #menu {
   font-family: "Expletus Sans";
   font-size: 0.9em;
@@ -5402,6 +5171,336 @@ nav.isExpanded {
   display: block\9;
   opacity: 1;
   pointer-events: all;
+}
+.pagination {
+  font-family: "Expletus Sans";
+}
+.pagination span,
+.pagination em,
+.pagination a {
+  max-width: 100%;
+  font-family: "Expletus Sans";
+  padding: 6px 15px 3px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  border: 2px solid transparent;
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  background-clip: border-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  float: left;
+  background-color: #ffffff;
+  cursor: pointer;
+  font-style: normal;
+}
+.pagination span.btn-lg,
+.pagination em.btn-lg,
+.pagination a.btn-lg {
+  padding: 10px 20px 6px;
+  font-size: 1.1em;
+}
+.pagination span.btn-sm,
+.pagination em.btn-sm,
+.pagination a.btn-sm {
+  padding: 3px 8px 0px;
+  font-size: 0.9em;
+}
+.pagination span.btn-sm .icon,
+.pagination em.btn-sm .icon,
+.pagination a.btn-sm .icon {
+  -webkit-transform: translateY(2px);
+  -moz-transform: translateY(2px);
+  -o-transform: translateY(2px);
+  -ms-transform: translateY(2px);
+  transform: translateY(2px);
+}
+.pagination span:active,
+.pagination em:active,
+.pagination a:active {
+  -webkit-transform: translateY(2px);
+  -moz-transform: translateY(2px);
+  -o-transform: translateY(2px);
+  -ms-transform: translateY(2px);
+  transform: translateY(2px);
+}
+.pagination span.btn-pointright,
+.pagination em.btn-pointright,
+.pagination a.btn-pointright {
+  position: relative;
+  margin-right: 22px;
+}
+.pagination span.btn-pointright:after,
+.pagination em.btn-pointright:after,
+.pagination a.btn-pointright:after {
+  content: "";
+  position: absolute;
+  left: 100%;
+  top: 0;
+  margin-left: 2px;
+  margin-top: -2px;
+  border: 22px solid transparent;
+  border-width: 22px 14px 22px 14px;
+}
+.pagination span.btn-pointright.btn-lg:after,
+.pagination em.btn-pointright.btn-lg:after,
+.pagination a.btn-pointright.btn-lg:after {
+  border-width: 25px 15px 25px 15px;
+}
+.pagination span.btn-pointright.btn-sm:after,
+.pagination em.btn-pointright.btn-sm:after,
+.pagination a.btn-pointright.btn-sm:after {
+  border-width: 18px 12px 18px 12px;
+}
+.pagination span.btn-primary,
+.pagination em.btn-primary,
+.pagination a.btn-primary {
+  background-color: #ff6600;
+  color: #ffffff;
+}
+.pagination span.btn-primary:hover,
+.pagination em.btn-primary:hover,
+.pagination a.btn-primary:hover {
+  background-color: #cc5200;
+  border-color: transparent;
+}
+.pagination span.btn-primary.btn-pointright:after,
+.pagination em.btn-primary.btn-pointright:after,
+.pagination a.btn-primary.btn-pointright:after {
+  border-left-color: #ff6600;
+}
+.pagination span.btn-primary.btn-pointright:hover:after,
+.pagination em.btn-primary.btn-pointright:hover:after,
+.pagination a.btn-primary.btn-pointright:hover:after {
+  border-left-color: #cc5200;
+}
+.pagination span.btn-secondary,
+.pagination em.btn-secondary,
+.pagination a.btn-secondary {
+  background-color: #7c8db5;
+  color: #ffffff;
+}
+.pagination span.btn-secondary:hover,
+.pagination em.btn-secondary:hover,
+.pagination a.btn-secondary:hover {
+  background-color: #092877;
+  border-color: transparent;
+}
+.pagination span.btn-secondary.btn-pointright:after,
+.pagination em.btn-secondary.btn-pointright:after,
+.pagination a.btn-secondary.btn-pointright:after {
+  border-left-color: #7c8db5;
+}
+.pagination span.btn-secondary.btn-pointright:hover:after,
+.pagination em.btn-secondary.btn-pointright:hover:after,
+.pagination a.btn-secondary.btn-pointright:hover:after {
+  border-left-color: #092877;
+}
+.pagination span.btn-outline,
+.pagination em.btn-outline,
+.pagination a.btn-outline {
+  background-color: transparent;
+  border-color: #ff6600;
+  color: #ff6600;
+}
+.pagination span.btn-outline:hover,
+.pagination em.btn-outline:hover,
+.pagination a.btn-outline:hover {
+  background-color: #ff6600;
+  color: #ffffff;
+}
+.pagination span.btn-greyoutline,
+.pagination em.btn-greyoutline,
+.pagination a.btn-greyoutline {
+  background-color: transparent;
+  border-color: #adb8d1;
+  color: #7c8db5;
+}
+.pagination span.btn-greyoutline:hover,
+.pagination em.btn-greyoutline:hover,
+.pagination a.btn-greyoutline:hover {
+  border-color: #ff6600;
+  color: #ff6600;
+}
+.pagination span.btn-greyoutline .icon,
+.pagination em.btn-greyoutline .icon,
+.pagination a.btn-greyoutline .icon {
+  -webkit-transform: translateY(2px);
+  -moz-transform: translateY(2px);
+  -o-transform: translateY(2px);
+  -ms-transform: translateY(2px);
+  transform: translateY(2px);
+}
+.pagination span.btn-whiteoutline,
+.pagination em.btn-whiteoutline,
+.pagination a.btn-whiteoutline {
+  background-color: transparent;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+.pagination span.btn-whiteoutline:hover,
+.pagination em.btn-whiteoutline:hover,
+.pagination a.btn-whiteoutline:hover {
+  background-color: #ffffff;
+  color: #ff6600;
+}
+.pagination span.btn-whiteoutline .icon,
+.pagination em.btn-whiteoutline .icon,
+.pagination a.btn-whiteoutline .icon {
+  -webkit-transform: translateY(2px);
+  -moz-transform: translateY(2px);
+  -o-transform: translateY(2px);
+  -ms-transform: translateY(2px);
+  transform: translateY(2px);
+}
+.pagination span.btn-white,
+.pagination em.btn-white,
+.pagination a.btn-white {
+  background-color: #f9f9f9;
+  color: #ff6600;
+}
+.pagination span.btn-white:hover,
+.pagination em.btn-white:hover,
+.pagination a.btn-white:hover {
+  background-color: #092877;
+  color: #ffffff;
+}
+.pagination span.btn-reveal,
+.pagination em.btn-reveal,
+.pagination a.btn-reveal {
+  background-color: transparent;
+  border-color: transparent;
+}
+.pagination span.btn-reveal.btn-white,
+.pagination em.btn-reveal.btn-white,
+.pagination a.btn-reveal.btn-white {
+  color: #ffffff;
+}
+.pagination span.btn-reveal.btn-white:hover,
+.pagination em.btn-reveal.btn-white:hover,
+.pagination a.btn-reveal.btn-white:hover {
+  background-color: rgba(9, 40, 119, 0.2);
+  color: #ffffff;
+}
+.pagination span.btn-reveal.btn-outline,
+.pagination em.btn-reveal.btn-outline,
+.pagination a.btn-reveal.btn-outline {
+  border-color: rgba(249, 249, 249, 0.5);
+  color: #ff6600;
+}
+.pagination span.btn-reveal.btn-outline:hover,
+.pagination em.btn-reveal.btn-outline:hover,
+.pagination a.btn-reveal.btn-outline:hover {
+  background-color: transparent;
+  border-color: #ff6600;
+}
+.pagination span.btn-reveal.btn-whiteoutline,
+.pagination em.btn-reveal.btn-whiteoutline,
+.pagination a.btn-reveal.btn-whiteoutline {
+  color: #ffffff;
+}
+.pagination span.btn-reveal.btn-whiteoutline:hover,
+.pagination em.btn-reveal.btn-whiteoutline:hover,
+.pagination a.btn-reveal.btn-whiteoutline:hover {
+  background-color: transparent;
+  border-color: #ffffff;
+}
+.pagination span.btn-attachment,
+.pagination em.btn-attachment,
+.pagination a.btn-attachment {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  background-color: #ffffff;
+  overflow: hidden;
+  white-space: inherit;
+  text-align: left;
+  line-height: 1.5em;
+  color: #ff6600;
+}
+.pagination span.btn-attachment:hover,
+.pagination em.btn-attachment:hover,
+.pagination a.btn-attachment:hover {
+  background-color: #f4f4f4;
+}
+.pagination span.btn-attachment:before,
+.pagination em.btn-attachment:before,
+.pagination a.btn-attachment:before {
+  position: absolute;
+  bottom: -20px;
+  right: 10px;
+  font-family: "linea-basic-elaboration-10" !important;
+  font-size: 6em;
+  line-height: 1em;
+  font-weight: normal;
+  color: rgba(9, 40, 119, 0.08);
+}
+.pagination span.btn-attachment[href$=".pdf"]:before,
+.pagination em.btn-attachment[href$=".pdf"]:before,
+.pagination a.btn-attachment[href$=".pdf"]:before {
+  content: "8";
+}
+.pagination span.btn-attachment[href$=".doc"]:before,
+.pagination em.btn-attachment[href$=".doc"]:before,
+.pagination a.btn-attachment[href$=".doc"]:before,
+.pagination span.btn-attachment[href$=".docx"]:before,
+.pagination em.btn-attachment[href$=".docx"]:before,
+.pagination a.btn-attachment[href$=".docx"]:before {
+  content: "7";
+}
+.pagination span.btn-attachment .title:before,
+.pagination em.btn-attachment .title:before,
+.pagination a.btn-attachment .title:before,
+.pagination span.btn-attachment .title:after,
+.pagination em.btn-attachment .title:after,
+.pagination a.btn-attachment .title:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 10px solid transparent;
+}
+.pagination span.btn-attachment .title:before,
+.pagination em.btn-attachment .title:before,
+.pagination a.btn-attachment .title:before {
+  border-bottom-color: #ff6600;
+  border-right-color: #ff6600;
+}
+.pagination span.btn-attachment .title:after,
+.pagination em.btn-attachment .title:after,
+.pagination a.btn-attachment .title:after {
+  border-top-color: #f9f9f9;
+  border-left-color: #f9f9f9;
+}
+.pagination span.btn-attachment .data,
+.pagination em.btn-attachment .data,
+.pagination a.btn-attachment .data {
+  font-size: 0.9em;
+  color: #c2c8d5;
+}
+.pagination span:not(.disabled):hover,
+.pagination em:not(.disabled):hover,
+.pagination a:not(.disabled):hover {
+  background-color: #ff6600;
+  color: #ffffff;
+}
+.pagination span.current,
+.pagination em.current,
+.pagination a.current {
+  background-color: transparent;
+  color: #ff6600;
+}
+.pagination span.disabled,
+.pagination em.disabled,
+.pagination a.disabled {
+  cursor: default;
+  color: #a3afcc;
 }
 .tabs {
   position: relative;
@@ -5514,6 +5613,7 @@ body {
   font-family: "Holland Serif";
   font-size: 16px;
   color: #092877;
+  text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-kerning: normal;

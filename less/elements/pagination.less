@@ -1,0 +1,49 @@
+.pagination {
+  // Required html styling
+  font-family: "Expletus Sans";
+
+  span, em, a {
+    .btn;
+    display: inline-block;
+    float: left;
+    background-color: @white;
+    cursor: pointer;
+    font-style: normal;
+
+    &:not(.disabled):hover {
+      background-color: @holland_orange;
+      color: @white;
+    }
+    &.current {
+      background-color: transparent;
+      color: @holland_orange;
+    }
+    &.disabled {
+      cursor: default;
+      color: @grey;
+    }
+  }
+}
+
+// Styling of standard-compliant html
+
+// .list-pagination {
+//   li {
+//     display: inline-block;
+//     float: left;
+
+//     &.active a {
+//       background-color: transparent;
+//       color: @holland_orange;
+//     }
+//   }
+//   a {
+//     .btn;
+//     background-color: @white;
+
+//     &:hover {
+//       background-color: @holland_orange;
+//       color: @white;
+//     }
+//   }
+// }
