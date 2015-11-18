@@ -4770,6 +4770,12 @@ textarea.field {
   right: 0;
   pointer-events: none;
 }
+.ancient-broswer .field-select select {
+  color: #092877;
+}
+.ancient-broswer .field-select select [selected] {
+  color: #092877;
+}
 .fieldset-checkbox input[type="checkbox"] {
   position: absolute;
   left: -9999px;

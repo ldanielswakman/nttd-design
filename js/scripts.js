@@ -7,6 +7,9 @@ $(document).ready(function() {
   $touch = ( navigator.userAgent.match(/(Android|webOS|iPad|iPhone|iPod|BlackBerry)/i) ? true : false );
   var touchEvent = $touch ? 'touchstart' : 'click';
 
+  // add body class if IE
+  checkIE();
+
   // initiate smoothscroll on same-page links
   $('a[href^="#"]').smoothScroll({
     offset: -130,
@@ -185,6 +188,16 @@ function scrollActions() {
     }
   }
 
+}
+
+function checkIE() {
+  var msie = window.navigator.userAgent.indexOf("MSIE ");
+  var opera = navigator.userAgent.indexOf("Opera");
+
+  if (msie > 0 || opera > 0 || window.opera || !!navigator.userAgent.match(/Trident.*rv\:11\./)) {
+    $('body').addClass('ancient-browser');
+  }
+  return false;
 }
 
 function showHiddenContent(obj) {

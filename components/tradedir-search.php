@@ -3,7 +3,7 @@
 
     <form action="" class="u-inlineblock u-clearfix">
       <div class="fieldset u-floatleft u-mr20 u-mb10">
-        <input class="field field-white" type="text" placeholder="Search" />
+        <input class="field field-white" type="text" placeholder="Company name..." />
       </div>
       <div class="fieldset field-select u-floatleft u-mr20 u-mb10">
         <select class="field field-white">

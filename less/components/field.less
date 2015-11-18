@@ -124,6 +124,14 @@ textarea.field {
     pointer-events: none;
   }
 }
+// Ancient browser (Opera/IE) fix
+.ancient-broswer .field-select select {
+  color: @holland_darkblue;
+
+  [selected] {
+    color: @holland_darkblue;
+  }
+}
 .fieldset-checkbox {
   input[type="checkbox"] {
     position: absolute;
