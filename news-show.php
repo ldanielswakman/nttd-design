@@ -52,6 +52,10 @@
         <div class="col-sm-9">
           <div class="content-small">
 
+            <div class="figure u-mb20">
+              <img src="images/content/FOOD.png" alt="" />
+            </div>
+
             <p><strong>The port of Rotterdam is introducing a new innovation. The website Rotterdam Port Connector is the online way to bring potential international clients into contact with Rotterdam’s port business community.</strong></p>
             <p>It is possible, for example, for businesses with a logistics need to post their request online. The request can relate to transport, storage or handling or a specific service and is immediately received by over 500 service providers who are affiliated with the Rotterdam Port Promotion Council (RPPC): businesses which can meet this need. The requesting party remains anonymous and they decide for themselves when to contact the service provider. ‘In this way, we bring supply and demand together online. No other port has such a platform,’ explains RPPC director Marjolein Warburg. The website is proving a success. It has already received a substantial number of inquiries and has even resulted in new business.</p>
             <p>In addition to posting requests, the Rotterdam Port Connector offers the companies invited to an RPPC gathering the chance to meet the Rotterdam service providers on the spot. ‘A great instrument that extends our service and something the business community can use to its advantage.’</p>
