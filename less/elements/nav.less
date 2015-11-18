@@ -45,3 +45,20 @@ nav {
     pointer-events: all;
   }
 }
+// Ancient browser (IE/Opera) fix
+.ancient-browser {
+  nav {
+    display: none;
+
+    &.isExpanded {
+      display: none;
+    }
+  }
+  #nav_mask {
+    display: none;
+
+    &.isExpanded {
+      display: none;
+    }
+  }
+}

@@ -52,3 +52,20 @@ dialog {
     pointer-events: all;
   }
 }
+
+.ancient-browser {
+  dialog {
+    display: none;
+
+    &.isVisible {
+      display: none;
+    }
+  }
+  #dialog_mask {
+    display: none;
+
+    &.isVisible {
+      display: none;
+    }
+  }
+}

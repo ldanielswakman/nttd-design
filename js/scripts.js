@@ -48,7 +48,8 @@ $(document).ready(function() {
     var element = document.getElementById('twitterfeed');
     var html = '<div class="bxslider">';
     while(n < tweets.length) {
-      html += '<div class="tweet-box bg-white">' + tweets[n] + '</div>';
+      tweet = tweets[n].replace('data-src-2x', 'src');
+      html += '<div class="tweet-box bg-white">' + tweet + '</div>';
       n++;
     }
     html += '</div>';

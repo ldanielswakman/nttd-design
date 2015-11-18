@@ -125,11 +125,13 @@ textarea.field {
   }
 }
 // Ancient browser (Opera/IE) fix
-.ancient-broswer .field-select select {
-  color: @holland_darkblue;
-
-  [selected] {
+.ancient-browser {
+  .field-select select {
     color: @holland_darkblue;
+
+    [selected] {
+      color: @holland_darkblue;
+    }
   }
 }
 .fieldset-checkbox {

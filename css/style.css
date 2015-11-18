@@ -4770,10 +4770,10 @@ textarea.field {
   right: 0;
   pointer-events: none;
 }
-.ancient-broswer .field-select select {
+.ancient-browser .field-select select {
   color: #092877;
 }
-.ancient-broswer .field-select select [selected] {
+.ancient-browser .field-select select [selected] {
   color: #092877;
 }
 .fieldset-checkbox input[type="checkbox"] {
@@ -4929,6 +4929,18 @@ dialog.isVisible {
   opacity: 1;
   pointer-events: all;
 }
+.ancient-browser dialog {
+  display: none;
+}
+.ancient-browser dialog.isVisible {
+  display: none;
+}
+.ancient-browser #dialog_mask {
+  display: none;
+}
+.ancient-browser #dialog_mask.isVisible {
+  display: none;
+}
 .flash {
   background-color: #e0e3ea;
   padding: 30px;
@@ -4993,6 +5005,8 @@ header {
   z-index: 2;
   height: 70px;
   width: calc(100% - 40px);
+  width: 97vw;
+  width: 97%;
   margin: 20px;
   color: #ffffff;
   font-family: "Expletus Sans";
@@ -5177,6 +5191,18 @@ nav.isExpanded {
   display: block\9;
   opacity: 1;
   pointer-events: all;
+}
+.ancient-browser nav {
+  display: none;
+}
+.ancient-browser nav.isExpanded {
+  display: none;
+}
+.ancient-browser #nav_mask {
+  display: none;
+}
+.ancient-browser #nav_mask.isExpanded {
+  display: none;
 }
 .pagination {
   font-family: "Expletus Sans";
