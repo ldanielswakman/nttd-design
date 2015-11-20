@@ -32,7 +32,7 @@
                 Website
                 <i class="icon icon-software-scale-expand"></i>
               </a>
-              <a href="javascript:toggleDialog('message')" target="_blank" class="btn btn-outline u-block u-mb10">
+              <a href="javascript:toggleDialog('message')" class="btn btn-outline u-block u-mb10">
                 Message
                 <i class="icon icon-basic-message"></i>
               </a>
