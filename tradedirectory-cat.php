@@ -125,7 +125,8 @@
                 <a href="tradedirectory-show.php" class="">
                   <div class="row">
                     <div class="col-sm-3 col-xs-3 u-pv20">
-                      <div class="list-figure" style="background-image:url('images/content/client-logo-1.jpg');">
+                      <div class="list-figure">
+                        <img src="images/content/client-logo-1.jpg" alt="" />
                       </div>
                     </div>
                     <div class="col-sm-3 col-xs-7 u-pv20">
@@ -144,7 +145,8 @@
                 <a href="tradedirectory-show.php" class="">
                   <div class="row">
                     <div class="col-sm-3 col-xs-3 u-pv20">
-                      <div class="list-figure" style="background-image:url('images/content/client-logo-2.jpg');">
+                      <div class="list-figure">
+                        <img src="images/content/client-logo-2.jpg" alt="" />
                       </div>
                     </div>
                     <div class="col-sm-3 col-xs-7 u-pv20">
@@ -163,7 +165,8 @@
                 <a href="tradedirectory-show.php" class="">
                   <div class="row">
                     <div class="col-sm-3 col-xs-3 u-pv20">
-                      <div class="list-figure" style="background-image:url('images/content/client-logo-3.jpg');">
+                      <div class="list-figure">
+                        <img src="images/content/client-logo-3.jpg" alt="" />
                       </div>
                     </div>
                     <div class="col-sm-3 col-xs-7 u-pv20">
@@ -182,7 +185,8 @@
                 <a href="tradedirectory-show.php" class="">
                   <div class="row">
                     <div class="col-sm-3 col-xs-3 u-pv20">
-                      <div class="list-figure" style="background-image:url('images/content/client-logo-1.jpg');">
+                      <div class="list-figure">
+                        <img src="images/content/client-logo-1.jpg" alt="" />
                       </div>
                     </div>
                     <div class="col-sm-3 col-xs-7 u-pv20">
@@ -201,7 +205,8 @@
                 <a href="tradedirectory-show.php" class="">
                   <div class="row">
                     <div class="col-sm-3 col-xs-3 u-pv20">
-                      <div class="list-figure" style="background-image:url('images/content/client-logo-2.jpg');">
+                      <div class="list-figure">
+                        <img src="images/content/client-logo-2.jpg" alt="" />
                       </div>
                     </div>
                     <div class="col-sm-3 col-xs-7 u-pv20">
@@ -220,7 +225,8 @@
                 <a href="tradedirectory-show.php" class="">
                   <div class="row">
                     <div class="col-sm-3 col-xs-3 u-pv20">
-                      <div class="list-figure" style="background-image:url('images/content/client-logo-3.jpg');">
+                      <div class="list-figure">
+                        <img src="images/content/client-logo-3.jpg" alt="" />
                       </div>
                     </div>
                     <div class="col-sm-3 col-xs-7 u-pv20">

@@ -5215,6 +5215,10 @@ header:before {
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
+  text-align: center;
+}
+.list > li > * .list-figure img {
+  max-height: 100%;
 }
 .list h4 {
   color: #ff6600;
