@@ -4875,6 +4875,10 @@ textarea.field {
   padding-right: 40px;
   cursor: pointer;
 }
+.field-select select option {
+  background-color: #e0e3ea;
+  color: #092877;
+}
 .field-select select[multiple] {
   font-size: 1em;
 }

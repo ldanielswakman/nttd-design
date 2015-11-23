@@ -197,6 +197,7 @@ function checkIE() {
 
   if (msie > 0 || opera > 0 || window.opera || !!navigator.userAgent.match(/Trident.*rv\:11\./)) {
     $('body').addClass('ancient-browser');
+    $('.icon').fadeOut().fadeIn();
   }
   return false;
 }
