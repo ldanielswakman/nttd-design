@@ -5128,9 +5128,9 @@ header {
   left: 0;
   z-index: 2;
   height: 70px;
-  width: calc(100% - 40px);
   width: 97vw;
   width: 97%;
+  width: calc(100% - 40px);
   margin: 20px;
   color: #ffffff;
   font-family: "Expletus Sans";
