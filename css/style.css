@@ -6074,7 +6074,7 @@ section.hasSlides .section-content {
 /* --- Trade Directory --- */
 .team-member {
   height: 150px;
-  padding-right: 10px;
+  padding: 0 10px;
   background: #ffffff;
 }
 .team-member h4 {
@@ -6098,4 +6098,21 @@ section.hasSlides .section-content {
   border-radius: 50%;
   background-size: cover;
   background-position: center center;
+}
+@media screen and (max-width: 768px) {
+  .team-member em {
+    font-size: 0.8em;
+  }
+  .team-member-image {
+    width: 80px;
+    height: 80px;
+    margin: 0 20px 10px 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .team-member-image {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px 10px 0;
+  }
 }
