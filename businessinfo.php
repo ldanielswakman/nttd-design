@@ -67,7 +67,7 @@
     </section>
 
     <section>
-      <div class="row row-full">
+      <div class="row row-full row-internalpadding">
         <div class="col-sm-3 u-static">
           <?php include('components/sticky-box.php'); ?>
         </div>

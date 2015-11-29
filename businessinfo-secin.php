@@ -67,7 +67,7 @@
     </section>
 
     <section>
-      <div class="row row-full">
+      <div class="row row-full row-internalpadding">
         <div class="col-md-8 col-sm-offset-2">
           <div class="content-small">
 

@@ -67,7 +67,7 @@
     </section>
 
     <section>
-      <div class="row row-full">
+      <div class="row row-full row-internalpadding">
         <div class="col-sm-3 u-static">
         </div>
         <div class="col-sm-9">
@@ -83,7 +83,7 @@
     </section>
 
     <section>
-      <div class="row row-full">
+      <div class="row row-full row-internalpadding">
         <div class="col-sm-3 u-static">
           <div class="bg-white box-sticky">
             <iframe
@@ -122,7 +122,7 @@
     </section>
 
     <section>
-      <div class="row row-full">
+      <div class="row row-full row-internalpadding">
         <div class="col-sm-3 u-static">
           <div class="bg-white box-sticky">
             <iframe

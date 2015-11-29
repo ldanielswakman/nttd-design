@@ -67,7 +67,7 @@
     </section>
 
     <section>
-      <div class="row row-full">
+      <div class="row row-full row-internalpadding">
         <div class="col-sm-3 u-static">
           <div class="content-small box-sticky">
             <a href="businessinfo-secin-agri.php" class="u-block u-mb15 c-darkblue">Agri-Food Industry</a>
