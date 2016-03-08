@@ -1,5 +1,5 @@
-<div class="row" id="menu">
-  <div class="col-sm-3 u-mb20" style="height: 250px;">
+<div class="row row-nopadding" id="menu">
+  <div class="col-sm-3 col-xs-6 u-pl10 u-mb10" style="height: 250px;">
     <a href="aboutus.php">
       <i class="icon icon-basic-question icon-3x u-block u-mb10"></i>
       <h5>ABOUT US</h5>
@@ -22,7 +22,7 @@
       </li>
     </ul>
   </div>
-  <div class="col-sm-3 u-mb20" style="height: 250px;">
+  <div class="col-sm-3 col-xs-6 u-pl10 u-mb10" style="height: 250px;">
     <a href="tradedirectory.php">
       <i class="icon icon-basicelaboration-folder-search icon-3x u-block u-mb10"></i>
       <h5>TRADE DIRECTORY</h5>
@@ -42,7 +42,7 @@
       </li>
     </ul>
   </div>
-  <div class="col-sm-3 u-mb20" style="height: 250px;">
+  <div class="col-sm-3 col-xs-6 u-pl10 u-mb10" style="height: 250px;">
     <a href="businessinfo.php">
       <i class="icon icon-basic-signs icon-3x u-block u-mb10"></i>
       <h5>BUSINESS INFO</h5>
@@ -65,7 +65,7 @@
       </li>
     </ul>
   </div>
-  <div class="col-sm-3 u-mb20" style="height: 250px;">
+  <div class="col-sm-3 col-xs-6 u-pl10 u-mb10" style="height: 250px;">
     <a href="faqcontact.php">
       <i class="icon icon-basic-mail icon-3x u-block u-mb10"></i>
       <h5>FAQ & CONTACT</h5>

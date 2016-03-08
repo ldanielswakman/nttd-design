@@ -5,7 +5,7 @@
     
       <?php if ( isset($header_quicklinks) && $header_quicklinks == true ) : ?>
         <ul class="header_quicklinks clearfix">
-          <li>
+          <li class="header_quicklinks__logo">
             <a href="index.php">
               <img src="images/holland_logo_mark.svg" alt="" width="35px" />
             </a>

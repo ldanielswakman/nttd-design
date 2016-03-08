@@ -5130,7 +5130,7 @@ header {
   height: 70px;
   width: 97vw;
   width: 97%;
-  width: calc(100% - 40px);
+  width: calc(100vw - 40px);
   margin: 20px;
   color: #ffffff;
   font-family: "Expletus Sans";
@@ -5154,6 +5154,15 @@ header:before {
   width: 100%;
   background-color: #f9f9f9;
 }
+@media screen and (max-width: 480px) {
+  header {
+    width: calc(100vw - 20px);
+    margin: 10px;
+  }
+  header:before {
+    height: 10px;
+  }
+}
 .header-placeholder {
   display: block;
   height: 70px;
@@ -5173,10 +5182,32 @@ header:before {
 .header_quicklinks a {
   display: block;
   padding: 15px 5px;
+  line-height: 40px;
   color: rgba(255, 255, 255, 0.5);
 }
 .header_quicklinks a:hover {
   color: inherit;
+}
+.header_quicklinks .header_quicklinks__logo {
+  padding-right: 10px;
+}
+.header_quicklinks .header_quicklinks__logo a {
+  margin-left: -15px;
+  width: 70px;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
+.header_quicklinks .header_quicklinks__logo a:hover {
+  background-color: #ffffff;
+}
+@media screen and (max-width: 480px) {
+  .header_quicklinks .header_quicklinks__logo a {
+    margin-left: -5px;
+    width: 50px;
+  }
+}
+.header_quicklinks .header_quicklinks__logo svg {
+  fill: #ff6600;
 }
 @media screen and (max-width: 768px) {
   .header_quicklinks {
@@ -5298,6 +5329,11 @@ nav.isExpanded {
   opacity: 1;
   pointer-events: all;
 }
+@media screen and (max-width: 480px) {
+  nav {
+    margin-bottom: -10px;
+  }
+}
 #nav_mask {
   position: fixed;
   top: 0;
@@ -5307,7 +5343,7 @@ nav.isExpanded {
   display: none\9;
   width: 100%;
   height: 100%;
-  background-color: rgba(249, 249, 249, 0.9);
+  background-color: rgba(9, 40, 119, 0.4);
   opacity: 0;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
@@ -5775,6 +5811,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-kerning: normal;
 }
+@media screen and (max-width: 480px) {
+  body {
+    padding: 10px;
+  }
+}
 h1,
 h2,
 h3,
@@ -5852,6 +5893,12 @@ section.hasSlides {
 section.hasSlides .section-content {
   z-index: 2;
 }
+@media screen and (max-width: 480px) {
+  section {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+}
 .row {
   max-width: 1200px;
   margin: 0 auto;
@@ -5921,7 +5968,9 @@ section.hasSlides .section-content {
 }
 /* --- Special text formatting --- */
 .text-on-photo {
-  text-shadow: 2px 2px 30px rgba(9, 40, 119, 0.7);
+  text-shadow: 2px 2px 30px rgba(51, 51, 51, 0.7);
+  font-weight: bold;
+  letter-spacing: 0em;
 }
 .text-tagline {
   font-family: "Expletus Sans";

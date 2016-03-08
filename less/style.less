@@ -26,6 +26,7 @@
 
 // Generic styling
 @sectionpadding: 20px;
+@sectionpadding_small: 10px;
 body {
   background-color: @greylightest;
   padding: @sectionpadding;
@@ -38,6 +39,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-kerning: normal;
+
+  @media screen and (max-width: 480px) {
+    padding: @sectionpadding_small;
+  }
 }
 h1, h2, h3, h4, h5, h6 {
   // color: @holland_orange;
@@ -116,6 +121,10 @@ section {
     .section-content {
       z-index: 2;
     }
+  }
+  @media screen and (max-width: 480px) {
+    max-width: 100vw;
+    overflow-x: hidden;
   }
 }
 .row {
@@ -197,7 +206,9 @@ section {
 
 /* --- Special text formatting --- */
 .text-on-photo {
-  text-shadow: 2px 2px 30px fade(@holland_darkblue, 70%);
+  text-shadow: 2px 2px 30px fade(#333, 70%);
+  font-weight: bold;
+  letter-spacing: 0em;
 }
 .text-tagline {
   font-family: "Expletus Sans";
