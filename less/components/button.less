@@ -152,6 +152,31 @@
       }
     }
   }
+  &.btn-facebook {
+    background-color: transparent;
+    border-color: @facebook;
+    color: @facebook;
+
+    &:hover {
+      background-color: @facebook;
+      color: @white;
+
+      &:before {
+        background-image: url('../images/icon_facebook_white.png');
+      }
+    }
+    &:before {
+      content: "";
+      display: inline-block;
+      float: left;
+      width: 1.25em;
+      height: 1.25em;
+      margin-top: 0.2em;
+      margin-right: 0.5em;
+      background: url('../images/icon_facebook_blue.png');
+      background-size: cover;
+    }
+  }
   &.btn-attachment {
     position: relative;
     display: block;

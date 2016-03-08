@@ -1,4 +1,4 @@
-<div class="bg-white content-small box-sticky">
+<div class="bg-white content-small box-sticky u-mb25">
   <?php if (!isset($stickybox_content)): ?>
     <p class="c-orange">
       This is a placeholder text that will appear in a sidebox ('orange box').

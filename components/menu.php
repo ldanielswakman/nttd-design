@@ -1,7 +1,7 @@
 <div class="row row-nopadding" id="menu">
   <div class="col-sm-3 col-xs-6 u-pl10 u-mb10" style="height: 250px;">
     <a href="aboutus.php">
-      <i class="icon icon-basic-question icon-3x u-block u-mb10"></i>
+      <i class="icon icon-basicelaboration-message-dots icon-3x u-block u-mb10"></i>
       <h5>ABOUT US</h5>
     </a>
     <ul>
@@ -67,7 +67,7 @@
   </div>
   <div class="col-sm-3 col-xs-6 u-pl10 u-mb10" style="height: 250px;">
     <a href="faqcontact.php">
-      <i class="icon icon-basic-mail icon-3x u-block u-mb10"></i>
+      <i class="icon icon-basic-question icon-3x u-block u-mb10"></i>
       <h5>FAQ & CONTACT</h5>
     </a>
     <ul>

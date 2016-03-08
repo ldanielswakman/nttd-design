@@ -69,6 +69,10 @@
     <section>
       <div class="row row-full row-internalpadding">
         <div class="col-sm-3 u-static">
+          <?php
+          $stickybox_content = '<p>Easily stay in touch with us via Facebook:</p><a href="https://www.facebook.com/pages/Consulate-General-of-the-Netherlands/1396328227283229?fref=ts" class="btn btn-facebook u-mt10" target="_blank">Follow us</a>';
+          include('components/sticky-box.php');
+          ?>
         </div>
         <div class="col-sm-9">
 
