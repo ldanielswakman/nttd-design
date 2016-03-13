@@ -4730,6 +4730,29 @@ figure img {
   background: url('../images/icon_facebook_blue.png');
   background-size: cover;
 }
+.btn.btn-twitter {
+  background-color: transparent;
+  border-color: #55acee;
+  color: #55acee;
+}
+.btn.btn-twitter:hover {
+  background-color: #55acee;
+  color: #ffffff;
+}
+.btn.btn-twitter:hover:before {
+  background-image: url('../images/twitter-icon.png');
+}
+.btn.btn-twitter:before {
+  content: "";
+  display: inline-block;
+  float: left;
+  width: 1.5em;
+  height: 1.23em;
+  margin-top: 0.2em;
+  margin-right: 0.5em;
+  background: url('../images/twitter-icon_blue.png');
+  background-size: cover;
+}
 .btn.btn-attachment {
   position: relative;
   display: block;
@@ -5654,6 +5677,37 @@ nav.isExpanded {
   margin-top: 0.2em;
   margin-right: 0.5em;
   background: url('../images/icon_facebook_blue.png');
+  background-size: cover;
+}
+.pagination span.btn-twitter,
+.pagination em.btn-twitter,
+.pagination a.btn-twitter {
+  background-color: transparent;
+  border-color: #55acee;
+  color: #55acee;
+}
+.pagination span.btn-twitter:hover,
+.pagination em.btn-twitter:hover,
+.pagination a.btn-twitter:hover {
+  background-color: #55acee;
+  color: #ffffff;
+}
+.pagination span.btn-twitter:hover:before,
+.pagination em.btn-twitter:hover:before,
+.pagination a.btn-twitter:hover:before {
+  background-image: url('../images/twitter-icon.png');
+}
+.pagination span.btn-twitter:before,
+.pagination em.btn-twitter:before,
+.pagination a.btn-twitter:before {
+  content: "";
+  display: inline-block;
+  float: left;
+  width: 1.5em;
+  height: 1.23em;
+  margin-top: 0.2em;
+  margin-right: 0.5em;
+  background: url('../images/twitter-icon_blue.png');
   background-size: cover;
 }
 .pagination span.btn-attachment,

@@ -177,6 +177,31 @@
       background-size: cover;
     }
   }
+  &.btn-twitter {
+    background-color: transparent;
+    border-color: @twitter;
+    color: @twitter;
+
+    &:hover {
+      background-color: @twitter;
+      color: @white;
+
+      &:before {
+        background-image: url('../images/twitter-icon.png');
+      }
+    }
+    &:before {
+      content: "";
+      display: inline-block;
+      float: left;
+      width: 1.5em;
+      height: 1.23em;
+      margin-top: 0.2em;
+      margin-right: 0.5em;
+      background: url('../images/twitter-icon_blue.png');
+      background-size: cover;
+    }
+  }
   &.btn-attachment {
     position: relative;
     display: block;

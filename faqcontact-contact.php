@@ -70,7 +70,11 @@
       <div class="row row-full row-internalpadding">
         <div class="col-sm-3 u-static">
           <?php
-          $stickybox_content = '<p>Easily stay in touch with us via Facebook:</p><a href="https://www.facebook.com/pages/Consulate-General-of-the-Netherlands/1396328227283229?fref=ts" class="btn btn-facebook u-mt10" target="_blank">Follow us</a>';
+          $stickybox_content = '<p class="compact">Reach us directly through Twitter:</p><a href="https://twitter.com/intent/tweet?text=%40NLeconomyinTR%20" target="_blank" class="btn btn-twitter btn-sm u-mv10">Tweet to us</a><p class="compact">...or contact a specific department:</p><a href="faqcontact-address.php" class="btn btn-outline btn-sm u-mt10">Address info</a>';
+          include('components/sticky-box.php');
+          ?>
+          <?php
+          $stickybox_content = '<p class="compact">Stay in touch with us via Facebook:</p><a href="https://www.facebook.com/pages/Consulate-General-of-the-Netherlands/1396328227283229?fref=ts" class="btn btn-facebook btn-sm u-mt10" target="_blank">Follow us</a>';
           include('components/sticky-box.php');
           ?>
         </div>
