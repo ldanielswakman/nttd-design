@@ -5130,6 +5130,19 @@ dialog.isVisible {
   width: auto;
   max-width: 40em;
 }
+.flash table td {
+  padding: 5px 10px;
+  vertical-align: top;
+}
+.flash table td:first-child {
+  padding-left: 0;
+}
+.flash table td:last-child {
+  padding-right: 0;
+}
+.flash table td a {
+  color: #ff6600;
+}
 .flash:before {
   content: "\e074";
   float: left;
@@ -6053,6 +6066,23 @@ section.hasSlides .section-content {
   width: auto;
   max-width: 40em;
 }
+.content table td,
+.content-small table td {
+  padding: 5px 10px;
+  vertical-align: top;
+}
+.content table td:first-child,
+.content-small table td:first-child {
+  padding-left: 0;
+}
+.content table td:last-child,
+.content-small table td:last-child {
+  padding-right: 0;
+}
+.content table td a,
+.content-small table td a {
+  color: #ff6600;
+}
 @media screen and (max-width: 991px) {
   .row .col-sm-hide {
     display: none !important;
@@ -6209,6 +6239,19 @@ section.hasSlides .section-content {
 .tradedir-category .figure img {
   width: auto;
   max-width: 40em;
+}
+.tradedir-category table td {
+  padding: 5px 10px;
+  vertical-align: top;
+}
+.tradedir-category table td:first-child {
+  padding-left: 0;
+}
+.tradedir-category table td:last-child {
+  padding-right: 0;
+}
+.tradedir-category table td a {
+  color: #ff6600;
 }
 .tradedir-category:hover {
   background-color: #ffffff;

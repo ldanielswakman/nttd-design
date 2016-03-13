@@ -15,7 +15,7 @@ The pages can be run from a PHP 5.5+ server, or via setting up a local server vi
 ...
 
 ## Changelog
-* 13.03.16  – trade directory category/result list sticky boxes, sectoral info index card tweaks
+* 13.03.16  – trade directory category/result list sticky boxes, sectoral info index card tweaks, added tweet/address button to Contact Us Page, Added table styling for Address page
 
 * 08.03.16  –  changed menu top-level icons, added facebook 'Follow us' button, previewed in contact paged
 

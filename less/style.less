@@ -175,6 +175,16 @@ section {
     width: auto;
     max-width: 40em;
   }
+  table td {
+    padding: 5px 10px;
+    vertical-align: top;
+
+    &:first-child { padding-left: 0; }
+    &:last-child { padding-right: 0; }
+    a {
+      color: @holland_orange;
+    }
+  }
 }
 @media screen and (max-width: 991px) {
   .row .col-sm-hide {

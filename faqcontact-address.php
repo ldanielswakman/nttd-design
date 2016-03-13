@@ -74,7 +74,7 @@
 
           <div class="content content-small">
 
-            <h3>Contact information of the Dutch Economic Network in Turkey</h3>
+            <h3>Contact information Economic Diplomatic Network of the Netherlands in Turkey</h3>
             
           </div>
 
@@ -97,24 +97,50 @@
         <div class="col-sm-9">
 
           <div class="content content-small u-pt0">
-
-            <h4>Consulate-General of the Kingdom of the Netherlands in Istanbul</h4>
-
-            <p>
-              [Address info]<br />
-              [Address info]<br />
-              [Address info]<br />
-              [Address info]<br />
-              [Address info]<br />
-              [Address info]<br />
-              [Address info]<br />
-              [Address info]<br />
-              [Address info]<br />
-              [Address info]<br />
-              [Address info]<br />
-              [Address info]<br />
-            </p>
-            
+            <h4>Embassy of the Kingdom of the Netherlands in Ankara</h4>
+            <table class="u-mt15">
+              <tr>
+                <td class="c-bluesoft">
+                  Address
+                </td>
+                <td>
+                  Turan Güneş Bulv., 7.Cad. No:5, 06550 Yıldız, Ankara
+                </td>
+              </tr>
+              <tr>
+                <td class="c-bluesoft">
+                  Phone
+                </td>
+                <td>
+                  +90 312 4091800
+                </td>
+              </tr>
+              <tr>
+                <td class="c-bluesoft">
+                  Economic &amp;<br />Commercial Department
+                </td>
+                <td>
+                  <a href="mailto:ank-ea@minbuza.nl">ank-ea@minbuza.nl</a>
+                </td>
+              </tr>
+              <tr>
+                <td class="c-bluesoft">
+                  Agricultural Department
+                </td>
+                <td>
+                  <a href="mailto:ank-lnv@minbuza.nl">ank-lnv@minbuza.nl</a><br />
+                  <a href="http://turkije.agroberichtenbuitenland.nl" target="_blank">http://turkije.agroberichtenbuitenland.nl</a>
+                </td>
+              </tr>
+              <tr>
+                <td class="c-bluesoft">
+                  Website
+                </td>
+                <td>
+                  <a href="http://turkije.nlambassade.org" target="_blank">http://turkije.nlambassade.org</a>
+                </td>
+              </tr>
+            </table>
           </div>
 
         </div>
