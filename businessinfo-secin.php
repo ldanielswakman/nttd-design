@@ -87,9 +87,9 @@
 
             <div class="figure-card" style="background-image: url('images/content/FOOD.png');"></div>
 
-            <div class="u-pa20">
+            <div class="u-pa20 matchheight">
               <h3 class="u-mb10">Agri-Food Industry</h3>
-              <p><em>[tagline about sector]</em></p>
+              <p class="compact c-bluesoft"><em>Turkey has ambitious 2023 targets for the chemical industry and is exporting chemical substances to about 190 countries all over the world.</em></p>
             </div>
 
           </a>
@@ -99,9 +99,9 @@
 
             <div class="figure-card" style="background-image: url('images/content/HEALTH.png');"></div>
 
-            <div class="u-pa20">
+            <div class="u-pa20 matchheight">
               <h3 class="u-mb10">Health Industry</h3>
-              <p><em>[tagline about sector]</em></p>
+              <p class="compact c-bluesoft"><em>The healthcare sector is growing fast due to increased social security and healthcare tourism.</em></p>
             </div>
 
           </a>
@@ -111,9 +111,9 @@
 
             <div class="figure-card" style="background-image: url('images/content/AGRO.png');"></div>
 
-            <div class="u-pa20">
-              <h3 class="u-mb10">Agri-Food Industry</h3>
-              <p><em>[tagline about sector]</em></p>
+            <div class="u-pa20 matchheight">
+              <h3 class="u-mb10">ICT – Information Communication Technology</h3>
+              <p class="compact c-bluesoft"><em>Still below the EU average, ICT represents a huge investment opportunity for domestic and foreign investors.</em></p>
             </div>
 
           </a>
@@ -123,9 +123,9 @@
 
             <div class="figure-card" style="background-image: url('images/content/HEALTH.png');"></div>
 
-            <div class="u-pa20">
+            <div class="u-pa20 matchheight">
               <h3 class="u-mb10">Health Industry</h3>
-              <p><em>[tagline about sector]</em></p>
+              <p class="compact c-bluesoft"><em>[tagline about sector]</em></p>
             </div>
 
           </a>

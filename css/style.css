@@ -5891,6 +5891,9 @@ p {
   line-height: 1.8em;
   color: #27448c;
 }
+p.compact {
+  line-height: 1.4em;
+}
 p a {
   color: #ff6600;
 }

@@ -69,11 +69,13 @@ $(document).ready(function() {
   // perform scrollActions on pageload
   scrollActions();
 
-  // shiw/hide labels on page load
+  // show/hide labels on page load
   $('.field').each(function() {
     evalField($(this));
   });
 
+  // 'manually' match height of containers
+  matchHeights($('.matchheight'));
 
 
   // Listeners
@@ -225,6 +227,18 @@ function closeDialog(dest) {
 
 function closeFlash(obj) {
   obj.closest('.flash').addClass('u-hide');
+}
+
+function matchHeights(obj) {
+  if (obj) {
+    $maxheight = 0;
+    obj.each(function() {
+      if ($(this).outerHeight() > $maxheight) {
+        $maxheight = $(this).outerHeight();
+      }
+    });
+    obj.css('height', $maxheight + 'px');
+  }
 }
 
 $(window).scroll(function() { scrollActions(); });
