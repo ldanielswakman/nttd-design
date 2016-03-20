@@ -88,6 +88,28 @@ $(document).ready(function() {
   });
 
 
+  // SVG map interactions
+  if($('.svg-map') && $('.svg-map__legend')) {
+    // hover class toggle for legend > map
+    $('.svg-map__legend a').hover(function(e) {
+      $('.svg-map path#' + $(this).attr('data-map-target') ).attr("class", "st1 isHovered");
+    }, function(e) {
+      $('.svg-map path#' + $(this).attr('data-map-target') ).attr("class", "st1");
+    });
+    // hover class toggle for map > legend
+    $('.svg-map g[id="reg:_areas"] path').hover(function(e) {
+      $('.svg-map__legend a[data-map-target="' + $(this).attr('id') + '"]').addClass('isHovered');
+    }, function() {
+      $('.svg-map__legend a[data-map-target="' + $(this).attr('id') + '"]').removeClass('isHovered');
+    });
+    $('.svg-map g[id="reg:_areas"] path').click(function(e) {
+      $target = $('.svg-map__legend a[data-map-target="' + $(this).attr('id') + '"]').attr('href');
+      if($target.length > 0) {
+        window.location.href = $target;
+      }
+    });
+  }
+
 });
 
 function evalField(obj) {

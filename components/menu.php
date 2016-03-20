@@ -77,6 +77,7 @@
       <li>
         <a href="faqcontact-jurismap.php">Jurisdictional Map</a>
       </li>
+      <!-- If current page, add class 'active' -->
       <li class="active">
         <a href="faqcontact-address.php">Address information</a>
       </li>

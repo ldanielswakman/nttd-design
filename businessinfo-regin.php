@@ -69,16 +69,16 @@
     <section>
       <div class="row row-full row-internalpadding">
         <div class="col-sm-3 u-static">
-          <div class="content-small box-sticky">
-            <a href="businessinfo-regin-adana.php" class="u-block u-mb15 c-orange">Adana</a>
-            <a href="businessinfo-regin-adana.php" class="u-block u-mb15 c-orange">Antalya</a>
-            <a href="businessinfo-regin-adana.php" class="u-block u-mb15 c-orange">Bursa</a>
-            <a href="businessinfo-regin-adana.php" class="u-block u-mb15 c-orange">İstanbul</a>
-            <a href="businessinfo-regin-adana.php" class="u-block u-mb15 c-orange">İzmir</a>
-            <a href="businessinfo-regin-adana.php" class="u-block u-mb15 c-orange">Kocaeli</a>
-            <a href="businessinfo-regin-adana.php" class="u-block u-mb15 c-orange">Konya</a>
-            <a href="businessinfo-regin-adana.php" class="u-block u-mb15 c-orange">Mersin</a>
-            <a href="businessinfo-regin-adana.php" class="u-block u-mb15 c-orange">Samsun</a>
+          <div class="content-small box-sticky svg-map__legend">
+            <a data-map-target="TR-01_2_" href="businessinfo-regin-adana.php" class="u-block u-mb15 c-orange">Adana</a>
+            <a data-map-target="TR-07_2_" href="businessinfo-regin-adana.php" class="u-block u-mb15 c-orange">Antalya</a>
+            <a data-map-target="TR-16_2_" href="businessinfo-regin-adana.php" class="u-block u-mb15 c-orange">Bursa</a>
+            <a data-map-target="TR-33_2_" href="businessinfo-regin-adana.php" class="u-block u-mb15 c-orange">Mersin</a>
+            <a data-map-target="TR-34_2_" href="businessinfo-regin-adana.php" class="u-block u-mb15 c-orange">İstanbul</a>
+            <a data-map-target="TR-35_2_" href="businessinfo-regin-adana.php" class="u-block u-mb15 c-orange">İzmir</a>
+            <a data-map-target="TR-41_2_" href="businessinfo-regin-adana.php" class="u-block u-mb15 c-orange">Kocaeli</a>
+            <a data-map-target="TR-42_2_" href="businessinfo-regin-adana.php" class="u-block u-mb15 c-orange">Konya</a>
+            <a data-map-target="TR-55_2_" href="businessinfo-regin-adana.php" class="u-block u-mb15 c-orange">Samsun</a>
           </div>
         </div>
         <div class="col-sm-9">
@@ -86,6 +86,8 @@
 
             <h2 class="u-mb20">Regional Information</h2>
             <p><big><em>Several regions in Turkey are known for their contribution to (international) trade and business. Our regional infographics will give you a clear overview of the prominent economic and commercial regions in Turkey. The following regions are known for their potential in production, distribution, logistics and export.</em></big></p>
+
+            <?php include('components/map.php'); ?>
 
           </div>
         </div>

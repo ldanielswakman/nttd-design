@@ -69,8 +69,8 @@
     <section>
       <div class="row row-full row-internalpadding">
         <div class="col-sm-3 u-static">
-          <div class="content-small box-sticky">
-            <a href="businessinfo-regin-adana.php" class="u-block u-mb15 c-darkblue">Adana</a>
+          <div class="content-small box-sticky svg-map__legend">
+            <a href="businessinfo-regin-adana.php" class="u-block u-mb15 c-darkblue"><b>Adana</b></a>
             <a href="businessinfo-regin-adana.php" class="u-block u-mb15 c-orange">Antalya</a>
             <a href="businessinfo-regin-adana.php" class="u-block u-mb15 c-orange">Bursa</a>
             <a href="businessinfo-regin-adana.php" class="u-block u-mb15 c-orange">İstanbul</a>

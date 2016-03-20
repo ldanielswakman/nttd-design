@@ -1,0 +1,48 @@
+.svg-map {
+  .st0 {
+    fill: #B7C6E5;
+    opacity: 0.5;
+  }
+  g[id="reg:_areas"] path, 
+  .st1 {
+    opacity: 0.2;
+    fill: #092877;
+
+    &:hover,
+    &.isHovered {
+      opacity: 0.75;
+      cursor: pointer;
+    }
+  }
+  .st2 {
+    fill: #092877;
+    pointer-events: none;
+  }
+  .st3 {
+    font-family: "Expletus Sans";
+    font-weight: bold;
+    font-size: 1.25em;
+    pointer-events: none;
+    opacity: 0.75;
+  }
+  #TR-01_2_, // Adana
+  #TR-07_2_, // Antalya
+  #TR-16_2_, // Bursa
+  #TR-33_2_, // Mersin
+  #TR-34_2_, // Istanbul
+  #TR-35_2_, // Izmir
+  #TR-41_2_, // Kocaeli
+  #TR-42_2_, // Konya
+  #TR-55_2_ // Samsun
+  {
+    // fill: red;
+  }
+}
+.svg-map__legend a {
+  font-family: "Expletus Sans";
+
+  &:hover,
+  &.isHovered {
+    color: @holland_darkblue !important;
+  }
+}

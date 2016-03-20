@@ -4980,6 +4980,40 @@ textarea.field {
 .fieldset-checkbox.hasError label:before {
   color: #cc0033;
 }
+.svg-map .st0 {
+  fill: #B7C6E5;
+  opacity: 0.5;
+}
+.svg-map g[id="reg:_areas"] path,
+.svg-map .st1 {
+  opacity: 0.2;
+  fill: #092877;
+}
+.svg-map g[id="reg:_areas"] path:hover,
+.svg-map .st1:hover,
+.svg-map g[id="reg:_areas"] path.isHovered,
+.svg-map .st1.isHovered {
+  opacity: 0.75;
+  cursor: pointer;
+}
+.svg-map .st2 {
+  fill: #092877;
+  pointer-events: none;
+}
+.svg-map .st3 {
+  font-family: "Expletus Sans";
+  font-weight: bold;
+  font-size: 1.25em;
+  pointer-events: none;
+  opacity: 0.75;
+}
+.svg-map__legend a {
+  font-family: "Expletus Sans";
+}
+.svg-map__legend a:hover,
+.svg-map__legend a.isHovered {
+  color: #092877 !important;
+}
 .slides {
   position: absolute;
   top: 0;
