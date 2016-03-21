@@ -87,22 +87,33 @@ $(document).ready(function() {
     evalField($(this));
   });
 
-
   // SVG map interactions
   if($('.svg-map') && $('.svg-map__legend')) {
     // hover class toggle for legend > map
     $('.svg-map__legend a').hover(function(e) {
-      $('.svg-map path#' + $(this).attr('data-map-target') ).attr("class", "st1 isHovered");
+      $('.svg-map [id^="' + $(this).attr('data-map-target') + '"]' ).attr("class", "isHovered");
     }, function(e) {
-      $('.svg-map path#' + $(this).attr('data-map-target') ).attr("class", "st1");
+      $('.svg-map [id^="' + $(this).attr('data-map-target') + '"]' ).attr("class", "");
     });
-    // hover class toggle for map > legend
-    $('.svg-map g[id="reg:_areas"] path').hover(function(e) {
+    // hover class toggle for (regional & jurisdictional) map > legend
+    $('.svg-map g[id="reg:areas"] path').hover(function(e) {
+      $('.svg-map__legend a[data-map-target="' + $(this).attr('id').substr(0,5) + '"]').addClass('isHovered');
+    }, function() {
+      $('.svg-map__legend a[data-map-target="' + $(this).attr('id').substr(0,5) + '"]').removeClass('isHovered');
+    });
+    $('.svg-map g[id="jur:areas"] > g').hover(function(e) {
       $('.svg-map__legend a[data-map-target="' + $(this).attr('id') + '"]').addClass('isHovered');
     }, function() {
       $('.svg-map__legend a[data-map-target="' + $(this).attr('id') + '"]').removeClass('isHovered');
     });
-    $('.svg-map g[id="reg:_areas"] path').click(function(e) {
+    // click event for (regional & jurisdictional) map
+    $('.svg-map g[id="reg:areas"] path').click(function(e) {
+      $target = $('.svg-map__legend a[data-map-target="' + $(this).attr('id').substr(0,5) + '"]').attr('href');
+      if($target.length > 0) {
+        window.location.href = $target;
+      }
+    });
+    $('.svg-map g[id="jur:areas"] > g').click(function(e) {
       $target = $('.svg-map__legend a[data-map-target="' + $(this).attr('id') + '"]').attr('href');
       if($target.length > 0) {
         window.location.href = $target;

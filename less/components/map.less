@@ -1,10 +1,11 @@
 .svg-map {
-  .st0 {
+
+  // Path styling
+  g[id="base"] path {
     fill: #B7C6E5;
     opacity: 0.5;
   }
-  g[id="reg:_areas"] path, 
-  .st1 {
+  g[id="reg:areas"] path {
     opacity: 0.2;
     fill: #092877;
 
@@ -14,28 +15,73 @@
       cursor: pointer;
     }
   }
-  .st2 {
+  g[id="jur:areas"] path {
+    opacity: 0;
+    fill: #092877;
+  }
+  g[id="reg:markers"] path,
+  g[id="jur:markers"] path {
     fill: #092877;
     pointer-events: none;
   }
-  .st3 {
+  g[id="reg:markers"] text,
+  g[id="jur:markers"] text {
     font-family: "Expletus Sans";
     font-weight: bold;
     font-size: 1.25em;
     pointer-events: none;
     opacity: 0.75;
+    fill: #092877;
   }
-  #TR-01_2_, // Adana
-  #TR-07_2_, // Antalya
-  #TR-16_2_, // Bursa
-  #TR-33_2_, // Mersin
-  #TR-34_2_, // Istanbul
-  #TR-35_2_, // Izmir
-  #TR-41_2_, // Kocaeli
-  #TR-42_2_, // Konya
-  #TR-55_2_ // Samsun
-  {
-    // fill: red;
+  g[id="region1"] {
+    path {
+      opacity: 0.2;
+    }
+  }
+  g[id="region2"] {
+    path {
+      opacity: 0;
+    }
+  }
+  g[id="region3"] {
+    path {
+      opacity: 0.4;
+    }
+  }
+  g[id="region1"],
+  g[id="region2"],
+  g[id="region3"] {
+    &:hover path,
+    &.isHovered path {
+      opacity: 0.75;
+      cursor: pointer;
+    }
+  }
+
+  // Hide/show layers
+  g[id="base"] {
+    display: block;
+  }
+  g[id="reg:markers"],
+  g[id="reg:areas"],
+  g[id="jur:markers"],
+  g[id="jur:areas"] {
+    display: none;
+  }
+
+
+  // Map type specific
+  &.svg-map--regional {
+    g[id="reg:areas"],
+    g[id="reg:markers"] {
+      display: block;
+    }
+  }
+  &.svg-map--jurisdictional {
+    g[id="jur:markers"],
+    g[id="jur:areas"] {
+      display: block;
+    }
   }
 }
 .svg-map__legend a {

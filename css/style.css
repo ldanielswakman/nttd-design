@@ -4980,32 +4980,71 @@ textarea.field {
 .fieldset-checkbox.hasError label:before {
   color: #cc0033;
 }
-.svg-map .st0 {
+.svg-map g[id="base"] path {
   fill: #B7C6E5;
   opacity: 0.5;
 }
-.svg-map g[id="reg:_areas"] path,
-.svg-map .st1 {
+.svg-map g[id="reg:areas"] path {
   opacity: 0.2;
   fill: #092877;
 }
-.svg-map g[id="reg:_areas"] path:hover,
-.svg-map .st1:hover,
-.svg-map g[id="reg:_areas"] path.isHovered,
-.svg-map .st1.isHovered {
+.svg-map g[id="reg:areas"] path:hover,
+.svg-map g[id="reg:areas"] path.isHovered {
   opacity: 0.75;
   cursor: pointer;
 }
-.svg-map .st2 {
+.svg-map g[id="jur:areas"] path {
+  opacity: 0;
+  fill: #092877;
+}
+.svg-map g[id="reg:markers"] path,
+.svg-map g[id="jur:markers"] path {
   fill: #092877;
   pointer-events: none;
 }
-.svg-map .st3 {
+.svg-map g[id="reg:markers"] text,
+.svg-map g[id="jur:markers"] text {
   font-family: "Expletus Sans";
   font-weight: bold;
   font-size: 1.25em;
   pointer-events: none;
   opacity: 0.75;
+  fill: #092877;
+}
+.svg-map g[id="region1"] path {
+  opacity: 0.2;
+}
+.svg-map g[id="region2"] path {
+  opacity: 0;
+}
+.svg-map g[id="region3"] path {
+  opacity: 0.4;
+}
+.svg-map g[id="region1"]:hover path,
+.svg-map g[id="region2"]:hover path,
+.svg-map g[id="region3"]:hover path,
+.svg-map g[id="region1"].isHovered path,
+.svg-map g[id="region2"].isHovered path,
+.svg-map g[id="region3"].isHovered path {
+  opacity: 0.75;
+  cursor: pointer;
+}
+.svg-map g[id="base"] {
+  display: block;
+}
+.svg-map g[id="reg:markers"],
+.svg-map g[id="reg:areas"],
+.svg-map g[id="jur:markers"],
+.svg-map g[id="jur:areas"] {
+  display: none;
+}
+.svg-map.svg-map--regional g[id="reg:areas"],
+.svg-map.svg-map--regional g[id="reg:markers"] {
+  display: block;
+}
+.svg-map.svg-map--jurisdictional g[id="jur:markers"],
+.svg-map.svg-map--jurisdictional g[id="jur:areas"] {
+  display: block;
 }
 .svg-map__legend a {
   font-family: "Expletus Sans";

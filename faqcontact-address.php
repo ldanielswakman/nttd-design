@@ -97,7 +97,7 @@
         <div class="col-sm-9">
 
           <div class="content content-small u-pt0">
-            <h4>Embassy of the Kingdom of the Netherlands in Ankara</h4>
+            <h4 id="embassy_ankara">Embassy of the Kingdom of the Netherlands in Ankara</h4>
             <table class="u-mt15">
               <tr>
                 <td class="c-bluesoft">
@@ -163,7 +163,7 @@
 
           <div class="content content-small u-pt0">
 
-            <h4>Embassy of the Kingdom of the Netherlands in Ankara</h4>
+            <h4 id="consulate">Consulate General of the Kingdom of the Netherlands in Istanbul</h4>
 
             <p>
               [Address info]<br />
@@ -179,6 +179,8 @@
               [Address info]<br />
               [Address info]<br />
             </p>
+
+            <h4 id="businesssupport" class="u-mt60">Netherlands Business Support Office in İzmir</h4>
             
           </div>
 

@@ -69,6 +69,11 @@
     <section>
       <div class="row row-full row-internalpadding">
         <div class="col-sm-3 u-static">
+          <div class="content-small box-sticky svg-map__legend">
+            <a data-map-target="region1" href="faqcontact-address.php#embassy" class="u-block u-mb15 c-orange">Embassy of the Kingdom of the Netherlands in Ankara</a>
+            <a data-map-target="region2" href="faqcontact-address.php#consulate" class="u-block u-mb15 c-orange">Consulate General of the Kingdom of the Netherlands in İstanbul</a>
+            <a data-map-target="region3" href="faqcontact-address.php#businesssupport" class="u-block u-mb15 c-orange">Netherlands Business Support Office in İzmir</a>
+          </div>
         </div>
         <div class="col-sm-9">
 
@@ -76,10 +81,8 @@
 
             <h3>Jurisdictional map</h3>
 
-            <p>The jurisdictional map will be here.</p>
-
-            <div class="figure">
-              <img src="images/banner_containership.jpg" alt="" />
+            <div class="svg-map svg-map--jurisdictional u-mv20">
+              <?php include('components/map.php'); ?>
             </div>
             
           </div>
