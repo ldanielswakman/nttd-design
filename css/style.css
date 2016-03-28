@@ -4447,6 +4447,9 @@ figure img {
 .u-fullwidth {
   width: 100%;
 }
+.u-height190 {
+  height: 190px;
+}
 .u-static {
   position: static !important;
 }
@@ -4487,6 +4490,10 @@ figure img {
   bottom: 0;
   right: 0;
   z-index: 1;
+}
+.u-bgcover {
+  background-position: center center;
+  background-size: cover;
 }
 .u-border {
   border: 2px solid #e0e3ea;

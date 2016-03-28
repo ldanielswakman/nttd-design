@@ -113,21 +113,39 @@
     
     </section>
 
-    <!-- <section class="bg-white">
-      <div class="row">
-        <div class="col-xs-12 u-pv20">
-          <a href="twitter.com" target="_blank" class="btn btn-sm btn-greyoutline u-floatright">See all tweets <i class="icon icon-arrows-right icon-15x u-floatright"></i></a>
-          <h4 class="u-mt10 c-greymedium">NTTD on Twitter</h4>
+    <!-- Featured event banner -->
+    <!-- Remove when event has ended -->
+    <section id="featured_event" class="bg-bluemedium c-white">
+      <div class="row row-nopadding row-full u-mt20">
+
+        <div class="col-sm-10 col-sm-push-2">
+
+          <div class="row row-full row-nopadding content-small">
+            <div class="col-sm-9">
+              <h5 class="u-opacity50 u-mb15">FEATURED EVENT</h5>
+              <h3>Holland-Turkey Business Tour 2016</h3>
+              <p class="c-white u-opacity70"><em>Informatiebijeenkomsten en handelsmissies over kansen in de Turkse markt op diverse locaties in Nederland en Turkije. Van 1 tot 15 mei 2016.</em></p>
+            </div>
+            <div class="col-sm-3">
+            <a href="event-htbt.php" class="btn btn-lg btn-primary u-floatright u-mt30 u-mb10">MEER INFO</a>
+            </div>
+          </div>
+
         </div>
-        <div class="col-xs-12">
+
+        <div class="col-sm-2 col-sm-pull-10 u-bgcover u-height190" style="background-image: url('images/event-htbt.jpg');">
         </div>
+        
+        <!-- If no featured event is present -->
+        <!-- <div class="col-md-8"> -->
+        <!-- If featured event -->
       </div>
-    </section> -->
+    </section>
 
     <section id="intro" class="u-hasHiddenContent">
       <div class="row row-internalpadding row-full">
         <div class="col-md-8">
-          <div class="bg-greylight content-small u-pv80">
+          <div class="bg-greylight content">
 
             <p class="text-tagline text-large">Holland Turkey Trade is the online platform for Dutch companies doing business in Turkey. </p>
             <a href="javascript:void(0)" onclick="javascript:showHiddenContent(this);" class="btn btn-lg btn-outline u-mt20">READ MORE</a>
@@ -143,6 +161,7 @@
 
           </div>
         </div>
+
         <div class="col-md-4">
           <div class="content-small bg-white">
             <a href="https://twitter.com/NLeconomyinTR" target="_blank"><h4 class="c-greymedium u-mt10 u-mb20">NTTD on Twitter  <i class="icon icon-arrows-circle-left icon-1x u-floatright"></i></h4></a>
