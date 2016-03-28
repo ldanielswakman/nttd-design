@@ -123,7 +123,7 @@
           <div class="row row-full row-nopadding content-small">
             <div class="col-sm-9">
               <h5 class="u-opacity50 u-mb15">FEATURED EVENT</h5>
-              <h3>Holland-Turkey Business Tour 2016</h3>
+              <a href="event-htbt.php"><h3 class="c-white">Holland-Turkey Business Tour 2016</h3></a>
               <p class="c-white u-opacity70"><em>Informatiebijeenkomsten en handelsmissies over kansen in de Turkse markt op diverse locaties in Nederland en Turkije. Van 1 tot 15 mei 2016.</em></p>
             </div>
             <div class="col-sm-3">
@@ -133,8 +133,8 @@
 
         </div>
 
-        <div class="col-sm-2 col-sm-pull-10 u-bgcover u-height190" style="background-image: url('images/event-htbt.jpg');">
-        </div>
+        <a href="event-htbt.php" class="col-sm-2 col-sm-pull-10 u-bgcover u-height190" style="background-image: url('images/event-htbt.jpg');">
+        </a>
         
         <!-- If no featured event is present -->
         <!-- <div class="col-md-8"> -->
@@ -309,21 +309,21 @@
 
             <ul class="list list-unpadded u-mb30">
               <li>
-                <a href="news-show.php">
+                <a href="event-htbt.php">
                   <i class="icon icon-arrows-right icon-2x u-floatright u-mt10"></i>
                   <h4>Subconist & Automotive</h4>
                   <small>25-28 November 2015, Wednesday<br />Machinery, automotive metaal working, subcontracting</small>
                 </a>
               </li>
               <li>
-                <a href="news-show.php">
+                <a href="event-htbt.php">
                   <i class="icon icon-arrows-right icon-2x u-floatright u-mt10"></i>
                   <h4>Logi Trans</h4>
                   <small>20-22 November 2015, Friday<br />Transport and logistics</small>
                 </a>
               </li>
               <li>
-                <a href="news-show.php">
+                <a href="event-htbt.php">
                   <i class="icon icon-arrows-right icon-2x u-floatright u-mt10"></i>
                   <h4>TurkChem</h4>
                   <small>16-18 October 2015, Friday<br />Chemical industry</small>
