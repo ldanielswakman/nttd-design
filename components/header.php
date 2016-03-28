@@ -36,60 +36,75 @@
     </div>
     <div class="col-md-5 col-sm-5 col-xs-hide">
 
+      <h4 class="u-ml30 u-mv20 u-clearfix"><em>
       <?php 
-      if( isset($header_quicklinks) && $header_quicklinks == true ) :
-        if( isset($curpage) ) :
-          if( $curpage == 'businessinfo' ) : ?>
-            <h4 class="u-ml30 u-mv20 u-clearfix"><em>
-              <a href="businessinfo.php" class="u-floatleft">Business info</a>
-              <i class="icon icon-arrows-right icon-15x u-floatleft u-mh10"></i>
-              <a href="businessinfo.php" class="u-floatleft">Bilateral trade</a>
-            </em></h4>
-          <?php elseif( $curpage == 'tradedirectory') : ?>
-            <h4 class="u-ml30 u-mv20 u-clearfix"><em>
-              <a href="tradedirectory.php" class="u-floatleft">Trade Directory</a>
-              <i class="icon icon-arrows-right icon-15x u-floatleft u-mh10"></i>
-              <a href="businessinfo.php" class="u-floatleft">[Category]</a>
-            </em></h4>
-          <?php elseif( $curpage == 'tradedir-register') : ?>
-            <h4 class="u-ml30 u-mv20 u-clearfix"><em>
-              <a href="tradedirectory.php" class="u-floatleft">Trade Directory</a>
-              <i class="icon icon-arrows-right icon-15x u-floatleft u-mh10"></i>
-              <a href="businessinfo.php" class="u-floatleft">Register</a>
-            </em></h4>
-          <?php elseif( $curpage == 'tradedir-show') : ?>
-            <h4 class="u-ml30 u-mv20 u-clearfix"><em>
-              <a href="tradedirectory.php" class="u-floatleft">Trade Directory</a>
-              <i class="icon icon-arrows-right icon-15x u-floatleft u-mh10"></i>
-              <a href="businessinfo.php" class="u-floatleft">Portakal Toerisme Nederland B.V.</a>
-            </em></h4>
-          <?php elseif( $curpage == 'news') : ?>
-            <h4 class="u-ml30 u-mv20 u-clearfix"><em>
-              <a href="news-list.php" class="u-floatleft">News</a>
-            </em></h4>
-          <?php elseif( $curpage == 'news-show') : ?>
-            <h4 class="u-ml30 u-mv20 u-clearfix"><em>
-              <a href="news-list.php" class="u-floatleft">News</a>
-              <i class="icon icon-arrows-right icon-15x u-floatleft u-mh10"></i>
-              Trade Mission to Bursa
-            </em></h4>
-          <?php elseif( $curpage == 'aboutus') : ?>
-            <h4 class="u-ml30 u-mv20 u-clearfix"><em>
-              <a href="aboutus.php" class="u-floatleft">About Us</a>
-              <i class="icon icon-arrows-right icon-15x u-floatleft u-mh10"></i>
-              The Team
-            </em></h4>
-          <?php elseif( $curpage == 'faqcontact') : ?>
-            <h4 class="u-ml30 u-mv20 u-clearfix"><em>
-              <a href="faqcontact.php" class="u-floatleft">FAQ & contact</a>
-              <i class="icon icon-arrows-right icon-15x u-floatleft u-mh10"></i>
-              Disclaimer
-            </em></h4>
-          <?php
-          endif;
-        endif;
-      endif; 
-      ?>
+      if( isset($curpage) && isset($header_quicklinks) && $header_quicklinks == true ) :
+        switch ($curpage) {
+          case 'businessinfo':
+            $trunk_url = 'businessinfo.php';
+            $trunk_title = 'Business info';
+            $branch_url = 'businessinfo.php';
+            $branch_title = 'Bilateral trade';
+            break;
+          case 'tradedirectory':
+            $trunk_url = 'tradedirectory.php';
+            $trunk_title = 'Trade Directory';
+            $branch_url = 'businessinfo.php';
+            $branch_title = '[Category]';
+            break;
+          case 'tradedir-register':
+            $trunk_url = 'tradedirectory.php';
+            $trunk_title = 'Trade Directory';
+            $branch_url = 'businessinfo.php';
+            $branch_title = 'Register';
+            break;
+          case 'tradedir-show':
+            $trunk_url = 'tradedirectory.php';
+            $trunk_title = 'Trade Directory';
+            $branch_url = 'businessinfo.php';
+            $branch_title = 'Portakal Toerisme Nederland B.V.';
+            break;
+          case 'news':
+            $trunk_url = 'news-list.php';
+            $trunk_title = 'News';
+            break;
+          case 'news-show':
+            $trunk_url = 'news-list.php';
+            $trunk_title = 'News';
+            $branch_title = 'news-show.php';
+            $branch_title = 'Trade Mission to Bursa';
+            break;
+          case 'event-show':
+            $trunk_url = 'news-list.php';
+            $trunk_title = 'Events';
+            $branch_url = 'event-htbt.php';
+            $branch_title = 'Holland Turkey Business Tour 2016';
+            break;
+          case 'aboutus':
+            $trunk_url = 'aboutus.php';
+            $trunk_title = 'About Us';
+            $branch_url = 'aboutus.php';
+            $branch_title = 'The Team';
+            break;
+          case 'faqcontact':
+            $trunk_url = 'faqcontact.php';
+            $trunk_title = 'FAQ &amp; contact';
+            $branch_url = 'faqcontact-disclaimer.php';
+            $branch_title = 'Disclaimer';
+            break;
+          default:
+            $trunk_url = '';
+            $trunk_title = '';
+            break;
+        }
+        ?>
+        <a href="<?php echo $trunk_url ?>" class="u-floatleft"><?php echo $trunk_title ?></a>
+        <?php if(strlen($branch_url) > 0 && strlen($branch_title) > 0) :?>
+          <i class="icon icon-arrows-right icon-15x u-floatleft u-mh10"></i>
+          <a href="<?php echo $branch_url ?>" class="u-floatleft"><?php echo $branch_title ?></a>
+        <?php endif ?>
+      <?php endif ?>
+      </em></h4>
 
     </div>
     <div class="col-md-4 col-sm-3 col-xs-2">
