@@ -24,7 +24,7 @@
 
       <div class="slide" style="background-image: url('images/banner_businessinfo.jpg');"></div>
 
-      <div class="row u-pv8vw">
+      <div class="row u-pv4vw">
         <div class="col-md-1 col-md-offset-2 u-aligncenter">
           <i class="icon icon-basic-signs icon-5x u-block c-white u-mb40"></i>
         </div>
@@ -41,9 +41,9 @@
               Bilateral Trade
             </a>
           </li>
-          <li class="u-opacity50">
+          <li>
             <a href="businessinfo-busop.php">
-              Business opportunities (coming)
+              Business opportunities
             </a>
           </li>
           <li>
