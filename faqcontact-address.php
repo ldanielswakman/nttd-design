@@ -41,11 +41,6 @@
               Frequently Asked Questions
             </a>
           </li>
-          <li>
-            <a href="faqcontact-jurismap.php">
-              Jurisdictional Map
-            </a>
-          </li>
           <li class="active">
             <a href="faqcontact-address.php">
               Address information
@@ -64,6 +59,31 @@
         </ul>
       </div>
 
+    </section>
+
+    <section>
+      <div class="row row-full row-internalpadding">
+        <div class="col-sm-3 u-static">
+          <div class="content-small box-sticky svg-map__legend">
+            <a data-map-target="region1" href="#embassy" class="u-block u-mb15 c-orange">Embassy of the Kingdom of the Netherlands in Ankara</a>
+            <a data-map-target="region2" href="#consulate" class="u-block u-mb15 c-orange">Consulate General of the Kingdom of the Netherlands in İstanbul</a>
+            <a data-map-target="region3" href="#businesssupport" class="u-block u-mb15 c-orange">Netherlands Business Support Office in İzmir</a>
+          </div>
+        </div>
+        <div class="col-sm-9">
+
+          <div class="content content-small">
+
+            <h3>Jurisdictional map</h3>
+
+            <div class="svg-map svg-map--jurisdictional u-mv20">
+              <?php include('components/map.php'); ?>
+            </div>
+            
+          </div>
+
+        </div>
+      </div>
     </section>
 
     <section>
@@ -97,7 +117,7 @@
         <div class="col-sm-9">
 
           <div class="content content-small u-pt0">
-            <h4 id="embassy_ankara">Embassy of the Kingdom of the Netherlands in Ankara</h4>
+            <h4 id="embassy">Embassy of the Kingdom of the Netherlands in Ankara</h4>
             <table class="u-mt15">
               <tr>
                 <td class="c-bluesoft">
