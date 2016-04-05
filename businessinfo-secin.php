@@ -90,6 +90,7 @@
             <div class="u-pa20 matchheight">
               <h3 class="u-mb10">Agri-Food Industry</h3>
               <p class="compact c-bluesoft"><em>Turkey has ambitious 2023 targets for the chemical industry and is exporting chemical substances to about 190 countries all over the world.</em></p>
+              <div class="btn btn-sm btn-outline u-mt20">See More</div>
             </div>
 
           </a>
@@ -102,6 +103,7 @@
             <div class="u-pa20 matchheight">
               <h3 class="u-mb10">Health Industry</h3>
               <p class="compact c-bluesoft"><em>The healthcare sector is growing fast due to increased social security and healthcare tourism.</em></p>
+              <div class="btn btn-sm btn-outline u-mt20">See More</div>
             </div>
 
           </a>
@@ -114,6 +116,7 @@
             <div class="u-pa20 matchheight">
               <h3 class="u-mb10">ICT – Information Communication Technology</h3>
               <p class="compact c-bluesoft"><em>Still below the EU average, ICT represents a huge investment opportunity for domestic and foreign investors.</em></p>
+              <div class="btn btn-sm btn-outline u-mt20">See More</div>
             </div>
 
           </a>
@@ -126,6 +129,7 @@
             <div class="u-pa20 matchheight">
               <h3 class="u-mb10">Health Industry</h3>
               <p class="compact c-bluesoft"><em>[tagline about sector]</em></p>
+              <div class="btn btn-sm btn-outline u-mt20">See More</div>
             </div>
 
           </a>

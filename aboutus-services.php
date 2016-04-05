@@ -59,7 +59,10 @@
     <section>
       <div class="row row-full row-internalpadding">
         <div class="col-sm-3 u-static">
-          <?php include('components/sticky-box.php'); ?>
+          <?php
+          $stickybox_content = '<p class="compact">Stay in touch with us via Facebook:</p><a href="https://www.facebook.com/pages/Consulate-General-of-the-Netherlands/1396328227283229?fref=ts" class="btn btn-facebook btn-sm u-mt10" target="_blank">Follow us</a>';
+          include('components/sticky-box.php');
+          ?>
         </div>
         <div class="col-sm-9">
           <div class="content-small">
