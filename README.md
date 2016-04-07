@@ -15,6 +15,8 @@ The pages can be run from a PHP 5.5+ server, or via setting up a local server vi
 ...
 
 ## Changelog
+* 07.04.16  - tweaked spacing of home page blocks
+
 * 29.03.16  - added business opportunities blocks
 
 * 28.03.16  - added featured event banner to homepage, and added event page with left submenu
