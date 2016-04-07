@@ -79,20 +79,6 @@
             </a>
             <a href="tradedirectory-cat.php" class="tradedir-category tradedir-catempty clearfix col-sm-hide">
               <div class="badge">
-                <i class="icon icon-basic-bolt icon-3x"></i>
-              </div>
-              <h5 class="u-mt10">Electricity, gas, steam and air conditioning supply</h5>
-              <div class="c-greymedium">16 companies</div>
-            </a>
-            <a href="tradedirectory-cat.php" class="tradedir-category tradedir-catempty clearfix col-sm-hide">
-              <div class="badge">
-                <i class="icon icon-weather-drop icon-3x"></i>
-              </div>
-              <h5 class="u-mt10">Water supply; sewerage; waste managment and remediation activities</h5>
-              <div class="c-greymedium">13 companies</div>
-            </a>
-            <a href="tradedirectory-cat.php" class="tradedir-category tradedir-catempty clearfix col-sm-hide">
-              <div class="badge">
                 <i class="icon icon-basic-pencil-ruler icon-3x"></i>
               </div>
               <h5 class="u-mt10">Construction</h5>
@@ -124,6 +110,248 @@
               </div>
 
               <ul class="list u-mb20">
+                <li>
+                  <a href="tradedirectory-show.php" class="">
+                    <div class="row">
+                      <div class="col-sm-3 col-xs-3 u-pv20">
+                        <div class="list-figure">
+                          <img src="images/content/client-logo-1.jpg" alt="" />
+                        </div>
+                      </div>
+                      <div class="col-sm-3 col-xs-7 u-pv20">
+                        7 Hills Foundation
+                      </div>
+                      <div class="col-sm-5 col-xs-hide">
+                        <small class="c-bluesoft">-</small>
+                      </div>
+                      <div class="col-sm-1 col-xs-2">
+                        <i class="icon icon-arrows-right icon-2x u-floatright u-mt10"></i>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="tradedirectory-show.php" class="">
+                    <div class="row">
+                      <div class="col-sm-3 col-xs-3 u-pv20">
+                        <div class="list-figure">
+                          <img src="images/content/client-logo-2.jpg" alt="" />
+                        </div>
+                      </div>
+                      <div class="col-sm-3 col-xs-7 u-pv20">
+                        NilBa Iş ve Dış Ticaret
+                      </div>
+                      <div class="col-sm-5 col-xs-hide">
+                        <small class="c-bluesoft">NilBa is an ICT and Internet consultancy organization, originally from the Netherlands, but since more than 8 years operational in Turkey...</small>
+                      </div>
+                      <div class="col-sm-1 col-xs-2">
+                        <i class="icon icon-arrows-right icon-2x u-floatright u-mt10"></i>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="tradedirectory-show.php" class="">
+                    <div class="row">
+                      <div class="col-sm-3 col-xs-3 u-pv20">
+                        <div class="list-figure">
+                          <img src="images/content/client-logo-3.jpg" alt="" />
+                        </div>
+                      </div>
+                      <div class="col-sm-3 col-xs-7 u-pv20">
+                        Portakal Toerisme Nederland B.V
+                      </div>
+                      <div class="col-sm-5 col-xs-hide">
+                        <small class="c-bluesoft">Selling package deals in Holland for holidays, flights, accommodations, roundtrips, etc.</small>
+                      </div>
+                      <div class="col-sm-1 col-xs-2">
+                        <i class="icon icon-arrows-right icon-2x u-floatright u-mt10"></i>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="tradedirectory-show.php" class="">
+                    <div class="row">
+                      <div class="col-sm-3 col-xs-3 u-pv20">
+                        <div class="list-figure">
+                          <img src="images/content/client-logo-1.jpg" alt="" />
+                        </div>
+                      </div>
+                      <div class="col-sm-3 col-xs-7 u-pv20">
+                        7 Hills Foundation
+                      </div>
+                      <div class="col-sm-5 col-xs-hide">
+                        <small class="c-bluesoft">-</small>
+                      </div>
+                      <div class="col-sm-1 col-xs-2">
+                        <i class="icon icon-arrows-right icon-2x u-floatright u-mt10"></i>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="tradedirectory-show.php" class="">
+                    <div class="row">
+                      <div class="col-sm-3 col-xs-3 u-pv20">
+                        <div class="list-figure">
+                          <img src="images/content/client-logo-2.jpg" alt="" />
+                        </div>
+                      </div>
+                      <div class="col-sm-3 col-xs-7 u-pv20">
+                        NilBa Iş ve Dış Ticaret
+                      </div>
+                      <div class="col-sm-5 col-xs-hide">
+                        <small class="c-bluesoft">NilBa is an ICT and Internet consultancy organization, originally from the Netherlands, but since more than 8 years operational in Turkey...</small>
+                      </div>
+                      <div class="col-sm-1 col-xs-2">
+                        <i class="icon icon-arrows-right icon-2x u-floatright u-mt10"></i>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="tradedirectory-show.php" class="">
+                    <div class="row">
+                      <div class="col-sm-3 col-xs-3 u-pv20">
+                        <div class="list-figure">
+                          <img src="images/content/client-logo-3.jpg" alt="" />
+                        </div>
+                      </div>
+                      <div class="col-sm-3 col-xs-7 u-pv20">
+                        Portakal Toerisme Nederland B.V
+                      </div>
+                      <div class="col-sm-5 col-xs-hide">
+                        <small class="c-bluesoft">Selling package deals in Holland for holidays, flights, accommodations, roundtrips, etc.</small>
+                      </div>
+                      <div class="col-sm-1 col-xs-2">
+                        <i class="icon icon-arrows-right icon-2x u-floatright u-mt10"></i>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="tradedirectory-show.php" class="">
+                    <div class="row">
+                      <div class="col-sm-3 col-xs-3 u-pv20">
+                        <div class="list-figure">
+                          <img src="images/content/client-logo-1.jpg" alt="" />
+                        </div>
+                      </div>
+                      <div class="col-sm-3 col-xs-7 u-pv20">
+                        7 Hills Foundation
+                      </div>
+                      <div class="col-sm-5 col-xs-hide">
+                        <small class="c-bluesoft">-</small>
+                      </div>
+                      <div class="col-sm-1 col-xs-2">
+                        <i class="icon icon-arrows-right icon-2x u-floatright u-mt10"></i>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="tradedirectory-show.php" class="">
+                    <div class="row">
+                      <div class="col-sm-3 col-xs-3 u-pv20">
+                        <div class="list-figure">
+                          <img src="images/content/client-logo-2.jpg" alt="" />
+                        </div>
+                      </div>
+                      <div class="col-sm-3 col-xs-7 u-pv20">
+                        NilBa Iş ve Dış Ticaret
+                      </div>
+                      <div class="col-sm-5 col-xs-hide">
+                        <small class="c-bluesoft">NilBa is an ICT and Internet consultancy organization, originally from the Netherlands, but since more than 8 years operational in Turkey...</small>
+                      </div>
+                      <div class="col-sm-1 col-xs-2">
+                        <i class="icon icon-arrows-right icon-2x u-floatright u-mt10"></i>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="tradedirectory-show.php" class="">
+                    <div class="row">
+                      <div class="col-sm-3 col-xs-3 u-pv20">
+                        <div class="list-figure">
+                          <img src="images/content/client-logo-3.jpg" alt="" />
+                        </div>
+                      </div>
+                      <div class="col-sm-3 col-xs-7 u-pv20">
+                        Portakal Toerisme Nederland B.V
+                      </div>
+                      <div class="col-sm-5 col-xs-hide">
+                        <small class="c-bluesoft">Selling package deals in Holland for holidays, flights, accommodations, roundtrips, etc.</small>
+                      </div>
+                      <div class="col-sm-1 col-xs-2">
+                        <i class="icon icon-arrows-right icon-2x u-floatright u-mt10"></i>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="tradedirectory-show.php" class="">
+                    <div class="row">
+                      <div class="col-sm-3 col-xs-3 u-pv20">
+                        <div class="list-figure">
+                          <img src="images/content/client-logo-1.jpg" alt="" />
+                        </div>
+                      </div>
+                      <div class="col-sm-3 col-xs-7 u-pv20">
+                        7 Hills Foundation
+                      </div>
+                      <div class="col-sm-5 col-xs-hide">
+                        <small class="c-bluesoft">-</small>
+                      </div>
+                      <div class="col-sm-1 col-xs-2">
+                        <i class="icon icon-arrows-right icon-2x u-floatright u-mt10"></i>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="tradedirectory-show.php" class="">
+                    <div class="row">
+                      <div class="col-sm-3 col-xs-3 u-pv20">
+                        <div class="list-figure">
+                          <img src="images/content/client-logo-2.jpg" alt="" />
+                        </div>
+                      </div>
+                      <div class="col-sm-3 col-xs-7 u-pv20">
+                        NilBa Iş ve Dış Ticaret
+                      </div>
+                      <div class="col-sm-5 col-xs-hide">
+                        <small class="c-bluesoft">NilBa is an ICT and Internet consultancy organization, originally from the Netherlands, but since more than 8 years operational in Turkey...</small>
+                      </div>
+                      <div class="col-sm-1 col-xs-2">
+                        <i class="icon icon-arrows-right icon-2x u-floatright u-mt10"></i>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="tradedirectory-show.php" class="">
+                    <div class="row">
+                      <div class="col-sm-3 col-xs-3 u-pv20">
+                        <div class="list-figure">
+                          <img src="images/content/client-logo-3.jpg" alt="" />
+                        </div>
+                      </div>
+                      <div class="col-sm-3 col-xs-7 u-pv20">
+                        Portakal Toerisme Nederland B.V
+                      </div>
+                      <div class="col-sm-5 col-xs-hide">
+                        <small class="c-bluesoft">Selling package deals in Holland for holidays, flights, accommodations, roundtrips, etc.</small>
+                      </div>
+                      <div class="col-sm-1 col-xs-2">
+                        <i class="icon icon-arrows-right icon-2x u-floatright u-mt10"></i>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                
                 <li>
                   <a href="tradedirectory-show.php" class="">
                     <div class="row">
