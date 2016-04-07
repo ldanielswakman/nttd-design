@@ -42,7 +42,7 @@
         </div>
 
         <div class="row">
-          <div class="col-xs-12 u-aligncenter u-pt12vw">
+          <div class="col-xs-12 u-aligncenter u-pv12vw">
 
             <h4 class="c-white">Netherlands Turkey Trade Network</h4>
             <p class="text-on-photo text-xhuge u-aligncenter c-white"><em>Expand your business to new horizons.</em></p>
@@ -173,23 +173,18 @@
       </div>
     </section>
 
-    <section id="aboutus" class="bg-greylight u-pv12vw">
+    <section id="aboutus" class="bg-greylight u-pv8vw">
 
       <div class="slide" style="background-image: url('images/banner_aboutus.jpg');" data-prlx-offset="0"></div>
 
       <div class="row">
-        <div class="col-xs-12">
-          <div class="u-mb40 u-aligncenter">
+        <div class="col-xs-12 col-md-2">
+          <div class="u-mv20 u-aligncenter">
             <i class="icon icon-basic-question icon-4x"></i>
           </div>
         </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-2">
-        </div>
         <div class="col-md-8">
-          <p class="text-large c-bluemedium"><em>How we can help you</em></p>
+          <p class="text-large c-bluemedium"><em><small>How we can help you</small></em></p>
           <p class="text-tagline text-large u-mt30">
             <small>
               The Economic Network of the Netherlands in Turkey with its trade and investment staff can help Dutch companies in several ways.
@@ -204,23 +199,18 @@
 
     </section>
 
-    <section id="tradedirectory" class="bg-greylight u-pv12vw">
+    <section id="tradedirectory" class="bg-greylight u-pv8vw">
 
       <div class="slide bg-bluesoft" style="background-image: url('images/banner_tradedir.jpg');"></div>
 
       <div class="row">
-        <div class="col-xs-12">
-          <div class="u-mb40 u-aligncenter">
+        <div class="col-xs-12 col-md-2">
+          <div class="u-mv20 u-aligncenter">
             <i class="icon icon-basicelaboration-folder-search icon-4x c-white"></i>
           </div>
         </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-2">
-        </div>
         <div class="col-md-8">
-          <p class="text-large"><em>Enlist your company to our trade directory</em></p>
+          <p class="text-large"><em><small>Enlist your company to our trade directory</small></em></p>
           <p class="text-tagline text-large c-white u-mt15">
             <small>
               Netherlands Turkey Trade Directory is an online network where Dutch companies in Turkey and Turkish companies that have commercial links with the Netherlands are displayed.
@@ -236,21 +226,18 @@
 
     </section>
 
-    <section id="businessinfo" class="hasSlides g-greylight u-pv12vw">
+    <section id="businessinfo" class="hasSlides g-greylight u-pv8vw">
 
       <div class="slide bg-orange" style="background-image: url('images/banner_businessinfo.jpg');"></div>
 
       <div class="row">
-        <div class="col-xs-12">
-          <div class="c-white u-mb40 u-aligncenter">
+        <div class="col-xs-12 col-md-2">
+          <div class="c-white u-mv20 u-aligncenter">
             <i class="icon icon-basic-signs icon-4x"></i>
           </div>
         </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-          <p class="text-large c-white"><em> Considering to expand your business in Turkey?</em></p>
+        <div class="col-md-8">
+          <p class="text-large c-white"><em><small>Considering to expand your business in Turkey?</small></em></p>
           <p class="text-tagline text-large c-white u-mt30">
             <small class="u-block u-mt20"><small>
               Our team members at the Embassy in Ankara, the Consulate in Istanbul and NBSO in Izmir are here to help you to get started.

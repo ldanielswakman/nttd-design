@@ -6092,7 +6092,6 @@ section:not(:last-child) {
 }
 section.hasSlides {
   position: relative;
-  min-height: 90vh;
 }
 section.hasSlides .section-content {
   z-index: 2;
