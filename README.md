@@ -15,6 +15,8 @@ The pages can be run from a PHP 5.5+ server, or via setting up a local server vi
 ...
 
 ## Changelog
+* 28.04.16  - added new background images (and changed order)
+
 * 07.04.16  - tweaked spacing of home page blocks
 
 * 29.03.16  - added business opportunities blocks
