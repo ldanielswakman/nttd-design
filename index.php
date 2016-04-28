@@ -28,7 +28,10 @@
 
       <div class="slides">
         <div class="bxslider">
+          <div class="slide" style="background-image: url('images/banner_izmir1.jpg');" data-prlx-offset="-150"></div>
           <div class="slide" style="background-image: url('images/banner_metrobridge.jpg');"></div>
+          <div class="slide" style="background-image: url('images/banner_ankara.jpg');" data-prlx-offset="-50"></div>
+          <div class="slide" style="background-image: url('images/banner_izmir2.jpg');" data-prlx-offset="-150"></div>
           <div class="slide" style="background-image: url('images/banner_containership.jpg');" data-prlx-offset="-200"></div>
           <div class="slide" style="background-image: url('images/banner_bridgebusiness.jpg');"></div>
         </div>
