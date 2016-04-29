@@ -178,7 +178,7 @@
 
     <section id="aboutus" class="bg-greylight u-pv8vw">
 
-      <div class="slide" style="background-image: url('images/banner_aboutus_blurred.jpg');" data-prlx-offset="0"></div>
+      <div class="slide" style="background-image: url('images/banner_aboutus.jpg');" data-prlx-offset="0"></div>
 
       <div class="row">
         <div class="col-xs-12 col-md-2">
@@ -204,7 +204,7 @@
 
     <section id="tradedirectory" class="bg-greylight u-pv8vw">
 
-      <div class="slide bg-bluesoft" style="background-image: url('images/banner_tradedir_blurred.jpg');"></div>
+      <div class="slide bg-bluesoft" style="background-image: url('images/banner_tradedir.jpg');"></div>
 
       <div class="row">
         <div class="col-xs-12 col-md-2">
@@ -231,7 +231,7 @@
 
     <section id="businessinfo" class="bg-greylight u-pv8vw">
 
-      <div class="slide bg-orange" style="background-image: url('images/banner_businessinfo_blurred.jpg');"></div>
+      <div class="slide bg-orange" style="background-image: url('images/banner_businessinfo.jpg');"></div>
 
       <div class="row">
         <div class="col-xs-12 col-md-2">
