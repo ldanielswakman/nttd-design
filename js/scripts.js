@@ -274,7 +274,4 @@ function matchHeights(obj) {
   }
 }
 
-$(window).scroll(function() { scrollActions(); });
-$(window).resize(function() { scrollActions(); });
-$(document).bind("scrollstart", function() { scrollActions(); });
-$(document).bind("scrollstop", function() { scrollActions(); });
+$(document).on('ready scroll resize scrollstart scrollstop', function() { scrollActions(); });

@@ -229,7 +229,7 @@
 
     </section>
 
-    <section id="businessinfo" class="hasSlides g-greylight u-pv8vw">
+    <section id="businessinfo" class="bg-greylight u-pv8vw">
 
       <div class="slide bg-orange" style="background-image: url('images/banner_businessinfo_blurred.jpg');"></div>
 
