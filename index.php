@@ -70,7 +70,7 @@
             </div>
             <div class="col-md-2 col-sm-3 col-xs-6">
               <a href="aboutus.php" class="u-block">
-                <i class="icon icon-basicelaboration-message-dots icon-3x"></i><br />
+                <i class="icon icon-basicelaboration-message-dots icon-2x"></i><br />
                 <h6 class="u-opacity70 u-mt10">ABOUT US</h6>
                 <em><strong>
                   How can we<br />
@@ -80,7 +80,7 @@
             </div>
             <div class="col-md-2 col-sm-3 col-xs-6">
               <a href="tradedirectory.php" class="u-block">
-                <i class="icon icon-basicelaboration-folder-search icon-3x"></i><br />
+                <i class="icon icon-basicelaboration-folder-search icon-2x"></i><br />
                 <h6 class="u-opacity70 u-mt10">TRADE DIRECTORY</h6>
                 <em><strong>
                   Browse the<br />
@@ -90,7 +90,7 @@
             </div>
             <div class="col-md-2 col-sm-3 col-xs-6">
               <a href="businessinfo.php" class="u-block">
-                <i class="icon icon-basic-signs icon-3x"></i><br />
+                <i class="icon icon-basic-signs icon-2x"></i><br />
                 <h6 class="u-opacity70 u-mt10">BUSINESS INFO</h6>
                 <em><strong>
                   Doing Business<br />
@@ -101,7 +101,7 @@
             </div>
             <div class="col-md-2 col-sm-3 col-xs-6">
               <a href="faqcontact.php" class="u-block">
-                <i class="icon icon-basic-question icon-3x"></i><br />
+                <i class="icon icon-basic-question icon-2x"></i><br />
                 <h6 class="u-opacity70 u-mt10">FAQ & CONTACT</h6>
                 <em><strong>
                   Questions and<br />

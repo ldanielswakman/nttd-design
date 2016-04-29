@@ -5085,8 +5085,8 @@ textarea.field {
   top: 0;
   left: 0;
   z-index: 0;
-  height: 100%;
-  max-height: 100%;
+  height: 102%;
+  max-height: 102%;
   width: 100%;
   overflow: hidden;
   pointer-events: none;
@@ -5098,7 +5098,7 @@ textarea.field {
   width: 100%;
   height: 100%;
   position: relative;
-  margin: 0 auto 60px;
+  margin: 0 auto 0;
   padding: 0;
   *zoom: 1;
   overflow: hidden;
@@ -6092,6 +6092,7 @@ section:not(:last-child) {
 }
 section.hasSlides {
   position: relative;
+  min-height: 80vh;
 }
 section.hasSlides .section-content {
   z-index: 2;
@@ -6235,6 +6236,7 @@ section.hasSlides .section-content {
 /* --- Home page quick links --- */
 .quicklinks {
   background-color: rgba(255, 102, 0, 0.7);
+  line-height: 1.2em;
   color: #ffffff;
 }
 .quicklinks a:not(.logo) {
